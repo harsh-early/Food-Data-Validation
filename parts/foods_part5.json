@@ -1,0 +1,3869 @@
+{
+  "meta": {
+    "source": "Build food data.xlsx (part 5/5)",
+    "part": 5,
+    "parts_total": 5,
+    "part_range": "405-504",
+    "count": 100,
+    "generated_at": "2026-06-22T11:09:20.502094+00:00"
+  },
+  "foods": [
+    {
+      "id": 1,
+      "original_food_name": "Whey (Sweet, fluid)",
+      "standard_name": "Sweet Fluid Whey",
+      "other_names": "Sweet Whey, Liquid Whey, Cheese Whey, Paneer Whey Water, Chhena Whey",
+      "food_varieties": [
+        "Acid whey from yogurt",
+        "Whey protein concentrate",
+        "Dried whey powder",
+        "Salted whey",
+        "Whey-based sports drink"
+      ],
+      "serving_types": [
+        "[BASE] glass — 200.0ml",
+        "cup — 150.0ml",
+        "small cup — 100.0ml"
+      ],
+      "base_volume": "200ml",
+      "gen_macros_raw": "54.1 | 10.2 | 0.7 | 1.7 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 54.0,
+        "carbs": 10.3,
+        "fat": 0.7,
+        "prot": 1.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 54.1,
+        "carbs": 10.2,
+        "fat": 0.7,
+        "prot": 1.7,
+        "fib": 0.0
+      },
+      "input_macros_raw": "54.0 | 10.3 | 0.7 | 1.7 | 0.0",
+      "final_macros_raw": "54.1 | 10.2 | 0.7 | 1.7 | 0.0",
+      "diff": 0.002
+    },
+    {
+      "id": 2,
+      "original_food_name": "Beetroot carrot halwa",
+      "standard_name": "Beetroot Carrot Halwa",
+      "other_names": "Chukandar Gajar Halwa, Beetroot Gajar Ka Halwa, Beet Carrot Sheera, Chukandar Halwa with Carrot",
+      "food_varieties": [
+        "Gajar Halwa (carrot only, no beetroot)",
+        "Beetroot Halwa (beetroot only, no carrot)",
+        "Beetroot Carrot Halwa with Khoya",
+        "Beetroot Carrot Halwa with Condensed Milk",
+        "Beetroot Carrot Halwa with Jaggery"
+      ],
+      "serving_types": [
+        "[BASE] small katori — 100.0g",
+        "katori — 150.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "216.9 | 27.2 | 10.5 | 3.4 | 2.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 142.9,
+        "carbs": 17.7,
+        "fat": 7.4,
+        "prot": 2.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 216.9,
+        "carbs": 27.2,
+        "fat": 10.5,
+        "prot": 3.4,
+        "fib": 2.0
+      },
+      "input_macros_raw": "142.9 | 17.7 | 7.4 | 2.4 | 0.0",
+      "final_macros_raw": "216.9 | 27.2 | 10.5 | 3.4 | 2.0",
+      "diff": 0.518
+    },
+    {
+      "id": 3,
+      "original_food_name": "Rava dhokla",
+      "standard_name": "Rava Dhokla",
+      "other_names": "Suji Dhokla, Semolina Dhokla, Instant Dhokla, Rava Dokla",
+      "food_varieties": [
+        "Khaman Dhokla (besan-based)",
+        "Oats Dhokla",
+        "Bread Dhokla",
+        "Moong Dal Dhokla",
+        "Palak Rava Dhokla"
+      ],
+      "serving_types": [
+        "[BASE] 4 pieces — 150.0g",
+        "2 pieces — 75.0g",
+        "1 piece — 40.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "233.1 | 39.6 | 5.1 | 7.2 | 1.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": "310.6 | 36.2 | 14.1 | 11.6 | 5.4",
+      "input_macros": {
+        "cal": 241.1,
+        "carbs": 42.6,
+        "fat": 4.2,
+        "prot": 7.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 233.1,
+        "carbs": 39.6,
+        "fat": 5.1,
+        "prot": 7.2,
+        "fib": 1.4
+      },
+      "input_macros_raw": "241.1 | 42.6 | 4.2 | 7.5 | 0.0",
+      "final_macros_raw": "233.1 | 39.6 | 5.1 | 7.2 | 1.4",
+      "diff": -0.033
+    },
+    {
+      "id": 4,
+      "original_food_name": "Stinging nettles, blanched (Northern plains indians)",
+      "standard_name": "Blanched Stinging Nettles",
+      "other_names": "Nettle Greens Blanched, Bichu Booti Ubli Hui, Kandali Saag Blanched, Stinging Nettle Leaves Boiled",
+      "food_varieties": [
+        "Stinging nettles sautéed with garlic",
+        "Stinging nettle soup",
+        "Stinging nettle saag with tadka",
+        "Dried stinging nettle powder",
+        "Stinging nettle tea infusion"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "63.9 | 11.2 | 0.2 | 4.2 | 5.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 63.0,
+        "carbs": 11.2,
+        "fat": 0.2,
+        "prot": 4.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 63.9,
+        "carbs": 11.2,
+        "fat": 0.2,
+        "prot": 4.2,
+        "fib": 5.4
+      },
+      "input_macros_raw": "63.0 | 11.2 | 0.2 | 4.1 | 0.0",
+      "final_macros_raw": "63.9 | 11.2 | 0.2 | 4.2 | 5.4",
+      "diff": 0.014
+    },
+    {
+      "id": 5,
+      "original_food_name": "Corn palak tikki",
+      "standard_name": "Corn Palak Tikki",
+      "other_names": "Corn Spinach Tikki, Makki Palak Tikki, Sweet Corn Spinach Patty, Corn Palak Cutlet",
+      "food_varieties": [
+        "Corn Palak Tikki with potato binding",
+        "Corn Palak Tikki with paneer",
+        "Corn Palak Tikki with breadcrumb coating",
+        "Corn Palak Tikki baked version",
+        "Corn Palak Tikki with oats binding"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 100.0g",
+        "2 pieces — 150.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "149.2 | 17.8 | 6.8 | 4.2 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 108.0,
+        "carbs": 9.3,
+        "fat": 7.1,
+        "prot": 3.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 149.2,
+        "carbs": 17.8,
+        "fat": 6.8,
+        "prot": 4.2,
+        "fib": 2.4
+      },
+      "input_macros_raw": "108.0 | 9.3 | 7.1 | 3.7 | 0.0",
+      "final_macros_raw": "149.2 | 17.8 | 6.8 | 4.2 | 2.4",
+      "diff": 0.381
+    },
+    {
+      "id": 6,
+      "original_food_name": "Olkopir curry",
+      "standard_name": "Olkopir Curry",
+      "other_names": "Kohlrabi Curry, Ganth Gobhi Sabzi, Knol Khol Curry, Nol Kol Curry, Olkopi Tarkari",
+      "food_varieties": [
+        "Olkopir Curry with mustard seeds and coconut",
+        "Olkopir Curry dry style (sukhi sabzi)",
+        "Olkopir Curry with potatoes",
+        "Olkopir Curry in Bengali mustard gravy",
+        "Olkopir Curry with lentils"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "110.4 | 11.4 | 6.0 | 2.7 | 2.7",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 100.6,
+        "carbs": 10.2,
+        "fat": 6.3,
+        "prot": 2.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 110.4,
+        "carbs": 11.4,
+        "fat": 6.0,
+        "prot": 2.7,
+        "fib": 2.7
+      },
+      "input_macros_raw": "100.6 | 10.2 | 6.3 | 2.4 | 0.0",
+      "final_macros_raw": "110.4 | 11.4 | 6.0 | 2.7 | 2.7",
+      "diff": 0.097
+    },
+    {
+      "id": 7,
+      "original_food_name": "infant formula, nestle, good start essentials soy, with iron, ready-to-feed",
+      "standard_name": "Nestle Good Start Essentials Soy Infant Formula With Iron Ready To Feed",
+      "other_names": "Good Start Soy RTF Formula, Nestle Soy Baby Formula Ready To Feed, Good Start Essentials Soy With Iron, Soy Based Infant Formula Ready To Feed",
+      "food_varieties": [
+        "Nestle Good Start Essentials Soy Powder (reconstituted)",
+        "Nestle Good Start Gentle Milk-Based Formula",
+        "Similac Soy Isomil Ready To Feed",
+        "Enfamil ProSobee Soy Ready To Feed",
+        "Store Brand Soy Infant Formula Ready To Feed"
+      ],
+      "serving_types": [
+        "[BASE] cup — 150.0ml",
+        "small cup — 100.0ml",
+        "large cup — 200.0ml"
+      ],
+      "base_volume": "150ml",
+      "gen_macros_raw": "97.8 | 10.8 | 5.0 | 2.4 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 97.5,
+        "carbs": 10.8,
+        "fat": 4.9,
+        "prot": 2.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 97.8,
+        "carbs": 10.8,
+        "fat": 5.0,
+        "prot": 2.4,
+        "fib": 0.0
+      },
+      "input_macros_raw": "97.5 | 10.8 | 4.9 | 2.4 | 0.0",
+      "final_macros_raw": "97.8 | 10.8 | 5.0 | 2.4 | 0.0",
+      "diff": 0.003
+    },
+    {
+      "id": 8,
+      "original_food_name": "Sizzling ginger chicken",
+      "standard_name": "Sizzling Ginger Chicken",
+      "other_names": "Ginger Chicken Sizzler, Adrak Chicken Sizzler, Hot Plate Ginger Chicken, Sizzler Ginger Chicken",
+      "food_varieties": [
+        "Dry ginger chicken (tawa-tossed, no gravy)",
+        "Ginger chicken with light gravy",
+        "Indo-Chinese ginger chicken sizzler",
+        "Ginger garlic chicken sizzler",
+        "Tandoori ginger chicken sizzler"
+      ],
+      "serving_types": [
+        "[BASE] plate — 250.0g",
+        "half plate — 175.0g",
+        "large bowl — 300.0g"
+      ],
+      "base_volume": "250g",
+      "gen_macros_raw": "368.5 | 8.5 | 22.5 | 33.0 | 1.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": "323.0 | 14.0 | 20.5 | 20.5 | 3.0",
+      "input_macros": {
+        "cal": 418.7,
+        "carbs": 7.2,
+        "fat": 30.2,
+        "prot": 29.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 368.5,
+        "carbs": 8.5,
+        "fat": 22.5,
+        "prot": 33.0,
+        "fib": 1.2
+      },
+      "input_macros_raw": "418.7 | 7.2 | 30.2 | 29.1 | 0.0",
+      "final_macros_raw": "368.5 | 8.5 | 22.5 | 33.0 | 1.2",
+      "diff": -0.12
+    },
+    {
+      "id": 9,
+      "original_food_name": "Valachi amti (Val curry)",
+      "standard_name": "Valachi Amti",
+      "other_names": "Val curry, Field bean curry, Vaal amti, Dalimbi amti, Val chi amti",
+      "food_varieties": [
+        "Kolhapuri style valachi amti with coconut and spices",
+        "Maharashtrian goda masala valachi amti",
+        "Val amti with sprouted field beans",
+        "Konkan style val curry with kokum",
+        "Dry val bhaji without gravy"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "173.4 | 22.5 | 5.8 | 7.8 | 6.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 156.2,
+        "carbs": 21.9,
+        "fat": 5.4,
+        "prot": 6.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 173.4,
+        "carbs": 22.5,
+        "fat": 5.8,
+        "prot": 7.8,
+        "fib": 6.2
+      },
+      "input_macros_raw": "156.2 | 21.9 | 5.4 | 6.2 | 0.0",
+      "final_macros_raw": "173.4 | 22.5 | 5.8 | 7.8 | 6.2",
+      "diff": 0.11
+    },
+    {
+      "id": 10,
+      "original_food_name": "Eggo waffles, pumpkin spice",
+      "standard_name": "Pumpkin Spice Eggo Waffles",
+      "other_names": "Eggo Pumpkin Spice Waffles, Kellogg's Eggo Pumpkin Waffles, Frozen Pumpkin Waffles, Pumpkin Spice Toaster Waffles",
+      "food_varieties": [
+        "Eggo Homestyle Waffles",
+        "Eggo Buttermilk Waffles",
+        "Eggo Blueberry Waffles",
+        "Eggo Cinnamon Toast Waffles",
+        "Eggo Thick and Fluffy Waffles"
+      ],
+      "serving_types": [
+        "[BASE] 2 pieces — 70.0g",
+        "1 piece — 35.0g",
+        "4 pieces — 140.0g"
+      ],
+      "base_volume": "70g",
+      "gen_macros_raw": "207.7 | 29.0 | 8.5 | 3.8 | 1.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 207.2,
+        "carbs": 29.0,
+        "fat": 8.5,
+        "prot": 3.8,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 207.7,
+        "carbs": 29.0,
+        "fat": 8.5,
+        "prot": 3.8,
+        "fib": 1.0
+      },
+      "input_macros_raw": "207.2 | 29.0 | 8.5 | 3.8 | 0.0",
+      "final_macros_raw": "207.7 | 29.0 | 8.5 | 3.8 | 1.0",
+      "diff": 0.002
+    },
+    {
+      "id": 11,
+      "original_food_name": "Onion & Cheese Twist (Starbucks India)",
+      "standard_name": "Onion & Cheese Twist",
+      "other_names": "Starbucks Cheese Onion Twist, Cheese Onion Puff Twist, Onion Cheese Pastry Twist, Starbucks Savoury Twist",
+      "food_varieties": [
+        "Spinach & Cheese Twist",
+        "Mushroom & Cheese Twist",
+        "Chicken & Cheese Twist",
+        "Plain Cheese Twist",
+        "Tomato & Cheese Twist"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 95.0g",
+        "1 small piece — 70.0g"
+      ],
+      "base_volume": "95g",
+      "gen_macros_raw": "299.5 | 31.0 | 15.5 | 9.0 | 1.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 314.6,
+        "carbs": 2.8,
+        "fat": 15.2,
+        "prot": 9.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 299.5,
+        "carbs": 31.0,
+        "fat": 15.5,
+        "prot": 9.0,
+        "fib": 1.5
+      },
+      "input_macros_raw": "314.6 | 2.8 | 15.2 | 9.1 | 0.0",
+      "final_macros_raw": "299.5 | 31.0 | 15.5 | 9.0 | 1.5",
+      "diff": -0.048
+    },
+    {
+      "id": 12,
+      "original_food_name": "Mixed sprouts curry",
+      "standard_name": "Mixed Sprouts Curry",
+      "other_names": "Mixed Sprouts Sabzi, Sprouted Beans Curry, Mixed Usal, Sprouts Masala, Ankurit Dal Sabzi",
+      "food_varieties": [
+        "Maharashtrian Usal (spicy, with coconut)",
+        "Dry mixed sprouts sabzi (no gravy)",
+        "Mixed sprouts in tomato-onion gravy",
+        "Sprouts curry with coconut milk",
+        "Jain-style sprouts curry (no onion-garlic)"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "145.8 | 17.1 | 5.4 | 7.2 | 5.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 90.8,
+        "carbs": 9.3,
+        "fat": 5.4,
+        "prot": 2.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 145.8,
+        "carbs": 17.1,
+        "fat": 5.4,
+        "prot": 7.2,
+        "fib": 5.1
+      },
+      "input_macros_raw": "90.8 | 9.3 | 5.4 | 2.6 | 0.0",
+      "final_macros_raw": "145.8 | 17.1 | 5.4 | 7.2 | 5.1",
+      "diff": 0.606
+    },
+    {
+      "id": 13,
+      "original_food_name": "Lauki paneer curry",
+      "standard_name": "Lauki Paneer Curry",
+      "other_names": "Ghiya Paneer Sabzi, Bottle Gourd Paneer Curry, Dudhi Paneer Sabzi, Lauki Paneer Gravy, Sorakaya Paneer Koora",
+      "food_varieties": [
+        "Lauki paneer with tomato-onion gravy",
+        "Lauki paneer with yogurt-based gravy",
+        "Lauki paneer dry sabzi (no gravy)",
+        "Lauki paneer with coconut milk base",
+        "Lauki paneer with spinach added"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "150.9 | 8.7 | 9.3 | 8.1 | 1.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 115.7,
+        "carbs": 7.0,
+        "fat": 6.8,
+        "prot": 6.8,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 150.9,
+        "carbs": 8.7,
+        "fat": 9.3,
+        "prot": 8.1,
+        "fib": 1.8
+      },
+      "input_macros_raw": "115.7 | 7.0 | 6.8 | 6.8 | 0.0",
+      "final_macros_raw": "150.9 | 8.7 | 9.3 | 8.1 | 1.8",
+      "diff": 0.304
+    },
+    {
+      "id": 14,
+      "original_food_name": "Masala bread",
+      "standard_name": "Masala Bread",
+      "other_names": "Spiced Bread, Masala Toast Bread, Indian Spiced Bread, Masala Pav, Tadka Bread",
+      "food_varieties": [
+        "Masala bread with onion and green chilli stuffing",
+        "Masala bread with potato filling",
+        "Baked masala bread loaf with herbs",
+        "Pan-fried masala bread slices with butter",
+        "Masala bread with cheese and spices"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 100.0g",
+        "2 pieces — 90.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "121.6 | 19.8 | 3.2 | 3.4 | 1.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 193.8,
+        "carbs": 36.0,
+        "fat": 3.1,
+        "prot": 5.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 121.6,
+        "carbs": 19.8,
+        "fat": 3.2,
+        "prot": 3.4,
+        "fib": 1.1
+      },
+      "input_macros_raw": "193.8 | 36.0 | 3.1 | 5.2 | 0.0",
+      "final_macros_raw": "121.6 | 19.8 | 3.2 | 3.4 | 1.1",
+      "diff": -0.373
+    },
+    {
+      "id": 15,
+      "original_food_name": "Chicken Sausage",
+      "standard_name": "Chicken Sausage",
+      "other_names": "Chicken Frankfurter, Murgh Sausage, Chicken Hot Dog, Chicken Wiener",
+      "food_varieties": [
+        "Smoked Chicken Sausage",
+        "Chicken Herb Sausage",
+        "Chicken Cheese Sausage",
+        "Spicy Chicken Sausage",
+        "Chicken Breakfast Sausage"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 50.0g",
+        "2 pieces — 100.0g"
+      ],
+      "base_volume": "50g",
+      "gen_macros_raw": "89.5 | 1.5 | 5.5 | 8.5 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 86.0,
+        "carbs": 0.8,
+        "fat": 5.0,
+        "prot": 8.9,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 89.5,
+        "carbs": 1.5,
+        "fat": 5.5,
+        "prot": 8.5,
+        "fib": 0.0
+      },
+      "input_macros_raw": "86.0 | 0.8 | 5.0 | 8.9 | 0.0",
+      "final_macros_raw": "89.5 | 1.5 | 5.5 | 8.5 | 0.0",
+      "diff": 0.041
+    },
+    {
+      "id": 16,
+      "original_food_name": "India Spice Majesty Blend Short (Starbucks India)",
+      "standard_name": "India Spice Majesty Blend Short",
+      "other_names": "Starbucks India Spice Majesty Blend, Masala Chai Starbucks India, Spice Majesty Tea Latte, India Spice Majesty Short",
+      "food_varieties": [
+        "Tall size India Spice Majesty Blend",
+        "Grande India Spice Majesty Blend",
+        "India Spice Majesty Blend with non-dairy milk",
+        "India Spice Majesty Blend unsweetened",
+        "India Spice Majesty Blend with extra spice"
+      ],
+      "serving_types": [
+        "[BASE] cup — 235.0ml",
+        "small cup — 180.0ml"
+      ],
+      "base_volume": "235ml",
+      "gen_macros_raw": "173.6 | 18.6 | 7.2 | 8.6 | 0.3",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 172.5,
+        "carbs": 18.2,
+        "fat": 7.2,
+        "prot": 8.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 173.6,
+        "carbs": 18.6,
+        "fat": 7.2,
+        "prot": 8.6,
+        "fib": 0.3
+      },
+      "input_macros_raw": "172.5 | 18.2 | 7.2 | 8.6 | 0.0",
+      "final_macros_raw": "173.6 | 18.6 | 7.2 | 8.6 | 0.3",
+      "diff": 0.006
+    },
+    {
+      "id": 17,
+      "original_food_name": "Chicken malai curry",
+      "standard_name": "Chicken Malai Curry",
+      "other_names": "Malai Chicken Curry, Chicken Cream Curry, Murgh Malai Curry, Creamy Chicken Gravy, Malai Wala Chicken",
+      "food_varieties": [
+        "Chicken Malai Tikka (dry grilled version)",
+        "Chicken Malai Butter Masala (with tomato base)",
+        "Chicken Malai Korma (with nut paste and yogurt)",
+        "Chicken Malai Handi (slow-cooked clay pot style)"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "249.3 | 5.4 | 16.5 | 19.8 | 0.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 220.1,
+        "carbs": 5.8,
+        "fat": 14.7,
+        "prot": 17.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 249.3,
+        "carbs": 5.4,
+        "fat": 16.5,
+        "prot": 19.8,
+        "fib": 0.5
+      },
+      "input_macros_raw": "220.1 | 5.8 | 14.7 | 17.1 | 0.0",
+      "final_macros_raw": "249.3 | 5.4 | 16.5 | 19.8 | 0.5",
+      "diff": 0.133
+    },
+    {
+      "id": 18,
+      "original_food_name": "Lauki kofta curry",
+      "standard_name": "Lauki Kofta Curry",
+      "other_names": "Bottle Gourd Kofta Curry, Ghiya Kofta Gravy, Dudhi Kofta Curry, Lauki Ke Kofte, Bottle Gourd Dumpling Curry",
+      "food_varieties": [
+        "Lauki kofta in tomato-onion gravy",
+        "Lauki kofta in yogurt-based gravy",
+        "Lauki kofta in cashew cream gravy",
+        "Baked lauki kofta curry (non-fried kofta)",
+        "Lauki paneer kofta curry"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "179.4 | 14.1 | 11.4 | 5.1 | 2.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 93.6,
+        "carbs": 8.2,
+        "fat": 6.1,
+        "prot": 2.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 179.4,
+        "carbs": 14.1,
+        "fat": 11.4,
+        "prot": 5.1,
+        "fib": 2.1
+      },
+      "input_macros_raw": "93.6 | 8.2 | 6.1 | 2.4 | 0.0",
+      "final_macros_raw": "179.4 | 14.1 | 11.4 | 5.1 | 2.1",
+      "diff": 0.917
+    },
+    {
+      "id": 19,
+      "original_food_name": "Cajun Spice Ragi Baked Chips (The Healthy Binge)",
+      "standard_name": "Cajun Spice Ragi Baked Chips",
+      "other_names": "Ragi Baked Chips Cajun Flavour, Finger Millet Baked Chips Cajun, Healthy Binge Ragi Chips, Nachni Chips Cajun Spice",
+      "food_varieties": [
+        "Plain salted ragi baked chips",
+        "Peri peri ragi baked chips",
+        "Herb and cheese ragi baked chips",
+        "Ragi multigrain baked chips",
+        "Ragi fried chips (deep fried variant)"
+      ],
+      "serving_types": [
+        "[BASE] 1 small handful — 30.0g",
+        "1 handful — 50.0g"
+      ],
+      "base_volume": "30g",
+      "gen_macros_raw": "142.2 | 19.8 | 5.4 | 3.6 | 1.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 139.5,
+        "carbs": 19.3,
+        "fat": 5.6,
+        "prot": 4.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 142.2,
+        "carbs": 19.8,
+        "fat": 5.4,
+        "prot": 3.6,
+        "fib": 1.8
+      },
+      "input_macros_raw": "139.5 | 19.3 | 5.6 | 4.0 | 0.0",
+      "final_macros_raw": "142.2 | 19.8 | 5.4 | 3.6 | 1.8",
+      "diff": 0.019
+    },
+    {
+      "id": 20,
+      "original_food_name": "Aloo bhujia sev (packaged)",
+      "standard_name": "Aloo Bhujia Sev Packaged",
+      "other_names": "Aloo Bhujia, Potato Sev, Bhujia Sev, Aloo Namkeen, Potato Bhujia Namkeen",
+      "food_varieties": [
+        "Plain sev (besan-only, no potato)",
+        "Ratlami sev (spiced with cloves and pepper)",
+        "Nylon sev (thin, fine variety)",
+        "Masala bhujia (extra spiced blend)",
+        "Baked aloo bhujia (low-fat variant)"
+      ],
+      "serving_types": [
+        "[BASE] 1 small handful — 30.0g",
+        "1 handful — 50.0g",
+        "small bowl — 75.0g"
+      ],
+      "base_volume": "30g",
+      "gen_macros_raw": "154.2 | 15.6 | 9.0 | 2.7 | 1.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 173.7,
+        "carbs": 12.7,
+        "fat": 12.7,
+        "prot": 2.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 154.2,
+        "carbs": 15.6,
+        "fat": 9.0,
+        "prot": 2.7,
+        "fib": 1.2
+      },
+      "input_macros_raw": "173.7 | 12.7 | 12.7 | 2.1 | 0.0",
+      "final_macros_raw": "154.2 | 15.6 | 9.0 | 2.7 | 1.2",
+      "diff": -0.112
+    },
+    {
+      "id": 21,
+      "original_food_name": "infant formula, gerber good start 2, gentle plus, powder",
+      "standard_name": "Gerber Good Start 2 Gentle Plus Infant Formula Powder",
+      "other_names": "Gerber Good Start Stage 2 Formula, Good Start Gentle Plus Powder, Gerber Stage 2 Infant Formula, Follow-On Formula Powder Gerber",
+      "food_varieties": [
+        "Gerber Good Start 1 Gentle (Stage 1, 0-6 months)",
+        "Gerber Good Start Soy Powder Formula",
+        "Gerber Good Start Sensitive Formula",
+        "Similac Follow-On Formula Stage 2",
+        "Enfamil Follow-Up Formula Stage 2"
+      ],
+      "serving_types": [
+        "[BASE] small cup — 100.0g",
+        "1 tablespoon — 10.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "497.5 | 57.1 | 25.1 | 10.8 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 492.0,
+        "carbs": 57.1,
+        "fat": 25.1,
+        "prot": 10.8,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 497.5,
+        "carbs": 57.1,
+        "fat": 25.1,
+        "prot": 10.8,
+        "fib": 0.0
+      },
+      "input_macros_raw": "492.0 | 57.1 | 25.1 | 10.8 | 0.0",
+      "final_macros_raw": "497.5 | 57.1 | 25.1 | 10.8 | 0.0",
+      "diff": 0.011
+    },
+    {
+      "id": 22,
+      "original_food_name": "Sriracha Spice Roasted Makhana (Taali)",
+      "standard_name": "Sriracha Spice Roasted Makhana",
+      "other_names": "Sriracha Makhana Snack, Spicy Roasted Fox Nuts, Taali Sriracha Makhana, Hot Sauce Flavored Phool Makhana, Sriracha Lotus Seeds Roasted",
+      "food_varieties": [
+        "Plain Roasted Makhana",
+        "Peri Peri Roasted Makhana",
+        "Cheese Flavored Roasted Makhana",
+        "Himalayan Salt Roasted Makhana",
+        "Pudina Masala Roasted Makhana"
+      ],
+      "serving_types": [
+        "[BASE] 1 small handful — 30.0g",
+        "1 handful — 50.0g",
+        "bowl — 100.0g"
+      ],
+      "base_volume": "30g",
+      "gen_macros_raw": "124.8 | 20.1 | 3.6 | 3.0 | 0.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 129.0,
+        "carbs": 22.8,
+        "fat": 3.0,
+        "prot": 2.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 124.8,
+        "carbs": 20.1,
+        "fat": 3.6,
+        "prot": 3.0,
+        "fib": 0.5
+      },
+      "input_macros_raw": "129.0 | 22.8 | 3.0 | 2.7 | 0.0",
+      "final_macros_raw": "124.8 | 20.1 | 3.6 | 3.0 | 0.5",
+      "diff": -0.033
+    },
+    {
+      "id": 23,
+      "original_food_name": "Chicken afghani curry",
+      "standard_name": "Chicken Afghani Curry",
+      "other_names": "Afghani Murgh Curry, Chicken Afghani Gravy, Afgani Chicken Curry, Murgh Afghani, Afghani Chicken Masala",
+      "food_varieties": [
+        "Chicken Afghani with bone-in pieces",
+        "Boneless Chicken Afghani Curry",
+        "Chicken Afghani with cashew-cream base",
+        "Chicken Afghani with yogurt-only base (no cream)",
+        "Chicken Afghani with charcoal smoke finish"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "261.9 | 5.4 | 17.1 | 21.6 | 0.6",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 148.8,
+        "carbs": 5.8,
+        "fat": 6.8,
+        "prot": 16.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 261.9,
+        "carbs": 5.4,
+        "fat": 17.1,
+        "prot": 21.6,
+        "fib": 0.6
+      },
+      "input_macros_raw": "148.8 | 5.8 | 6.8 | 16.2 | 0.0",
+      "final_macros_raw": "261.9 | 5.4 | 17.1 | 21.6 | 0.6",
+      "diff": 0.76
+    },
+    {
+      "id": 24,
+      "original_food_name": "Baked tofu",
+      "standard_name": "Tofu",
+      "other_names": "Oven Baked Tofu, Baked Soya Paneer, Tofu Bake, Roasted Tofu",
+      "food_varieties": [
+        "Marinated baked tofu with soy sauce and ginger",
+        "Spiced baked tofu with Indian masala",
+        "Baked tofu with sesame and garlic",
+        "Crispy baked tofu with cornstarch coating",
+        "Plain baked tofu without marinade"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "186.3 | 5.4 | 9.9 | 18.9 | 0.6",
+      "correction_macros_raw": null,
+      "db_macros_raw": "124.4 | 2.8 | 7.2 | 12.1 | 0.4",
+      "input_macros": {
+        "cal": 172.1,
+        "carbs": 7.6,
+        "fat": 9.3,
+        "prot": 15.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 186.3,
+        "carbs": 5.4,
+        "fat": 9.9,
+        "prot": 18.9,
+        "fib": 0.6
+      },
+      "input_macros_raw": "172.1 | 7.6 | 9.3 | 15.4 | 0.0",
+      "final_macros_raw": "186.3 | 5.4 | 9.9 | 18.9 | 0.6",
+      "diff": 0.083
+    },
+    {
+      "id": 25,
+      "original_food_name": "Veg wok (Noodles)",
+      "standard_name": "Veg Wok Noodles",
+      "other_names": "Vegetable Wok Noodles, Veg Stir Fry Noodles, Chinese Veg Noodles, Wok Tossed Veg Noodles, Indo-Chinese Veg Noodles",
+      "food_varieties": [
+        "Hakka Noodles with Vegetables",
+        "Schezwan Veg Noodles",
+        "Veg Chow Mein",
+        "Veg Udon Wok Noodles",
+        "Veg Rice Noodles Wok"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 250.0g",
+        "small bowl — 175.0g",
+        "plate — 350.0g"
+      ],
+      "base_volume": "250g",
+      "gen_macros_raw": "348.5 | 49.5 | 12.5 | 9.5 | 3.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 359.3,
+        "carbs": 31.8,
+        "fat": 20.2,
+        "prot": 14.9,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 348.5,
+        "carbs": 49.5,
+        "fat": 12.5,
+        "prot": 9.5,
+        "fib": 3.5
+      },
+      "input_macros_raw": "359.3 | 31.8 | 20.2 | 14.9 | 0.0",
+      "final_macros_raw": "348.5 | 49.5 | 12.5 | 9.5 | 3.5",
+      "diff": -0.03
+    },
+    {
+      "id": 26,
+      "original_food_name": "quaker, instant oatmeal, dry (cinnamon-spice)",
+      "standard_name": "Quaker Instant Oatmeal Dry Cinnamon Spice",
+      "other_names": "Instant Oats Cinnamon Spice Dry, Quaker Cinnamon Spice Oatmeal Packet, Flavoured Instant Oats Dry, Cinnamon Oatmeal Dry Mix",
+      "food_varieties": [
+        "Quaker Instant Oatmeal Maple Brown Sugar",
+        "Quaker Instant Oatmeal Apple Cinnamon",
+        "Quaker Instant Oatmeal Original Plain",
+        "Quaker Old Fashioned Rolled Oats",
+        "Quaker Quick Oats"
+      ],
+      "serving_types": [
+        "[BASE] small bowl — 45.0g",
+        "bowl — 90.0g"
+      ],
+      "base_volume": "45g",
+      "gen_macros_raw": "167.0 | 32.8 | 2.2 | 4.0 | 2.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 166.1,
+        "carbs": 33.5,
+        "fat": 2.3,
+        "prot": 4.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 167.0,
+        "carbs": 32.8,
+        "fat": 2.2,
+        "prot": 4.0,
+        "fib": 2.5
+      },
+      "input_macros_raw": "166.1 | 33.5 | 2.3 | 4.7 | 0.0",
+      "final_macros_raw": "167.0 | 32.8 | 2.2 | 4.0 | 2.5",
+      "diff": 0.005
+    },
+    {
+      "id": 27,
+      "original_food_name": "Paneer tikka",
+      "standard_name": "Paneer Tikka",
+      "other_names": "Paneer Tikka Starter, Grilled Paneer Tikka, Tandoori Paneer Tikka, Paneer Tikka Kebab, Paneer Tikka Snack",
+      "food_varieties": [
+        "Malai Paneer Tikka (cream-marinated, white)",
+        "Achari Paneer Tikka (pickle-spiced marinade)",
+        "Hariyali Paneer Tikka (green herb marinade)",
+        "Paneer Tikka with bell peppers and onion skewers",
+        "Paneer Tikka (tawa-grilled home style)"
+      ],
+      "serving_types": [
+        "[BASE] 2 pieces — 70.0g",
+        "4 pieces — 160.0g"
+      ],
+      "base_volume": "70g",
+      "gen_macros_raw": "198.8 | 6.4 | 13.2 | 13.6 | 0.6",
+      "correction_macros_raw": null,
+      "db_macros_raw": "110.6 | 3.4 | 7.6 | 8.0 | 0.6",
+      "input_macros": {
+        "cal": 173.4,
+        "carbs": 9.7,
+        "fat": 10.7,
+        "prot": 10.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 198.8,
+        "carbs": 6.4,
+        "fat": 13.2,
+        "prot": 13.6,
+        "fib": 0.6
+      },
+      "input_macros_raw": "173.4 | 9.7 | 10.7 | 10.6 | 0.0",
+      "final_macros_raw": "198.8 | 6.4 | 13.2 | 13.6 | 0.6",
+      "diff": 0.146
+    },
+    {
+      "id": 28,
+      "original_food_name": "Kadhai paneer",
+      "standard_name": "Kadhai Paneer",
+      "other_names": "Karahi Paneer, Kadai Paneer, Kadhai Paneer Sabzi, Paneer Kadhai, Karahi Paneer Masala",
+      "food_varieties": [
+        "Dry Kadhai Paneer (sukha, minimal gravy)",
+        "Kadhai Paneer with gravy (restaurant style with cream)",
+        "Kadhai Paneer with capsicum and onion",
+        "Kadhai Paneer with whole spice tempering (khada masala)"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "250.5 | 12.0 | 16.5 | 13.5 | 2.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": "162.0 | 10.9 | 10.2 | 6.4 | 3.2",
+      "input_macros": {
+        "cal": 188.8,
+        "carbs": 14.6,
+        "fat": 10.7,
+        "prot": 10.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 250.5,
+        "carbs": 12.0,
+        "fat": 16.5,
+        "prot": 13.5,
+        "fib": 2.1
+      },
+      "input_macros_raw": "188.8 | 14.6 | 10.7 | 10.2 | 0.0",
+      "final_macros_raw": "250.5 | 12.0 | 16.5 | 13.5 | 2.1",
+      "diff": 0.327
+    },
+    {
+      "id": 29,
+      "original_food_name": "Yellow squash curry",
+      "standard_name": "Yellow Squash Curry",
+      "other_names": "Peeli Kaddu Ki Sabzi, Yellow Zucchini Curry, Summer Squash Sabzi, Peeli Lauki Curry, Yellow Squash Sabzi",
+      "food_varieties": [
+        "Dry yellow squash sabzi (no gravy)",
+        "Yellow squash with coconut milk curry",
+        "Yellow squash and lentil curry",
+        "Yellow squash with tomato-onion gravy",
+        "Yellow squash and chickpea curry"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "90.0 | 7.2 | 6.0 | 1.8 | 1.7",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 76.8,
+        "carbs": 6.7,
+        "fat": 5.5,
+        "prot": 1.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 90.0,
+        "carbs": 7.2,
+        "fat": 6.0,
+        "prot": 1.8,
+        "fib": 1.7
+      },
+      "input_macros_raw": "76.8 | 6.7 | 5.5 | 1.6 | 0.0",
+      "final_macros_raw": "90.0 | 7.2 | 6.0 | 1.8 | 1.7",
+      "diff": 0.172
+    },
+    {
+      "id": 30,
+      "original_food_name": "Paneer tikki",
+      "standard_name": "Paneer Tikki",
+      "other_names": "Paneer Cutlet, Cottage Cheese Tikki, Paneer Patty, Paneer Kebab Tikki",
+      "food_varieties": [
+        "Aloo Paneer Tikki (with mashed potato base)",
+        "Baked Paneer Tikki (oven-baked, less oil)",
+        "Spinach Paneer Tikki (with palak)",
+        "Corn Paneer Tikki (with sweet corn)",
+        "Tandoori Paneer Tikki (grilled in tandoor)"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 100.0g",
+        "2 pieces — 150.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "174.6 | 13.2 | 9.8 | 8.4 | 1.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 258.7,
+        "carbs": 16.2,
+        "fat": 15.6,
+        "prot": 13.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 174.6,
+        "carbs": 13.2,
+        "fat": 9.8,
+        "prot": 8.4,
+        "fib": 1.1
+      },
+      "input_macros_raw": "258.7 | 16.2 | 15.6 | 13.5 | 0.0",
+      "final_macros_raw": "174.6 | 13.2 | 9.8 | 8.4 | 1.1",
+      "diff": -0.325
+    },
+    {
+      "id": 31,
+      "original_food_name": "Sweet Onion Sauce (subway)",
+      "standard_name": "Sweet Onion Sauce",
+      "other_names": "Subway Sweet Onion Dressing, Sweet Onion Chutney Sauce, Sweet Onion Condiment, Subway Sweet Onion Topping",
+      "food_varieties": [
+        "Honey Mustard Sauce",
+        "Teriyaki Glaze",
+        "Sweet Chili Sauce",
+        "Barbecue Sauce",
+        "Ranch Dressing"
+      ],
+      "serving_types": [
+        "[BASE] 1 tablespoon — 20.0g",
+        "2 tablespoons — 40.0g"
+      ],
+      "base_volume": "20g",
+      "gen_macros_raw": "34.4 | 8.5 | 0.0 | 0.1 | 0.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 32.4,
+        "carbs": 7.6,
+        "fat": 0.0,
+        "prot": 0.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 34.4,
+        "carbs": 8.5,
+        "fat": 0.0,
+        "prot": 0.1,
+        "fib": 0.1
+      },
+      "input_macros_raw": "32.4 | 7.6 | 0.0 | 0.0 | 0.0",
+      "final_macros_raw": "34.4 | 8.5 | 0.0 | 0.1 | 0.1",
+      "diff": 0.062
+    },
+    {
+      "id": 32,
+      "original_food_name": "Paneer lababdar",
+      "standard_name": "Paneer Lababdar",
+      "other_names": "Paneer Lababdar Curry, Lababdar Paneer, Paneer in Rich Tomato Gravy, Paneer Labadar",
+      "food_varieties": [
+        "Paneer Butter Masala",
+        "Paneer Makhani",
+        "Paneer Tikka Masala",
+        "Shahi Paneer",
+        "Paneer Kadai"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "263.4 | 12.3 | 18.6 | 11.7 | 1.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": "158.2 | 5.1 | 12.8 | 6.0 | 1.8",
+      "input_macros": {
+        "cal": 191.5,
+        "carbs": 11.0,
+        "fat": 12.0,
+        "prot": 10.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 263.4,
+        "carbs": 12.3,
+        "fat": 18.6,
+        "prot": 11.7,
+        "fib": 1.8
+      },
+      "input_macros_raw": "191.5 | 11.0 | 12.0 | 10.7 | 0.0",
+      "final_macros_raw": "263.4 | 12.3 | 18.6 | 11.7 | 1.8",
+      "diff": 0.375
+    },
+    {
+      "id": 33,
+      "original_food_name": "Paneer kolhapuri",
+      "standard_name": "Paneer Kolhapuri",
+      "other_names": "Kolhapuri Paneer, Paneer Kolhapuri Masala, Spicy Paneer Curry, Paneer in Kolhapuri Gravy",
+      "food_varieties": [
+        "Paneer Kolhapuri with coconut-based gravy",
+        "Paneer Kolhapuri dry (sukha)",
+        "Paneer Kolhapuri with cashew paste",
+        "Veg Kolhapuri with paneer",
+        "Restaurant-style Paneer Kolhapuri with extra butter"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "246.3 | 11.4 | 17.1 | 11.7 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 243.2,
+        "carbs": 19.5,
+        "fat": 16.3,
+        "prot": 7.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 246.3,
+        "carbs": 11.4,
+        "fat": 17.1,
+        "prot": 11.7,
+        "fib": 2.4
+      },
+      "input_macros_raw": "243.2 | 19.5 | 16.3 | 7.0 | 0.0",
+      "final_macros_raw": "246.3 | 11.4 | 17.1 | 11.7 | 2.4",
+      "diff": 0.013
+    },
+    {
+      "id": 34,
+      "original_food_name": "Achari paneer subji",
+      "standard_name": "Achari Paneer Subji",
+      "other_names": "Achari Paneer Sabzi, Pickle Spiced Paneer Curry, Achari Paneer Masala, Tangy Paneer Subzi",
+      "food_varieties": [
+        "Achari Paneer with mustard oil and whole pickling spices",
+        "Achari Paneer with yogurt-based gravy",
+        "Dry Achari Paneer (semi-dry version)",
+        "Achari Paneer with raw mango pickle base",
+        "Restaurant-style Achari Paneer with cream"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "252.6 | 10.8 | 17.4 | 13.2 | 1.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 259.5,
+        "carbs": 12.8,
+        "fat": 17.7,
+        "prot": 13.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 252.6,
+        "carbs": 10.8,
+        "fat": 17.4,
+        "prot": 13.2,
+        "fib": 1.8
+      },
+      "input_macros_raw": "259.5 | 12.8 | 17.7 | 13.2 | 0.0",
+      "final_macros_raw": "252.6 | 10.8 | 17.4 | 13.2 | 1.8",
+      "diff": -0.027
+    },
+    {
+      "id": 35,
+      "original_food_name": "Ridge gourd curry",
+      "standard_name": "Ridge Gourd Curry",
+      "other_names": "Turai Ki Sabzi, Tori Curry, Beerakaya Curry, Peerkangai Kootu, Gilki Sabzi, Dodka Bhaji",
+      "food_varieties": [
+        "Ridge gourd curry with coconut (South Indian style)",
+        "Ridge gourd dal curry (turai chana dal)",
+        "Ridge gourd curry with tomato-onion gravy",
+        "Dry ridge gourd sabzi (sukhi turai)",
+        "Ridge gourd curry with mustard seeds and curry leaves"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "99.9 | 8.4 | 6.3 | 2.4 | 2.7",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 101.2,
+        "carbs": 8.1,
+        "fat": 7.1,
+        "prot": 2.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 99.9,
+        "carbs": 8.4,
+        "fat": 6.3,
+        "prot": 2.4,
+        "fib": 2.7
+      },
+      "input_macros_raw": "101.2 | 8.1 | 7.1 | 2.5 | 0.0",
+      "final_macros_raw": "99.9 | 8.4 | 6.3 | 2.4 | 2.7",
+      "diff": -0.013
+    },
+    {
+      "id": 36,
+      "original_food_name": "Chana paneer",
+      "standard_name": "Chana Paneer",
+      "other_names": "Chole Paneer, Chana Paneer Sabzi, Chickpea Paneer Curry, Paneer Chana Masala",
+      "food_varieties": [
+        "Chana Paneer with spinach gravy",
+        "Dry Chana Paneer (sukha)",
+        "Chana Paneer in tomato-onion gravy",
+        "Chana Paneer with coconut milk",
+        "Restaurant-style Chana Paneer with cream"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "205.8 | 18.6 | 9.8 | 10.8 | 4.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 163.6,
+        "carbs": 17.9,
+        "fat": 7.2,
+        "prot": 8.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 205.8,
+        "carbs": 18.6,
+        "fat": 9.8,
+        "prot": 10.8,
+        "fib": 4.5
+      },
+      "input_macros_raw": "163.6 | 17.9 | 7.2 | 8.2 | 0.0",
+      "final_macros_raw": "205.8 | 18.6 | 9.8 | 10.8 | 4.5",
+      "diff": 0.258
+    },
+    {
+      "id": 37,
+      "original_food_name": "Paneer masala naan",
+      "standard_name": "Paneer Masala Naan",
+      "other_names": "Paneer Stuffed Masala Naan, Paneer Naan, Stuffed Paneer Naan, Paneer Masala Kulcha",
+      "food_varieties": [
+        "Plain paneer naan (no masala spices)",
+        "Paneer garlic naan",
+        "Paneer chilli naan",
+        "Whole wheat paneer masala naan",
+        "Paneer onion masala naan"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 100.0g",
+        "2 pieces — 240.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "335.5 | 44.5 | 11.5 | 13.5 | 1.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 306.1,
+        "carbs": 40.2,
+        "fat": 9.6,
+        "prot": 14.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 335.5,
+        "carbs": 44.5,
+        "fat": 11.5,
+        "prot": 13.5,
+        "fib": 1.8
+      },
+      "input_macros_raw": "306.1 | 40.2 | 9.6 | 14.1 | 0.0",
+      "final_macros_raw": "335.5 | 44.5 | 11.5 | 13.5 | 1.8",
+      "diff": 0.096
+    },
+    {
+      "id": 38,
+      "original_food_name": "Palak paneer",
+      "standard_name": "Palak Paneer",
+      "other_names": "Spinach Paneer Curry, Saag Paneer, Palak Paneer Sabzi, Spinach Cottage Cheese Curry",
+      "food_varieties": [
+        "Restaurant-style Palak Paneer with cream",
+        "Palak Paneer with tofu (vegan)",
+        "Palak Paneer with cashew paste gravy",
+        "Dhaba-style Palak Paneer with extra butter",
+        "Palak Paneer with whole spices (Punjabi style)"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "201.6 | 9.6 | 13.2 | 11.1 | 2.7",
+      "correction_macros_raw": null,
+      "db_macros_raw": "200.4 | 10.8 | 12.0 | 12.3 | 3.8",
+      "input_macros": {
+        "cal": 214.4,
+        "carbs": 12.1,
+        "fat": 13.8,
+        "prot": 11.9,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 201.6,
+        "carbs": 9.6,
+        "fat": 13.2,
+        "prot": 11.1,
+        "fib": 2.7
+      },
+      "input_macros_raw": "214.4 | 12.1 | 13.8 | 11.9 | 0.0",
+      "final_macros_raw": "201.6 | 9.6 | 13.2 | 11.1 | 2.7",
+      "diff": -0.06
+    },
+    {
+      "id": 39,
+      "original_food_name": "Paneer jalfrezi",
+      "standard_name": "Paneer Jalfrezi",
+      "other_names": "Paneer Jhalfrezi, Paneer Jalfrazi, Paneer stir-fry curry, Jalfrezi paneer sabzi",
+      "food_varieties": [
+        "Paneer Jalfrezi with capsicum and onion",
+        "Paneer Jalfrezi dry (no gravy)",
+        "Paneer Jalfrezi with tomato base gravy",
+        "Smoked Paneer Jalfrezi",
+        "Paneer Jalfrezi with mixed vegetables"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "222.9 | 10.8 | 14.1 | 13.2 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 190.2,
+        "carbs": 13.7,
+        "fat": 10.8,
+        "prot": 10.8,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 222.9,
+        "carbs": 10.8,
+        "fat": 14.1,
+        "prot": 13.2,
+        "fib": 2.4
+      },
+      "input_macros_raw": "190.2 | 13.7 | 10.8 | 10.8 | 0.0",
+      "final_macros_raw": "222.9 | 10.8 | 14.1 | 13.2 | 2.4",
+      "diff": 0.172
+    },
+    {
+      "id": 40,
+      "original_food_name": "Palak paneer bhurji",
+      "standard_name": "Palak Paneer Bhurji",
+      "other_names": "Spinach Paneer Bhurji, Palak Paneer Scramble, Saag Paneer Bhurji, Palak Bhurji with Paneer",
+      "food_varieties": [
+        "Palak paneer bhurji with onion and tomato base",
+        "Palak paneer bhurji with green chilli and ginger",
+        "Palak paneer bhurji with cream added",
+        "Palak paneer bhurji with egg (egg-paneer variant)"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "231.0 | 9.6 | 16.2 | 11.7 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 208.1,
+        "carbs": 11.4,
+        "fat": 13.8,
+        "prot": 11.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 231.0,
+        "carbs": 9.6,
+        "fat": 16.2,
+        "prot": 11.7,
+        "fib": 2.4
+      },
+      "input_macros_raw": "208.1 | 11.4 | 13.8 | 11.0 | 0.0",
+      "final_macros_raw": "231.0 | 9.6 | 16.2 | 11.7 | 2.4",
+      "diff": 0.11
+    },
+    {
+      "id": 41,
+      "original_food_name": "Carrot pomegranate juice",
+      "standard_name": "Carrot Pomegranate Juice",
+      "other_names": "Gajar Anar Juice, Carrot Pomegranate Blend, Gajar Anar Ka Ras, Carrot Anaar Juice",
+      "food_varieties": [
+        "Carrot pomegranate juice with ginger",
+        "Carrot pomegranate orange juice blend",
+        "Carrot pomegranate juice with lemon",
+        "Carrot pomegranate juice with beetroot"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 200.0ml",
+        "small cup — 150.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "121.7 | 27.5 | 0.5 | 1.8 | 1.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 125.7,
+        "carbs": 29.3,
+        "fat": 1.1,
+        "prot": 2.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 121.7,
+        "carbs": 27.5,
+        "fat": 0.5,
+        "prot": 1.8,
+        "fib": 1.2
+      },
+      "input_macros_raw": "125.7 | 29.3 | 1.1 | 2.3 | 0.0",
+      "final_macros_raw": "121.7 | 27.5 | 0.5 | 1.8 | 1.2",
+      "diff": -0.032
+    },
+    {
+      "id": 42,
+      "original_food_name": "Paneer schezwan frankie",
+      "standard_name": "Paneer Schezwan Frankie",
+      "other_names": "Schezwan Paneer Roll, Paneer Schezwan Kathi Roll, Schezwan Paneer Frankie Roll, Paneer Chinese Frankie",
+      "food_varieties": [
+        "Paneer Butter Masala Frankie",
+        "Chicken Schezwan Frankie",
+        "Egg Schezwan Frankie",
+        "Veg Schezwan Frankie",
+        "Paneer Tikka Frankie"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 200.0g",
+        "2 pieces — 400.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "416.6 | 47.8 | 18.2 | 15.4 | 3.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 425.7,
+        "carbs": 38.4,
+        "fat": 24.3,
+        "prot": 14.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 416.6,
+        "carbs": 47.8,
+        "fat": 18.2,
+        "prot": 15.4,
+        "fib": 3.2
+      },
+      "input_macros_raw": "425.7 | 38.4 | 24.3 | 14.6 | 0.0",
+      "final_macros_raw": "416.6 | 47.8 | 18.2 | 15.4 | 3.2",
+      "diff": -0.021
+    },
+    {
+      "id": 43,
+      "original_food_name": "Paneer tikka frankie",
+      "standard_name": "Paneer Tikka Frankie",
+      "other_names": "Paneer Tikka Roll, Paneer Frankie, Paneer Tikka Kathi Roll, Paneer Roll",
+      "food_varieties": [
+        "Egg Frankie with paneer tikka",
+        "Whole wheat roti paneer tikka frankie",
+        "Malai paneer tikka frankie",
+        "Achari paneer tikka frankie",
+        "Cheese paneer tikka frankie"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 200.0g",
+        "2 pieces — 400.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "398.6 | 44.8 | 16.2 | 18.4 | 3.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 469.2,
+        "carbs": 44.6,
+        "fat": 22.8,
+        "prot": 22.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 398.6,
+        "carbs": 44.8,
+        "fat": 16.2,
+        "prot": 18.4,
+        "fib": 3.2
+      },
+      "input_macros_raw": "469.2 | 44.6 | 22.8 | 22.5 | 0.0",
+      "final_macros_raw": "398.6 | 44.8 | 16.2 | 18.4 | 3.2",
+      "diff": -0.15
+    },
+    {
+      "id": 44,
+      "original_food_name": "Pomfret curry",
+      "standard_name": "Pomfret Curry",
+      "other_names": "Paplet Curry, Pomfret Masala, Paplet Chi Amti, Pomfret Fish Curry, Paplet Gravy",
+      "food_varieties": [
+        "Goan Pomfret Curry with coconut milk",
+        "Bengali Pomfret Jhol with mustard",
+        "Malvani Pomfret Curry with dry coconut",
+        "Kerala Pomfret Curry with raw mango",
+        "Andhra Pomfret Curry with tamarind"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "199.2 | 21.3 | 9.6 | 6.9 | 1.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 108.6,
+        "carbs": 5.9,
+        "fat": 3.5,
+        "prot": 14.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 199.2,
+        "carbs": 21.3,
+        "fat": 9.6,
+        "prot": 6.9,
+        "fib": 1.2
+      },
+      "input_macros_raw": "108.6 | 5.9 | 3.5 | 14.2 | 0.0",
+      "final_macros_raw": "199.2 | 21.3 | 9.6 | 6.9 | 1.2",
+      "diff": 0.834
+    },
+    {
+      "id": 45,
+      "original_food_name": "Crispy paneer (Schezwan)",
+      "standard_name": "Crispy Paneer Schezwan",
+      "other_names": "Schezwan Crispy Paneer, Crispy Paneer Szechuan, Paneer Schezwan Fry, Indo-Chinese Crispy Paneer",
+      "food_varieties": [
+        "Crispy Paneer in Manchurian Sauce",
+        "Crispy Paneer Chilli",
+        "Crispy Paneer Kung Pao",
+        "Baked Crispy Paneer Schezwan",
+        "Crispy Paneer Schezwan Dry"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "343.5 | 24.0 | 21.5 | 13.5 | 1.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 309.6,
+        "carbs": 23.3,
+        "fat": 19.3,
+        "prot": 11.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 343.5,
+        "carbs": 24.0,
+        "fat": 21.5,
+        "prot": 13.5,
+        "fib": 1.5
+      },
+      "input_macros_raw": "309.6 | 23.3 | 19.3 | 11.7 | 0.0",
+      "final_macros_raw": "343.5 | 24.0 | 21.5 | 13.5 | 1.5",
+      "diff": 0.109
+    },
+    {
+      "id": 46,
+      "original_food_name": "Paneer burger (Homemade)",
+      "standard_name": "Paneer Burger",
+      "other_names": "Homemade Paneer Burger, Paneer Veggie Burger, Cottage Cheese Burger, Paneer Tikki Burger",
+      "food_varieties": [
+        "Paneer tikka burger with grilled paneer slice",
+        "Crispy fried paneer patty burger",
+        "Spiced paneer cutlet burger",
+        "Paneer burger with cheese slice",
+        "Whole wheat bun paneer burger"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 200.0g",
+        "2 pieces — 400.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "480.5 | 51.0 | 22.5 | 18.5 | 2.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 498.4,
+        "carbs": 46.3,
+        "fat": 25.3,
+        "prot": 16.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 480.5,
+        "carbs": 51.0,
+        "fat": 22.5,
+        "prot": 18.5,
+        "fib": 2.8
+      },
+      "input_macros_raw": "498.4 | 46.3 | 25.3 | 16.6 | 0.0",
+      "final_macros_raw": "480.5 | 51.0 | 22.5 | 18.5 | 2.8",
+      "diff": -0.036
+    },
+    {
+      "id": 47,
+      "original_food_name": "Chicken curry",
+      "standard_name": "Chicken Curry",
+      "other_names": "Murgh Curry, Chicken Gravy, Chicken Masala, Murgh Masala, Chicken Salan",
+      "food_varieties": [
+        "Dhaba-style Chicken Curry",
+        "Coconut Milk Chicken Curry",
+        "Tomato-based Chicken Curry",
+        "Chicken Curry with Bone",
+        "Boneless Chicken Curry"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "217.5 | 6.0 | 13.5 | 18.0 | 1.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": "207.0 | 7.2 | 11.2 | 19.5 | 1.5",
+      "input_macros": {
+        "cal": 215.0,
+        "carbs": 6.9,
+        "fat": 15.1,
+        "prot": 13.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 217.5,
+        "carbs": 6.0,
+        "fat": 13.5,
+        "prot": 18.0,
+        "fib": 1.2
+      },
+      "input_macros_raw": "215.0 | 6.9 | 15.1 | 13.6 | 0.0",
+      "final_macros_raw": "217.5 | 6.0 | 13.5 | 18.0 | 1.2",
+      "diff": 0.012
+    },
+    {
+      "id": 48,
+      "original_food_name": "Egg paneer wrap",
+      "standard_name": "Egg Paneer Wrap",
+      "other_names": "Egg Paneer Frankie, Anda Paneer Roll, Egg Cottage Cheese Wrap, Paneer Egg Kathi Roll",
+      "food_varieties": [
+        "Egg paneer wrap with whole wheat tortilla",
+        "Egg paneer wrap with mint chutney and onions",
+        "Spicy egg paneer wrap with green chilli",
+        "Egg paneer wrap with mayonnaise and veggies"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 175.0g",
+        "2 pieces — 350.0g"
+      ],
+      "base_volume": "175g",
+      "gen_macros_raw": "335.5 | 35.0 | 13.5 | 18.5 | 2.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 332.3,
+        "carbs": 36.0,
+        "fat": 13.1,
+        "prot": 17.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 335.5,
+        "carbs": 35.0,
+        "fat": 13.5,
+        "prot": 18.5,
+        "fib": 2.5
+      },
+      "input_macros_raw": "332.3 | 36.0 | 13.1 | 17.6 | 0.0",
+      "final_macros_raw": "335.5 | 35.0 | 13.5 | 18.5 | 2.5",
+      "diff": 0.01
+    },
+    {
+      "id": 49,
+      "original_food_name": "Vegetable curry (Malaysian style)",
+      "standard_name": "Vegetable Curry Malaysian Style",
+      "other_names": "Malaysian Veggie Curry, Kari Sayur, Malaysian Style Sabzi Curry, Sayur Kari",
+      "food_varieties": [
+        "Malaysian curry with coconut milk and lemongrass",
+        "Malaysian dry vegetable curry (less gravy)",
+        "Malaysian curry with tofu and vegetables",
+        "Malaysian curry with potatoes and eggplant",
+        "Malaysian curry with mixed greens and tempeh"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "163.8 | 11.4 | 11.8 | 3.0 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 128.1,
+        "carbs": 11.1,
+        "fat": 9.2,
+        "prot": 2.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 163.8,
+        "carbs": 11.4,
+        "fat": 11.8,
+        "prot": 3.0,
+        "fib": 2.4
+      },
+      "input_macros_raw": "128.1 | 11.1 | 9.2 | 2.3 | 0.0",
+      "final_macros_raw": "163.8 | 11.4 | 11.8 | 3.0 | 2.4",
+      "diff": 0.279
+    },
+    {
+      "id": 50,
+      "original_food_name": "Instant oatmeal (cinnamon spice, low sugar)",
+      "standard_name": "Instant Oatmeal Cinnamon Spice Low Sugar",
+      "other_names": "Cinnamon Spice Instant Oats Low Sugar, Low Sugar Cinnamon Oatmeal Packet, Instant Daliya Cinnamon Flavour, Ready Oats Cinnamon Low Sugar",
+      "food_varieties": [
+        "Plain instant oatmeal (no flavoring)",
+        "Instant oatmeal apple cinnamon regular sugar",
+        "Instant oatmeal maple brown sugar",
+        "Rolled oats cooked with cinnamon (home prepared)",
+        "Steel-cut oats cinnamon spice"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 250.0g",
+        "small bowl — 175.0g",
+        "cup — 200.0g"
+      ],
+      "base_volume": "250g",
+      "gen_macros_raw": "168.0 | 30.5 | 2.8 | 5.2 | 3.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 895.0,
+        "carbs": 173.6,
+        "fat": 15.3,
+        "prot": 28.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 168.0,
+        "carbs": 30.5,
+        "fat": 2.8,
+        "prot": 5.2,
+        "fib": 3.2
+      },
+      "input_macros_raw": "895.0 | 173.6 | 15.3 | 28.1 | 0.0",
+      "final_macros_raw": "168.0 | 30.5 | 2.8 | 5.2 | 3.2",
+      "diff": -0.812
+    },
+    {
+      "id": 51,
+      "original_food_name": "Grilled paneer",
+      "standard_name": "Grilled Paneer",
+      "other_names": "Tawa Paneer, Seared Paneer, Grilled Cottage Cheese, Paneer Grill",
+      "food_varieties": [
+        "Tandoori Grilled Paneer (marinated in spiced yogurt, charcoal grilled)",
+        "Herb Grilled Paneer (marinated with herbs and olive oil)",
+        "Chilli Garlic Grilled Paneer (spiced with chilli and garlic paste)",
+        "Paneer Tikka (skewered with vegetables, tandoor or oven grilled)",
+        "Lemon Pepper Grilled Paneer (dry rub with lemon zest and pepper)"
+      ],
+      "serving_types": [
+        "[BASE] 2 pieces — 100.0g",
+        "4 pieces — 200.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "266.8 | 3.2 | 20.0 | 18.5 | 0.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 247.7,
+        "carbs": 13.8,
+        "fat": 15.3,
+        "prot": 15.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 266.8,
+        "carbs": 3.2,
+        "fat": 20.0,
+        "prot": 18.5,
+        "fib": 0.1
+      },
+      "input_macros_raw": "247.7 | 13.8 | 15.3 | 15.2 | 0.0",
+      "final_macros_raw": "266.8 | 3.2 | 20.0 | 18.5 | 0.1",
+      "diff": 0.077
+    },
+    {
+      "id": 52,
+      "original_food_name": "Paneer mint raita",
+      "standard_name": "Paneer Mint Raita",
+      "other_names": "Pudina Paneer Raita, Mint Paneer Curd Dip, Paneer Pudina Raita, Mint Cottage Cheese Raita",
+      "food_varieties": [
+        "Paneer raita without mint (plain paneer raita)",
+        "Mint raita without paneer (pudina raita)",
+        "Paneer mint raita with roasted cumin and chilli",
+        "Low-fat paneer mint raita with skimmed curd",
+        "Paneer mint raita with grated cucumber"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "122.4 | 7.8 | 6.8 | 7.5 | 0.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 136.3,
+        "carbs": 10.3,
+        "fat": 7.1,
+        "prot": 8.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 122.4,
+        "carbs": 7.8,
+        "fat": 6.8,
+        "prot": 7.5,
+        "fib": 0.4
+      },
+      "input_macros_raw": "136.3 | 10.3 | 7.1 | 8.3 | 0.0",
+      "final_macros_raw": "122.4 | 7.8 | 6.8 | 7.5 | 0.4",
+      "diff": -0.102
+    },
+    {
+      "id": 53,
+      "original_food_name": "Pumpkin palak paneer",
+      "standard_name": "Pumpkin Palak Paneer",
+      "other_names": "Kaddu Palak Paneer, Pumpkin Spinach Paneer Curry, Kaddu Saag Paneer, Pumpkin Palak Paneer Sabzi",
+      "food_varieties": [
+        "Palak Paneer (spinach only, no pumpkin)",
+        "Kaddu Paneer (pumpkin only, no spinach)",
+        "Pumpkin Palak Tofu (vegan variant)",
+        "Pumpkin Palak Paneer with cream (restaurant style)",
+        "Pumpkin Palak Chena (soft fresh cheese variant)"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "202.8 | 11.4 | 13.2 | 9.6 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 200.7,
+        "carbs": 11.1,
+        "fat": 13.1,
+        "prot": 10.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 202.8,
+        "carbs": 11.4,
+        "fat": 13.2,
+        "prot": 9.6,
+        "fib": 2.4
+      },
+      "input_macros_raw": "200.7 | 11.1 | 13.1 | 10.5 | 0.0",
+      "final_macros_raw": "202.8 | 11.4 | 13.2 | 9.6 | 2.4",
+      "diff": 0.01
+    },
+    {
+      "id": 54,
+      "original_food_name": "Paneer chapati wrap",
+      "standard_name": "Chapati",
+      "other_names": "Paneer Roti Roll, Chapati Paneer Roll, Paneer Wrap, Roti Wrap with Paneer, Paneer Frankie",
+      "food_varieties": [
+        "Paneer tikka chapati wrap with grilled paneer and chutneys",
+        "Paneer bhurji chapati wrap with scrambled spiced paneer",
+        "Whole wheat paneer wrap with vegetables",
+        "Paneer and onion chapati wrap with mint chutney",
+        "Malai paneer chapati wrap with cream-based filling"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 175.0g",
+        "2 pieces — 350.0g"
+      ],
+      "base_volume": "175g",
+      "gen_macros_raw": "373.0 | 44.5 | 14.2 | 16.8 | 3.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": "437.5 | 85.8 | 5.6 | 13.7 | 6.1",
+      "input_macros": {
+        "cal": 375.9,
+        "carbs": 47.0,
+        "fat": 14.7,
+        "prot": 17.8,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 373.0,
+        "carbs": 44.5,
+        "fat": 14.2,
+        "prot": 16.8,
+        "fib": 3.8
+      },
+      "input_macros_raw": "375.9 | 47.0 | 14.7 | 17.8 | 0.0",
+      "final_macros_raw": "373.0 | 44.5 | 14.2 | 16.8 | 3.8",
+      "diff": -0.008
+    },
+    {
+      "id": 55,
+      "original_food_name": "Paneer makhani",
+      "standard_name": "Paneer Makhani",
+      "other_names": "Paneer Butter Masala, Butter Paneer, Paneer Makhani Curry, Paneer in Makhani Gravy",
+      "food_varieties": [
+        "Restaurant-style Paneer Makhani with heavy cream",
+        "Low-fat Paneer Makhani with skimmed milk",
+        "Dhaba-style Paneer Makhani with charred tomatoes",
+        "Vegan Paneer Makhani with cashew cream",
+        "Paneer Makhani with tofu substitution"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "229.2 | 11.4 | 15.6 | 10.8 | 1.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": "291.0 | 15.0 | 20.2 | 12.3 | 2.2",
+      "input_macros": {
+        "cal": 241.8,
+        "carbs": 20.1,
+        "fat": 14.6,
+        "prot": 10.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 229.2,
+        "carbs": 11.4,
+        "fat": 15.6,
+        "prot": 10.8,
+        "fib": 1.5
+      },
+      "input_macros_raw": "241.8 | 20.1 | 14.6 | 10.1 | 0.0",
+      "final_macros_raw": "229.2 | 11.4 | 15.6 | 10.8 | 1.5",
+      "diff": -0.052
+    },
+    {
+      "id": 56,
+      "original_food_name": "Paneer (packaged)",
+      "standard_name": "Packaged Paneer",
+      "other_names": "Paneer block, Cottage cheese packaged, Fresh paneer store-bought, Indian cottage cheese tetra pack",
+      "food_varieties": [
+        "Full-fat paneer",
+        "Low-fat paneer",
+        "Skimmed milk paneer",
+        "Malai paneer",
+        "Toned milk paneer"
+      ],
+      "serving_types": [
+        "[BASE] small katori — 100.0g",
+        "katori — 150.0g",
+        "1 piece — 50.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "286.0 | 3.5 | 22.0 | 18.5 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 289.0,
+        "carbs": 2.0,
+        "fat": 25.0,
+        "prot": 14.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 286.0,
+        "carbs": 3.5,
+        "fat": 22.0,
+        "prot": 18.5,
+        "fib": 0.0
+      },
+      "input_macros_raw": "289.0 | 2.0 | 25.0 | 14.0 | 0.0",
+      "final_macros_raw": "286.0 | 3.5 | 22.0 | 18.5 | 0.0",
+      "diff": -0.01
+    },
+    {
+      "id": 57,
+      "original_food_name": "Onion rings (McCain India)",
+      "standard_name": "Onion Rings Mccain India",
+      "other_names": "McCain Onion Rings, Frozen Onion Rings, Battered Onion Rings, Crispy Onion Rings",
+      "food_varieties": [
+        "Beer-battered onion rings",
+        "Panko-crusted onion rings",
+        "Air-fried onion rings",
+        "Homemade onion rings",
+        "Tempura onion rings"
+      ],
+      "serving_types": [
+        "1 piece — 15.0g",
+        "4 pieces — 60.0g",
+        "[BASE] bowl — 100.0g",
+        "large bowl — 150.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "260.6 | 30.2 | 13.8 | 3.9 | 2.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 263.0,
+        "carbs": 28.2,
+        "fat": 14.4,
+        "prot": 4.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 260.6,
+        "carbs": 30.2,
+        "fat": 13.8,
+        "prot": 3.9,
+        "fib": 2.1
+      },
+      "input_macros_raw": "263.0 | 28.2 | 14.4 | 4.1 | 0.0",
+      "final_macros_raw": "260.6 | 30.2 | 13.8 | 3.9 | 2.1",
+      "diff": -0.009
+    },
+    {
+      "id": 58,
+      "original_food_name": "Paneer corn sabzi",
+      "standard_name": "Paneer Corn Sabzi",
+      "other_names": "Paneer Makki Sabzi, Corn Paneer Sabzi, Paneer Sweet Corn Sabzi, Makki Paneer Sabji",
+      "food_varieties": [
+        "Paneer corn in tomato-onion gravy",
+        "Dry paneer corn sabzi (sookhi)",
+        "Paneer corn with capsicum",
+        "Creamy paneer corn sabzi with milk",
+        "Paneer corn with coconut milk"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "234.3 | 17.4 | 13.5 | 10.8 | 2.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 243.7,
+        "carbs": 23.8,
+        "fat": 12.5,
+        "prot": 12.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 234.3,
+        "carbs": 17.4,
+        "fat": 13.5,
+        "prot": 10.8,
+        "fib": 2.1
+      },
+      "input_macros_raw": "243.7 | 23.8 | 12.5 | 12.0 | 0.0",
+      "final_macros_raw": "234.3 | 17.4 | 13.5 | 10.8 | 2.1",
+      "diff": -0.039
+    },
+    {
+      "id": 59,
+      "original_food_name": "Paneer pulao",
+      "standard_name": "Paneer Pulao",
+      "other_names": "Paneer Rice, Cottage Cheese Pulao, Paneer Pilaf, Paneer Chawal",
+      "food_varieties": [
+        "Paneer Matar Pulao (with green peas)",
+        "Paneer Vegetable Pulao (with mixed vegetables)",
+        "Paneer Dum Pulao (slow-cooked dum style)",
+        "Paneer Jeera Pulao (cumin-tempered)",
+        "Paneer Biryani-style Pulao (with whole spices and fried onion)"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "315.0 | 42.0 | 11.0 | 12.0 | 1.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": "1163.8 | 17.6 | 119.6 | 4.0 | 1.2",
+      "input_macros": {
+        "cal": 355.5,
+        "carbs": 44.8,
+        "fat": 13.4,
+        "prot": 13.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 315.0,
+        "carbs": 42.0,
+        "fat": 11.0,
+        "prot": 12.0,
+        "fib": 1.4
+      },
+      "input_macros_raw": "355.5 | 44.8 | 13.4 | 13.3 | 0.0",
+      "final_macros_raw": "315.0 | 42.0 | 11.0 | 12.0 | 1.4",
+      "diff": -0.114
+    },
+    {
+      "id": 60,
+      "original_food_name": "Paneer chilli",
+      "standard_name": "Paneer Chilli",
+      "other_names": "Chilli Paneer, Chili Paneer, Indo-Chinese Paneer, Paneer Chilly",
+      "food_varieties": [
+        "Dry Paneer Chilli",
+        "Gravy Paneer Chilli",
+        "Paneer Chilli with capsicum and onion",
+        "Baked Paneer Chilli",
+        "Paneer Chilli with schezwan sauce"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "316.8 | 17.1 | 20.4 | 16.2 | 1.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 331.7,
+        "carbs": 17.6,
+        "fat": 22.2,
+        "prot": 16.8,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 316.8,
+        "carbs": 17.1,
+        "fat": 20.4,
+        "prot": 16.2,
+        "fib": 1.8
+      },
+      "input_macros_raw": "331.7 | 17.6 | 22.2 | 16.8 | 0.0",
+      "final_macros_raw": "316.8 | 17.1 | 20.4 | 16.2 | 1.8",
+      "diff": -0.045
+    },
+    {
+      "id": 61,
+      "original_food_name": "Green beans carrot salad",
+      "standard_name": "Green Beans Carrot Salad",
+      "other_names": "French beans gajar salad, Beans carrot salad, Green bean carrot sabzi salad, Haricot bean gajar salad",
+      "food_varieties": [
+        "Raw green beans carrot salad with lemon dressing",
+        "Blanched green beans carrot salad with mustard vinaigrette",
+        "Green beans carrot salad with sesame dressing",
+        "Stir-fried green beans carrot salad with garlic",
+        "Green beans carrot salad with peanut dressing"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 150.0g",
+        "small bowl — 100.0g",
+        "large bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "75.6 | 8.7 | 3.6 | 2.1 | 3.3",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 68.7,
+        "carbs": 9.0,
+        "fat": 3.5,
+        "prot": 1.8,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 75.6,
+        "carbs": 8.7,
+        "fat": 3.6,
+        "prot": 2.1,
+        "fib": 3.3
+      },
+      "input_macros_raw": "68.7 | 9.0 | 3.5 | 1.8 | 0.0",
+      "final_macros_raw": "75.6 | 8.7 | 3.6 | 2.1 | 3.3",
+      "diff": 0.1
+    },
+    {
+      "id": 62,
+      "original_food_name": "Paneer manchurian (Dry)",
+      "standard_name": "Paneer Manchurian Dry",
+      "other_names": "Dry Paneer Manchurian, Paneer Manchurian, Indo-Chinese Paneer Manchurian, Paneer Manchurian Toss",
+      "food_varieties": [
+        "Paneer Manchurian Gravy",
+        "Paneer Manchurian with Fried Rice",
+        "Tofu Manchurian Dry",
+        "Mushroom Manchurian Dry",
+        "Gobi Manchurian Dry"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "290.0 | 18.5 | 18.0 | 13.5 | 1.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 291.2,
+        "carbs": 17.3,
+        "fat": 19.0,
+        "prot": 13.8,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 290.0,
+        "carbs": 18.5,
+        "fat": 18.0,
+        "prot": 13.5,
+        "fib": 1.8
+      },
+      "input_macros_raw": "291.2 | 17.3 | 19.0 | 13.8 | 0.0",
+      "final_macros_raw": "290.0 | 18.5 | 18.0 | 13.5 | 1.8",
+      "diff": -0.004
+    },
+    {
+      "id": 63,
+      "original_food_name": "Oats noodles (top ramen)",
+      "standard_name": "Oats Noodles Top Ramen",
+      "other_names": "Top Ramen Oats Noodles, Oats Instant Noodles, Oats Maggi-style Noodles, Oats Ramen Noodles",
+      "food_varieties": [
+        "Masala oats noodles",
+        "Oats noodles with vegetables",
+        "Multigrain instant noodles",
+        "Oats noodles soup style",
+        "Oats noodles dry style"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 75.0g",
+        "small bowl — 50.0g",
+        "large bowl — 100.0g"
+      ],
+      "base_volume": "75g",
+      "gen_macros_raw": "287.0 | 42.5 | 9.8 | 7.2 | 2.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 335.2,
+        "carbs": 47.9,
+        "fat": 12.9,
+        "prot": 7.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 287.0,
+        "carbs": 42.5,
+        "fat": 9.8,
+        "prot": 7.2,
+        "fib": 2.8
+      },
+      "input_macros_raw": "335.2 | 47.9 | 12.9 | 7.0 | 0.0",
+      "final_macros_raw": "287.0 | 42.5 | 9.8 | 7.2 | 2.8",
+      "diff": -0.144
+    },
+    {
+      "id": 64,
+      "original_food_name": "paneer vegetable rice",
+      "standard_name": "Paneer Vegetable Rice",
+      "other_names": "Paneer Veg Rice, Paneer Sabzi Chawal, Paneer Mixed Vegetable Rice, Paneer Pulao with Vegetables, Paneer Veg Pulao",
+      "food_varieties": [
+        "Paneer Fried Rice with vegetables",
+        "Paneer Biryani style with mixed vegetables",
+        "Paneer Jeera Rice with vegetables",
+        "Paneer Vegetable Khichdi",
+        "Brown Rice Paneer Vegetable Rice"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "282.4 | 38.8 | 9.6 | 10.2 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 301.2,
+        "carbs": 40.0,
+        "fat": 12.1,
+        "prot": 8.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 282.4,
+        "carbs": 38.8,
+        "fat": 9.6,
+        "prot": 10.2,
+        "fib": 2.4
+      },
+      "input_macros_raw": "301.2 | 40.0 | 12.1 | 8.6 | 0.0",
+      "final_macros_raw": "282.4 | 38.8 | 9.6 | 10.2 | 2.4",
+      "diff": -0.062
+    },
+    {
+      "id": 65,
+      "original_food_name": "Paneer mogar subji",
+      "standard_name": "Paneer Mogar Subji",
+      "other_names": "Paneer Moong Dal Sabzi, Paneer Mogar Sabji, Paneer Moong Subzi, Paneer Mogar Curry",
+      "food_varieties": [
+        "With whole moong dal (unpeeled)",
+        "With yellow split moong dal (dhuli moong)",
+        "With green moong dal",
+        "Dry version (sukhi sabzi)",
+        "With added tomato-onion gravy"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "176.8 | 14.8 | 8.4 | 10.5 | 3.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 235.0,
+        "carbs": 20.8,
+        "fat": 12.1,
+        "prot": 12.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 176.8,
+        "carbs": 14.8,
+        "fat": 8.4,
+        "prot": 10.5,
+        "fib": 3.2
+      },
+      "input_macros_raw": "235.0 | 20.8 | 12.1 | 12.3 | 0.0",
+      "final_macros_raw": "176.8 | 14.8 | 8.4 | 10.5 | 3.2",
+      "diff": -0.248
+    },
+    {
+      "id": 66,
+      "original_food_name": "Palak paneer sandwich",
+      "standard_name": "Palak Paneer Sandwich",
+      "other_names": "Spinach Paneer Sandwich, Palak Paneer Bread Sandwich, Spinach Cottage Cheese Sandwich, Palak Paneer Toast",
+      "food_varieties": [
+        "Grilled palak paneer sandwich",
+        "Open-face palak paneer sandwich",
+        "Palak paneer sandwich with green chutney",
+        "Multigrain bread palak paneer sandwich",
+        "Palak paneer club sandwich"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 150.0g",
+        "2 pieces — 300.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "296.7 | 34.5 | 11.5 | 13.8 | 3.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 259.7,
+        "carbs": 28.7,
+        "fat": 10.6,
+        "prot": 13.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 296.7,
+        "carbs": 34.5,
+        "fat": 11.5,
+        "prot": 13.8,
+        "fib": 3.2
+      },
+      "input_macros_raw": "259.7 | 28.7 | 10.6 | 13.1 | 0.0",
+      "final_macros_raw": "296.7 | 34.5 | 11.5 | 13.8 | 3.2",
+      "diff": 0.142
+    },
+    {
+      "id": 67,
+      "original_food_name": "Paneer tomato sandwich",
+      "standard_name": "Paneer Tomato Sandwich",
+      "other_names": "Paneer Tamatar Sandwich, Cottage Cheese Tomato Sandwich, Paneer Sandwich, Desi Paneer Sandwich",
+      "food_varieties": [
+        "Grilled paneer tomato sandwich",
+        "Toasted paneer tomato sandwich with green chutney",
+        "Paneer tomato sandwich with onion and capsicum",
+        "Open-face paneer tomato sandwich",
+        "Spiced paneer tomato sandwich with chaat masala"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 100.0g",
+        "2 pieces — 240.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "251.8 | 28.5 | 9.8 | 12.4 | 2.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 175.0,
+        "carbs": 19.7,
+        "fat": 6.8,
+        "prot": 8.9,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 251.8,
+        "carbs": 28.5,
+        "fat": 9.8,
+        "prot": 12.4,
+        "fib": 2.1
+      },
+      "input_macros_raw": "175.0 | 19.7 | 6.8 | 8.9 | 0.0",
+      "final_macros_raw": "251.8 | 28.5 | 9.8 | 12.4 | 2.1",
+      "diff": 0.439
+    },
+    {
+      "id": 68,
+      "original_food_name": "Bafat powder",
+      "standard_name": "Bafat Powder",
+      "other_names": "Bafad Masala, Mangalorean Bafat Powder, Pork Bafat Masala, Bafat Spice Mix, Dukra Maas Masala",
+      "food_varieties": [
+        "Mild Bafat Powder (reduced chilli)",
+        "Hot Bafat Powder (extra dried red chillies)",
+        "Bafat Powder with Pepper-forward blend",
+        "Commercial packaged Bafat Powder",
+        "Bafat Powder with added turmeric"
+      ],
+      "serving_types": [
+        "[BASE] 1 teaspoon — 5.0g",
+        "1 tablespoon — 10.0g"
+      ],
+      "base_volume": "5g",
+      "gen_macros_raw": "15.3 | 2.1 | 0.5 | 0.6 | 0.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 12.8,
+        "carbs": 1.7,
+        "fat": 0.4,
+        "prot": 0.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 15.3,
+        "carbs": 2.1,
+        "fat": 0.5,
+        "prot": 0.6,
+        "fib": 0.8
+      },
+      "input_macros_raw": "12.8 | 1.7 | 0.4 | 0.6 | 0.0",
+      "final_macros_raw": "15.3 | 2.1 | 0.5 | 0.6 | 0.8",
+      "diff": 0.195
+    },
+    {
+      "id": 69,
+      "original_food_name": "Paneer kulcha",
+      "standard_name": "Paneer Kulcha",
+      "other_names": "Paneer Stuffed Kulcha, Paneer Naan Kulcha, Stuffed Kulcha with Paneer, Paneer Bharwa Kulcha",
+      "food_varieties": [
+        "Amritsari Paneer Kulcha (thick, tawa-fried with butter)",
+        "Tandoori Paneer Kulcha (baked in tandoor)",
+        "Whole Wheat Paneer Kulcha (atta-based)",
+        "Onion Paneer Kulcha (with onion in filling)",
+        "Cheese Paneer Kulcha (with added cheese)"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 75.0g",
+        "2 pieces — 180.0g"
+      ],
+      "base_volume": "75g",
+      "gen_macros_raw": "249.7 | 34.2 | 8.5 | 9.1 | 1.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 193.9,
+        "carbs": 23.8,
+        "fat": 7.7,
+        "prot": 7.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 249.7,
+        "carbs": 34.2,
+        "fat": 8.5,
+        "prot": 9.1,
+        "fib": 1.4
+      },
+      "input_macros_raw": "193.9 | 23.8 | 7.7 | 7.1 | 0.0",
+      "final_macros_raw": "249.7 | 34.2 | 8.5 | 9.1 | 1.4",
+      "diff": 0.288
+    },
+    {
+      "id": 70,
+      "original_food_name": "quaker, dry, instant oatmeal (raisin and spice)",
+      "standard_name": "Quaker Instant Oatmeal Raisin Spice Dry",
+      "other_names": "Instant Oats Raisin Spice, Quaker Raisin Spice Oatmeal Packet, Flavoured Instant Oatmeal Dry, Quaker Oats Raisin Cinnamon Dry",
+      "food_varieties": [
+        "Plain Instant Oatmeal Dry",
+        "Quaker Maple Brown Sugar Instant Oatmeal",
+        "Quaker Apple Cinnamon Instant Oatmeal",
+        "Steel Cut Oats Dry",
+        "Rolled Oats with Dried Fruit"
+      ],
+      "serving_types": [
+        "[BASE] cup — 45.0g",
+        "small bowl — 85.0g",
+        "bowl — 130.0g"
+      ],
+      "base_volume": "45g",
+      "gen_macros_raw": "162.9 | 32.2 | 2.1 | 3.8 | 2.6",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 162.0,
+        "carbs": 34.1,
+        "fat": 1.8,
+        "prot": 4.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 162.9,
+        "carbs": 32.2,
+        "fat": 2.1,
+        "prot": 3.8,
+        "fib": 2.6
+      },
+      "input_macros_raw": "162.0 | 34.1 | 1.8 | 4.1 | 0.0",
+      "final_macros_raw": "162.9 | 32.2 | 2.1 | 3.8 | 2.6",
+      "diff": 0.006
+    },
+    {
+      "id": 71,
+      "original_food_name": "Cooked Oats (cinnamon & spice)",
+      "standard_name": "Oats Cinnamon Spice",
+      "other_names": "Cinnamon Spiced Oatmeal, Masala Oats with Cinnamon, Spiced Porridge, Daliya with Cinnamon",
+      "food_varieties": [
+        "Plain Cooked Oats",
+        "Oats with Honey and Cinnamon",
+        "Oats with Jaggery and Cardamom",
+        "Oats with Nutmeg and Clove",
+        "Oats with Brown Sugar and Cinnamon"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "large bowl — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "133.0 | 22.8 | 2.6 | 4.6 | 2.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 192.0,
+        "carbs": 37.9,
+        "fat": 2.4,
+        "prot": 4.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 133.0,
+        "carbs": 22.8,
+        "fat": 2.6,
+        "prot": 4.6,
+        "fib": 2.8
+      },
+      "input_macros_raw": "192.0 | 37.9 | 2.4 | 4.7 | 0.0",
+      "final_macros_raw": "133.0 | 22.8 | 2.6 | 4.6 | 2.8",
+      "diff": -0.307
+    },
+    {
+      "id": 72,
+      "original_food_name": "Jamican jerk spice mix (nature smith)",
+      "standard_name": "Jamaican Jerk Spice Mix",
+      "other_names": "Jerk Seasoning, Jerk Masala, Caribbean Spice Blend, Nature Smith Jerk Mix",
+      "food_varieties": [
+        "Wet jerk marinade paste",
+        "Dry jerk rub with scotch bonnet",
+        "Mild jerk seasoning blend",
+        "Smoky jerk spice with allspice dominant",
+        "Low-sodium jerk seasoning"
+      ],
+      "serving_types": [
+        "[BASE] 1 teaspoon — 5.0g",
+        "1 tablespoon — 10.0g",
+        "2 tablespoons — 20.0g"
+      ],
+      "base_volume": "5g",
+      "gen_macros_raw": "16.5 | 2.5 | 0.5 | 0.5 | 0.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 9.3,
+        "carbs": 1.7,
+        "fat": 0.2,
+        "prot": 0.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 16.5,
+        "carbs": 2.5,
+        "fat": 0.5,
+        "prot": 0.5,
+        "fib": 0.8
+      },
+      "input_macros_raw": "9.3 | 1.7 | 0.2 | 0.2 | 0.0",
+      "final_macros_raw": "16.5 | 2.5 | 0.5 | 0.5 | 0.8",
+      "diff": 0.774
+    },
+    {
+      "id": 73,
+      "original_food_name": "Yam curry",
+      "standard_name": "Yam Curry",
+      "other_names": "Suran Curry, Jimikand Sabzi, Elephant Foot Yam Curry, Kanda Curry, Suran ki Sabzi",
+      "food_varieties": [
+        "Dry yam sabzi (sookhi suran sabzi)",
+        "Yam curry with coconut milk (Kerala style)",
+        "Yam curry with tamarind (South Indian style)",
+        "Yam and lentil curry (suran dal)",
+        "Spicy yam curry with tomato-onion gravy"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "168.6 | 27.3 | 5.4 | 2.7 | 3.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 168.7,
+        "carbs": 33.0,
+        "fat": 3.3,
+        "prot": 2.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 168.6,
+        "carbs": 27.3,
+        "fat": 5.4,
+        "prot": 2.7,
+        "fib": 3.2
+      },
+      "input_macros_raw": "168.7 | 33.0 | 3.3 | 2.2 | 0.0",
+      "final_macros_raw": "168.6 | 27.3 | 5.4 | 2.7 | 3.2",
+      "diff": -0.001
+    },
+    {
+      "id": 74,
+      "original_food_name": "Paneer manchurian frankie",
+      "standard_name": "Paneer Manchurian Frankie",
+      "other_names": "Paneer Manchurian Roll, Manchurian Paneer Wrap, Paneer Frankie Roll, Paneer Manchurian Kathi Roll",
+      "food_varieties": [
+        "Paneer Tikka Frankie",
+        "Veg Manchurian Frankie",
+        "Egg Frankie with Paneer",
+        "Paneer Schezwan Frankie",
+        "Paneer Frankie with Cheese"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 200.0g",
+        "2 pieces — 400.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "415.6 | 49.8 | 17.2 | 15.4 | 2.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 490.4,
+        "carbs": 46.1,
+        "fat": 27.2,
+        "prot": 16.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 415.6,
+        "carbs": 49.8,
+        "fat": 17.2,
+        "prot": 15.4,
+        "fib": 2.8
+      },
+      "input_macros_raw": "490.4 | 46.1 | 27.2 | 16.6 | 0.0",
+      "final_macros_raw": "415.6 | 49.8 | 17.2 | 15.4 | 2.8",
+      "diff": -0.153
+    },
+    {
+      "id": 75,
+      "original_food_name": "Paneer khatta pyaz",
+      "standard_name": "Paneer Khatta Pyaz",
+      "other_names": "Paneer Sour Onion Sabzi, Paneer Khatte Pyaz Ki Sabzi, Paneer With Tangy Onion, Paneer Pyaz Khatta",
+      "food_varieties": [
+        "Paneer khatta pyaz with tomato base",
+        "Paneer khatta pyaz dry (sukhi sabzi)",
+        "Paneer khatta pyaz with amchur",
+        "Paneer khatta pyaz with tamarind"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "220.5 | 12.6 | 14.1 | 10.8 | 1.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 176.7,
+        "carbs": 12.0,
+        "fat": 10.6,
+        "prot": 8.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 220.5,
+        "carbs": 12.6,
+        "fat": 14.1,
+        "prot": 10.8,
+        "fib": 1.8
+      },
+      "input_macros_raw": "176.7 | 12.0 | 10.6 | 8.7 | 0.0",
+      "final_macros_raw": "220.5 | 12.6 | 14.1 | 10.8 | 1.8",
+      "diff": 0.248
+    },
+    {
+      "id": 76,
+      "original_food_name": "Paneer omlette",
+      "standard_name": "Paneer Omelette",
+      "other_names": "Paneer Egg Omelette, Cottage Cheese Omelette, Paneer Anda Omelette, Paneer Omlet",
+      "food_varieties": [
+        "Plain egg omelette without paneer",
+        "Masala omelette with vegetables",
+        "Paneer bhurji omelette",
+        "Cheese and paneer omelette",
+        "Spinach paneer omelette"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 150.0g",
+        "2 pieces — 300.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "298.7 | 4.2 | 21.5 | 22.1 | 0.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 309.9,
+        "carbs": 11.7,
+        "fat": 20.6,
+        "prot": 19.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 298.7,
+        "carbs": 4.2,
+        "fat": 21.5,
+        "prot": 22.1,
+        "fib": 0.5
+      },
+      "input_macros_raw": "309.9 | 11.7 | 20.6 | 19.6 | 0.0",
+      "final_macros_raw": "298.7 | 4.2 | 21.5 | 22.1 | 0.5",
+      "diff": -0.036
+    },
+    {
+      "id": 77,
+      "original_food_name": "Lehsuni paneer",
+      "standard_name": "Lehsuni Paneer",
+      "other_names": "Garlic Paneer, Lahsuni Paneer, Lehsun Wala Paneer, Garlic Cottage Cheese Sabzi, Lehsuni Paneer Sabzi",
+      "food_varieties": [
+        "Lehsuni Paneer Tikka (dry grilled version)",
+        "Lehsuni Paneer Masala (rich tomato-onion gravy)",
+        "Lehsuni Palak Paneer (with spinach base)",
+        "Lehsuni Paneer Bhurji (scrambled garlic paneer)"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "248.7 | 10.5 | 17.1 | 13.2 | 1.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 220.5,
+        "carbs": 14.0,
+        "fat": 13.6,
+        "prot": 11.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 248.7,
+        "carbs": 10.5,
+        "fat": 17.1,
+        "prot": 13.2,
+        "fib": 1.4
+      },
+      "input_macros_raw": "220.5 | 14.0 | 13.6 | 11.6 | 0.0",
+      "final_macros_raw": "248.7 | 10.5 | 17.1 | 13.2 | 1.4",
+      "diff": 0.128
+    },
+    {
+      "id": 78,
+      "original_food_name": "paneer (Nandini)",
+      "standard_name": "Paneer",
+      "other_names": "Nandini Paneer, Fresh Paneer, Cottage Cheese, Indian Cottage Cheese, Doodh ka Paneer",
+      "food_varieties": [
+        "Low-fat Paneer",
+        "Malai Paneer",
+        "Smoked Paneer",
+        "Tofu (soy-based substitute)",
+        "Hung Curd Paneer"
+      ],
+      "serving_types": [
+        "[BASE] small katori — 100.0g",
+        "katori — 150.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "295.3 | 4.4 | 22.5 | 18.8 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 297.0,
+        "carbs": 4.5,
+        "fat": 22.7,
+        "prot": 18.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 295.3,
+        "carbs": 4.4,
+        "fat": 22.5,
+        "prot": 18.8,
+        "fib": 0.0
+      },
+      "input_macros_raw": "297.0 | 4.5 | 22.7 | 18.6 | 0.0",
+      "final_macros_raw": "295.3 | 4.4 | 22.5 | 18.8 | 0.0",
+      "diff": -0.006
+    },
+    {
+      "id": 79,
+      "original_food_name": "Paneer chatpata",
+      "standard_name": "Paneer Chatpata",
+      "other_names": "Chatpata Paneer, Spicy Paneer Stir Fry, Masaledar Paneer, Paneer Chatpat",
+      "food_varieties": [
+        "Paneer Chatpata with capsicum and onion",
+        "Paneer Chatpata dry (no gravy)",
+        "Paneer Chatpata with tomato base",
+        "Paneer Chatpata street style",
+        "Paneer Chatpata with chaat masala and lemon"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "235.2 | 11.4 | 15.6 | 12.3 | 2.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 234.3,
+        "carbs": 16.9,
+        "fat": 14.3,
+        "prot": 10.9,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 235.2,
+        "carbs": 11.4,
+        "fat": 15.6,
+        "prot": 12.3,
+        "fib": 2.1
+      },
+      "input_macros_raw": "234.3 | 16.9 | 14.3 | 10.9 | 0.0",
+      "final_macros_raw": "235.2 | 11.4 | 15.6 | 12.3 | 2.1",
+      "diff": 0.004
+    },
+    {
+      "id": 80,
+      "original_food_name": "Onion soup (canned, condensed)",
+      "standard_name": "Onion Soup Canned Condensed",
+      "other_names": "Canned Onion Soup, Condensed Onion Soup, Tinned Onion Soup",
+      "food_varieties": [
+        "French Onion Soup with Croutons and Cheese",
+        "Homemade Onion Soup",
+        "Onion Broth Soup",
+        "Cream of Onion Soup",
+        "Onion Soup with Beef Stock"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "103.2 | 13.4 | 2.8 | 6.1 | 0.6",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 92.0,
+        "carbs": 13.4,
+        "fat": 2.8,
+        "prot": 6.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 103.2,
+        "carbs": 13.4,
+        "fat": 2.8,
+        "prot": 6.1,
+        "fib": 0.6
+      },
+      "input_macros_raw": "92.0 | 13.4 | 2.8 | 6.1 | 0.0",
+      "final_macros_raw": "103.2 | 13.4 | 2.8 | 6.1 | 0.6",
+      "diff": 0.122
+    },
+    {
+      "id": 81,
+      "original_food_name": "Sweet corn paneer balls",
+      "standard_name": "Sweet Corn Paneer Balls",
+      "other_names": "Corn Paneer Balls, Sweet Corn Cheese Balls, Makki Paneer Balls, Corn Paneer Tikki",
+      "food_varieties": [
+        "Baked sweet corn paneer balls",
+        "Deep-fried sweet corn paneer balls",
+        "Sweet corn paneer balls with breadcrumb coating",
+        "Sweet corn paneer balls with mozzarella stuffing",
+        "Spicy sweet corn paneer balls with green chilli"
+      ],
+      "serving_types": [
+        "[BASE] 2 pieces — 100.0g",
+        "4 pieces — 120.0g",
+        "1 piece — 30.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "164.4 | 14.1 | 9.2 | 6.3 | 1.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 294.4,
+        "carbs": 21.7,
+        "fat": 19.4,
+        "prot": 9.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 164.4,
+        "carbs": 14.1,
+        "fat": 9.2,
+        "prot": 6.3,
+        "fib": 1.1
+      },
+      "input_macros_raw": "294.4 | 21.7 | 19.4 | 9.6 | 0.0",
+      "final_macros_raw": "164.4 | 14.1 | 9.2 | 6.3 | 1.1",
+      "diff": -0.442
+    },
+    {
+      "id": 82,
+      "original_food_name": "Pomegranate carrot orange juice",
+      "standard_name": "Pomegranate Carrot Orange Juice",
+      "other_names": "Anar Gajar Santra Juice, Pomegranate Carrot Orange Fresh Juice, Triple Fruit Veggie Juice, Anar Orange Carrot Blend",
+      "food_varieties": [
+        "Pomegranate orange juice without carrot",
+        "Carrot orange juice without pomegranate",
+        "Pomegranate carrot juice without orange",
+        "Pomegranate carrot orange juice with ginger",
+        "Pomegranate carrot orange smoothie with pulp"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 200.0ml",
+        "large cup — 350.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "130.5 | 29.5 | 0.5 | 2.0 | 1.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 156.8,
+        "carbs": 36.2,
+        "fat": 1.7,
+        "prot": 3.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 130.5,
+        "carbs": 29.5,
+        "fat": 0.5,
+        "prot": 2.0,
+        "fib": 1.2
+      },
+      "input_macros_raw": "156.8 | 36.2 | 1.7 | 3.2 | 0.0",
+      "final_macros_raw": "130.5 | 29.5 | 0.5 | 2.0 | 1.2",
+      "diff": -0.168
+    },
+    {
+      "id": 83,
+      "original_food_name": "Peri Peri spice mix ( smith and jones)",
+      "standard_name": "Peri Peri Spice Mix",
+      "other_names": "Peri Peri Masala, Piri Piri Spice Blend, Peri Peri Seasoning Powder, Smith and Jones Peri Peri Mix",
+      "food_varieties": [
+        "Extra Hot Peri Peri Mix",
+        "Mild Peri Peri Seasoning",
+        "Peri Peri Marinade Paste",
+        "Smoked Peri Peri Blend",
+        "Lemon Herb Peri Peri Mix"
+      ],
+      "serving_types": [
+        "[BASE] 1 teaspoon — 5.0g",
+        "1 tablespoon — 10.0g"
+      ],
+      "base_volume": "5g",
+      "gen_macros_raw": "18.1 | 2.8 | 0.5 | 0.6 | 0.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 1.7,
+        "carbs": 0.3,
+        "fat": 0.0,
+        "prot": 0.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 18.1,
+        "carbs": 2.8,
+        "fat": 0.5,
+        "prot": 0.6,
+        "fib": 0.8
+      },
+      "input_macros_raw": "1.7 | 0.3 | 0.0 | 0.0 | 0.0",
+      "final_macros_raw": "18.1 | 2.8 | 0.5 | 0.6 | 0.8",
+      "diff": 9.647
+    },
+    {
+      "id": 84,
+      "original_food_name": "Malai ladoo",
+      "standard_name": "Malai Ladoo",
+      "other_names": "Cream Ladoo, Malai Laddoo, Paneer Ladoo, Chenna Ladoo, Malai ke Laddu",
+      "food_varieties": [
+        "Condensed milk malai ladoo",
+        "Khoya malai ladoo",
+        "Rose-flavoured malai ladoo",
+        "Coconut malai ladoo",
+        "Saffron malai ladoo"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 35.0g",
+        "2 pieces — 70.0g"
+      ],
+      "base_volume": "35g",
+      "gen_macros_raw": "114.9 | 11.2 | 6.1 | 3.8 | 0.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 96.7,
+        "carbs": 7.5,
+        "fat": 4.8,
+        "prot": 5.9,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 114.9,
+        "carbs": 11.2,
+        "fat": 6.1,
+        "prot": 3.8,
+        "fib": 0.1
+      },
+      "input_macros_raw": "96.7 | 7.5 | 4.8 | 5.9 | 0.0",
+      "final_macros_raw": "114.9 | 11.2 | 6.1 | 3.8 | 0.1",
+      "diff": 0.188
+    },
+    {
+      "id": 85,
+      "original_food_name": "Gobi gajar shalgam achaar",
+      "standard_name": "Gobi Gajar Shalgam Achaar",
+      "other_names": "Cauliflower Carrot Turnip Pickle, Mixed Vegetable Achaar, Punjabi Gobi Gajar Shalgam Pickle, Winter Vegetable Pickle, Gobi Gajar Shalgam Ka Achar",
+      "food_varieties": [
+        "Amritsari gobi gajar shalgam achaar (with mustard oil and whole spices)",
+        "Gobi gajar shalgam achaar with vinegar (less oil variant)",
+        "Gobi gajar shalgam achaar with jaggery (sweet-sour variant)",
+        "Instant gobi gajar shalgam achaar (quick refrigerator pickle)",
+        "Gobi gajar shalgam achaar with green chilli"
+      ],
+      "serving_types": [
+        "[BASE] 1 tablespoon — 15.0g",
+        "2 tablespoons — 30.0g"
+      ],
+      "base_volume": "15g",
+      "gen_macros_raw": "19.1 | 1.9 | 1.1 | 0.4 | 0.6",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 25.3,
+        "carbs": 3.0,
+        "fat": 1.5,
+        "prot": 0.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 19.1,
+        "carbs": 1.9,
+        "fat": 1.1,
+        "prot": 0.4,
+        "fib": 0.6
+      },
+      "input_macros_raw": "25.3 | 3.0 | 1.5 | 0.2 | 0.0",
+      "final_macros_raw": "19.1 | 1.9 | 1.1 | 0.4 | 0.6",
+      "diff": -0.245
+    },
+    {
+      "id": 86,
+      "original_food_name": "Paneer noodles",
+      "standard_name": "Paneer Noodles",
+      "other_names": "Paneer Hakka Noodles, Cottage Cheese Noodles, Paneer Chowmein, Paneer Chow Mein",
+      "food_varieties": [
+        "Paneer Schezwan Noodles",
+        "Paneer Hakka Noodles with vegetables",
+        "Paneer Rice Noodles",
+        "Paneer Egg Noodles",
+        "Paneer Whole Wheat Noodles"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 250.0g",
+        "small bowl — 150.0g",
+        "plate — 350.0g"
+      ],
+      "base_volume": "250g",
+      "gen_macros_raw": "369.5 | 47.5 | 13.5 | 14.5 | 2.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 372.6,
+        "carbs": 46.6,
+        "fat": 15.0,
+        "prot": 13.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 369.5,
+        "carbs": 47.5,
+        "fat": 13.5,
+        "prot": 14.5,
+        "fib": 2.5
+      },
+      "input_macros_raw": "372.6 | 46.6 | 15.0 | 13.1 | 0.0",
+      "final_macros_raw": "369.5 | 47.5 | 13.5 | 14.5 | 2.5",
+      "diff": -0.008
+    },
+    {
+      "id": 87,
+      "original_food_name": "Paneer manchurian (Gravy)",
+      "standard_name": "Paneer Manchurian Gravy",
+      "other_names": "Paneer Manchurian with Gravy, Paneer Manchurian Curry, Gravy Paneer Manchurian, Indo-Chinese Paneer Manchurian",
+      "food_varieties": [
+        "Paneer Manchurian Dry",
+        "Paneer Manchurian Semi-Dry",
+        "Tofu Manchurian Gravy",
+        "Mixed Vegetable Manchurian Gravy",
+        "Paneer Manchurian with Fried Rice"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "bowl — 250.0g",
+        "small katori — 100.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "251.2 | 18.6 | 14.4 | 11.8 | 1.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 215.6,
+        "carbs": 13.3,
+        "fat": 13.3,
+        "prot": 11.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 251.2,
+        "carbs": 18.6,
+        "fat": 14.4,
+        "prot": 11.8,
+        "fib": 1.8
+      },
+      "input_macros_raw": "215.6 | 13.3 | 13.3 | 11.7 | 0.0",
+      "final_macros_raw": "251.2 | 18.6 | 14.4 | 11.8 | 1.8",
+      "diff": 0.165
+    },
+    {
+      "id": 88,
+      "original_food_name": "Lauki gosht curry",
+      "standard_name": "Lauki Gosht Curry",
+      "other_names": "Bottle Gourd Mutton Curry, Ghiya Gosht, Dudhi Mutton Sabzi, Lauki Mutton Curry, Kaddu Gosht",
+      "food_varieties": [
+        "Lauki Gosht with bone-in mutton",
+        "Lauki Gosht with boneless lamb",
+        "Lauki Gosht dry (semi-dry version)",
+        "Lauki Gosht with yogurt-based gravy",
+        "Lauki Gosht Kashmiri style"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "191.4 | 16.5 | 11.4 | 5.7 | 1.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 134.2,
+        "carbs": 4.3,
+        "fat": 7.6,
+        "prot": 12.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 191.4,
+        "carbs": 16.5,
+        "fat": 11.4,
+        "prot": 5.7,
+        "fib": 1.2
+      },
+      "input_macros_raw": "134.2 | 4.3 | 7.6 | 12.1 | 0.0",
+      "final_macros_raw": "191.4 | 16.5 | 11.4 | 5.7 | 1.2",
+      "diff": 0.426
+    },
+    {
+      "id": 89,
+      "original_food_name": "Vegan mayonnaise (Homemade)",
+      "standard_name": "Vegan Mayonnaise Homemade",
+      "other_names": "Eggless Vegan Mayo, Plant-based Mayo Homemade, Vegan Mayo, Dairy-free Mayonnaise Homemade",
+      "food_varieties": [
+        "Aquafaba-based vegan mayo",
+        "Silken tofu-based vegan mayo",
+        "Cashew cream mayo",
+        "Soy milk emulsion mayo",
+        "Avocado oil vegan mayo"
+      ],
+      "serving_types": [
+        "[BASE] 1 tablespoon — 15.0g",
+        "2 tablespoons — 30.0g"
+      ],
+      "base_volume": "15g",
+      "gen_macros_raw": "89.4 | 0.2 | 9.8 | 0.1 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 83.1,
+        "carbs": 0.1,
+        "fat": 9.3,
+        "prot": 0.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 89.4,
+        "carbs": 0.2,
+        "fat": 9.8,
+        "prot": 0.1,
+        "fib": 0.0
+      },
+      "input_macros_raw": "83.1 | 0.1 | 9.3 | 0.1 | 0.0",
+      "final_macros_raw": "89.4 | 0.2 | 9.8 | 0.1 | 0.0",
+      "diff": 0.076
+    },
+    {
+      "id": 90,
+      "original_food_name": "Nutella",
+      "standard_name": "Nutella",
+      "other_names": "Hazelnut Chocolate Spread, Choco Spread, Nutella Spread, Hazelnut Cocoa Paste",
+      "food_varieties": [
+        "Dark chocolate hazelnut spread",
+        "Homemade hazelnut cocoa spread",
+        "Reduced sugar hazelnut spread",
+        "Organic hazelnut spread",
+        "White chocolate hazelnut spread"
+      ],
+      "serving_types": [
+        "[BASE] 1 tablespoon — 15.0g",
+        "2 tablespoons — 30.0g"
+      ],
+      "base_volume": "15g",
+      "gen_macros_raw": "81.6 | 8.7 | 4.8 | 0.9 | 0.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 80.0,
+        "carbs": 8.6,
+        "fat": 4.7,
+        "prot": 0.9,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 81.6,
+        "carbs": 8.7,
+        "fat": 4.8,
+        "prot": 0.9,
+        "fib": 0.4
+      },
+      "input_macros_raw": "80.0 | 8.6 | 4.7 | 0.9 | 0.0",
+      "final_macros_raw": "81.6 | 8.7 | 4.8 | 0.9 | 0.4",
+      "diff": 0.02
+    },
+    {
+      "id": 91,
+      "original_food_name": "Vegan Flaxseed Brownies (restaurant)",
+      "standard_name": "Vegan Flaxseed Brownies",
+      "other_names": "Flaxseed Egg-Free Brownies, Vegan Chocolate Flaxseed Brownies, Plant-Based Flax Brownies, Eggless Flaxseed Fudge Brownies",
+      "food_varieties": [
+        "Vegan Almond Flour Brownies",
+        "Vegan Avocado Brownies",
+        "Vegan Black Bean Brownies",
+        "Vegan Coconut Oil Brownies",
+        "Vegan Walnut Brownies"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 80.0g",
+        "2 pieces — 160.0g"
+      ],
+      "base_volume": "80g",
+      "gen_macros_raw": "326.8 | 38.4 | 17.2 | 4.6 | 4.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 346.0,
+        "carbs": 39.9,
+        "fat": 21.3,
+        "prot": 4.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 326.8,
+        "carbs": 38.4,
+        "fat": 17.2,
+        "prot": 4.6,
+        "fib": 4.8
+      },
+      "input_macros_raw": "346.0 | 39.9 | 21.3 | 4.1 | 0.0",
+      "final_macros_raw": "326.8 | 38.4 | 17.2 | 4.6 | 4.8",
+      "diff": -0.055
+    },
+    {
+      "id": 92,
+      "original_food_name": "Chickpeas paneer salad",
+      "standard_name": "Chickpeas Paneer Salad",
+      "other_names": "Chana Paneer Salad, Kabuli Chana Paneer Salad, Chickpea Cottage Cheese Salad, Chole Paneer Salad",
+      "food_varieties": [
+        "Roasted chickpeas paneer salad with lemon dressing",
+        "Chickpeas paneer salad with yogurt dressing",
+        "Sprouted chickpeas paneer salad",
+        "Chickpeas paneer salad with cucumber and tomato",
+        "Spiced chickpeas paneer salad with chaat masala"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "large bowl — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "285.2 | 26.4 | 11.6 | 18.8 | 6.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 203.4,
+        "carbs": 29.8,
+        "fat": 5.3,
+        "prot": 10.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 285.2,
+        "carbs": 26.4,
+        "fat": 11.6,
+        "prot": 18.8,
+        "fib": 6.4
+      },
+      "input_macros_raw": "203.4 | 29.8 | 5.3 | 10.4 | 0.0",
+      "final_macros_raw": "285.2 | 26.4 | 11.6 | 18.8 | 6.4",
+      "diff": 0.402
+    },
+    {
+      "id": 93,
+      "original_food_name": "Pudina paneer masala",
+      "standard_name": "Pudina Paneer Masala",
+      "other_names": "Mint Paneer Masala, Pudina Paneer Sabzi, Mint Paneer Curry, Pudina Paneer Gravy",
+      "food_varieties": [
+        "Pudina Paneer with coconut milk base",
+        "Dry Pudina Paneer (no gravy)",
+        "Pudina Paneer with spinach (palak blend)",
+        "Restaurant-style Pudina Paneer with cream",
+        "Pudina Paneer with yogurt-based gravy"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "249.9 | 11.4 | 17.1 | 12.6 | 2.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 228.3,
+        "carbs": 12.1,
+        "fat": 14.9,
+        "prot": 12.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 249.9,
+        "carbs": 11.4,
+        "fat": 17.1,
+        "prot": 12.6,
+        "fib": 2.1
+      },
+      "input_macros_raw": "228.3 | 12.1 | 14.9 | 12.3 | 0.0",
+      "final_macros_raw": "249.9 | 11.4 | 17.1 | 12.6 | 2.1",
+      "diff": 0.095
+    },
+    {
+      "id": 94,
+      "original_food_name": "Paneer kuttu pakora",
+      "standard_name": "Paneer Kuttu Pakora",
+      "other_names": "Paneer Buckwheat Pakora, Kuttu Paneer Pakoda, Vrat Wale Paneer Pakore, Fasting Paneer Fritters",
+      "food_varieties": [
+        "Plain kuttu pakora without paneer",
+        "Aloo kuttu pakora",
+        "Paneer kuttu pakora with sendha namak only",
+        "Paneer kuttu pakora with green chilli and coriander",
+        "Paneer kuttu pakora with yogurt batter"
+      ],
+      "serving_types": [
+        "[BASE] 4 pieces — 200.0g",
+        "2 pieces — 60.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "319.8 | 27.6 | 18.2 | 11.4 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 731.4,
+        "carbs": 58.3,
+        "fat": 45.5,
+        "prot": 27.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 319.8,
+        "carbs": 27.6,
+        "fat": 18.2,
+        "prot": 11.4,
+        "fib": 2.4
+      },
+      "input_macros_raw": "731.4 | 58.3 | 45.5 | 27.7 | 0.0",
+      "final_macros_raw": "319.8 | 27.6 | 18.2 | 11.4 | 2.4",
+      "diff": -0.563
+    },
+    {
+      "id": 95,
+      "original_food_name": "India Spice Majesty Blend without milk Short (Starbucks India)",
+      "standard_name": "India Spice Majesty Blend Without Milk Short",
+      "other_names": "Starbucks India Spice Majesty Blend No Milk Short, Spice Majesty Tea Short No Milk Starbucks, Masala Spice Blend Tea Without Milk Short, India Spice Majesty Black Tea Short Starbucks",
+      "food_varieties": [
+        "India Spice Majesty Blend with whole milk Short",
+        "India Spice Majesty Blend with oat milk Short",
+        "India Spice Majesty Blend with soy milk Short",
+        "India Spice Majesty Blend without milk Tall",
+        "India Spice Majesty Blend without milk Grande"
+      ],
+      "serving_types": [
+        "[BASE] cup — 235.0ml",
+        "small cup — 150.0ml"
+      ],
+      "base_volume": "235ml",
+      "gen_macros_raw": "62.1 | 14.8 | 0.1 | 0.5 | 0.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 31.7,
+        "carbs": 7.0,
+        "fat": 0.0,
+        "prot": 0.9,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 62.1,
+        "carbs": 14.8,
+        "fat": 0.1,
+        "prot": 0.5,
+        "fib": 0.2
+      },
+      "input_macros_raw": "31.7 | 7.0 | 0.0 | 0.9 | 0.0",
+      "final_macros_raw": "62.1 | 14.8 | 0.1 | 0.5 | 0.2",
+      "diff": 0.959
+    },
+    {
+      "id": 96,
+      "original_food_name": "Nutella waffles",
+      "standard_name": "Nutella Waffles",
+      "other_names": "Chocolate Hazelnut Waffles, Nutella Topped Waffles, Waffle with Nutella, Nutella Waffle",
+      "food_varieties": [
+        "Nutella stuffed waffles (Nutella inside batter)",
+        "Nutella waffles with banana slices",
+        "Nutella waffles with whipped cream",
+        "Whole wheat Nutella waffles",
+        "Belgian Nutella waffles"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 120.0g",
+        "2 pieces — 240.0g"
+      ],
+      "base_volume": "120g",
+      "gen_macros_raw": "371.0 | 48.5 | 16.2 | 7.8 | 1.6",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 229.4,
+        "carbs": 37.3,
+        "fat": 5.4,
+        "prot": 7.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 371.0,
+        "carbs": 48.5,
+        "fat": 16.2,
+        "prot": 7.8,
+        "fib": 1.6
+      },
+      "input_macros_raw": "229.4 | 37.3 | 5.4 | 7.7 | 0.0",
+      "final_macros_raw": "371.0 | 48.5 | 16.2 | 7.8 | 1.6",
+      "diff": 0.617
+    },
+    {
+      "id": 97,
+      "original_food_name": "Methi paneer",
+      "standard_name": "Methi Paneer",
+      "other_names": "Methi Paneer Sabzi, Fenugreek Paneer Curry, Methi Wala Paneer, Paneer Methi Masala",
+      "food_varieties": [
+        "Methi Malai Paneer (with cream)",
+        "Dry Methi Paneer (sukhi sabzi)",
+        "Kasuri Methi Paneer (dried fenugreek only)",
+        "Methi Paneer with Spinach",
+        "Restaurant-style Methi Paneer (richer gravy)"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "219.9 | 10.5 | 14.7 | 11.4 | 2.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 162.8,
+        "carbs": 12.1,
+        "fat": 9.3,
+        "prot": 9.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 219.9,
+        "carbs": 10.5,
+        "fat": 14.7,
+        "prot": 11.4,
+        "fib": 2.1
+      },
+      "input_macros_raw": "162.8 | 12.1 | 9.3 | 9.0 | 0.0",
+      "final_macros_raw": "219.9 | 10.5 | 14.7 | 11.4 | 2.1",
+      "diff": 0.351
+    },
+    {
+      "id": 98,
+      "original_food_name": "Veg cheese paneer wrap",
+      "standard_name": "Veg Cheese Paneer Wrap",
+      "other_names": "Paneer Cheese Wrap, Veg Paneer Cheese Kathi Roll, Cheese Paneer Frankie, Paneer Cheese Frankie Roll, Veg Cheese Wrap Roll",
+      "food_varieties": [
+        "Paneer tikka wrap with cheese",
+        "Grilled veg cheese paneer wrap",
+        "Whole wheat veg cheese paneer wrap",
+        "Spicy veg cheese paneer wrap with jalapeños",
+        "Veg cheese paneer wrap with mayo sauce"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 200.0g",
+        "2 pieces — 400.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "444.5 | 42.0 | 22.5 | 18.5 | 3.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 446.7,
+        "carbs": 34.7,
+        "fat": 28.0,
+        "prot": 14.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 444.5,
+        "carbs": 42.0,
+        "fat": 22.5,
+        "prot": 18.5,
+        "fib": 3.2
+      },
+      "input_macros_raw": "446.7 | 34.7 | 28.0 | 14.7 | 0.0",
+      "final_macros_raw": "444.5 | 42.0 | 22.5 | 18.5 | 3.2",
+      "diff": -0.005
+    },
+    {
+      "id": 99,
+      "original_food_name": "Rajgeera paneer paratha",
+      "standard_name": "Rajgeera Paneer Paratha",
+      "other_names": "Amaranth Paneer Paratha, Rajgira Paneer Paratha, Ramdana Paneer Paratha, Farali Paneer Paratha, Vrat ka Paneer Paratha",
+      "food_varieties": [
+        "Rajgeera aloo paratha (amaranth flour with potato stuffing)",
+        "Plain rajgeera paratha (no stuffing)",
+        "Rajgeera paneer paratha with green chilli and coriander",
+        "Rajgeera paneer paratha with sendha namak (rock salt, fasting variant)",
+        "Rajgeera paneer paratha with ghee roast finish"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 75.0g",
+        "2 pieces — 160.0g"
+      ],
+      "base_volume": "75g",
+      "gen_macros_raw": "216.4 | 24.8 | 9.2 | 8.6 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": "231.0 | 27.4 | 9.8 | 7.4 | 1.9",
+      "input_macros": {
+        "cal": 184.0,
+        "carbs": 20.4,
+        "fat": 8.0,
+        "prot": 8.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 216.4,
+        "carbs": 24.8,
+        "fat": 9.2,
+        "prot": 8.6,
+        "fib": 2.4
+      },
+      "input_macros_raw": "184.0 | 20.4 | 8.0 | 8.2 | 0.0",
+      "final_macros_raw": "216.4 | 24.8 | 9.2 | 8.6 | 2.4",
+      "diff": 0.176
+    },
+    {
+      "id": 100,
+      "original_food_name": "Paneer gua bao",
+      "standard_name": "Paneer Gua Bao",
+      "other_names": "Paneer Bao Bun, Indian Fusion Bao, Paneer Steamed Bun, Gua Bao with Paneer",
+      "food_varieties": [
+        "Tofu Gua Bao",
+        "Chicken Gua Bao",
+        "Mushroom Gua Bao",
+        "Paneer Tikka Gua Bao",
+        "Smoked Paneer Bao"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 150.0g",
+        "2 pieces — 300.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "318.0 | 40.5 | 11.2 | 13.8 | 2.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 273.8,
+        "carbs": 35.5,
+        "fat": 9.5,
+        "prot": 12.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 318.0,
+        "carbs": 40.5,
+        "fat": 11.2,
+        "prot": 13.8,
+        "fib": 2.1
+      },
+      "input_macros_raw": "273.8 | 35.5 | 9.5 | 12.4 | 0.0",
+      "final_macros_raw": "318.0 | 40.5 | 11.2 | 13.8 | 2.1",
+      "diff": 0.161
+    }
+  ]
+}

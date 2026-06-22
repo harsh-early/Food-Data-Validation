@@ -182,9 +182,42 @@ body {
   line-height: 1.4;
 }
 
-.serving-display .serving-volume {
-  color: #6b7280;
+.serving-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0.75rem auto 0;
+  padding: 0.625rem 1rem;
+  max-width: 100%;
+  background: #1f2937;
+  border-radius: 0.625rem;
+  color: #f9fafb;
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+.serving-card-title {
+  color: #9ca3af;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.serving-card-value {
+  color: #ffffff;
   font-weight: 700;
+}
+
+.json-status {
+  margin: 0.2rem 0 0;
+  font-size: 0.7rem;
+  color: #3730a3;
+  font-weight: 500;
+}
+
+.btn-remove-json {
+  background: #fee2e2;
+  color: #b91c1c;
 }
 
 .food-meta {

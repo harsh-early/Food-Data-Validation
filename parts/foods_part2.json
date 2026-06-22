@@ -1,0 +1,3878 @@
+{
+  "meta": {
+    "source": "Build food data.xlsx (part 2/5)",
+    "part": 2,
+    "parts_total": 5,
+    "part_range": "102-202",
+    "count": 101,
+    "generated_at": "2026-06-22T11:09:20.490785+00:00"
+  },
+  "foods": [
+    {
+      "id": 1,
+      "original_food_name": "Veg soya upma",
+      "standard_name": "Veg Soya Upma",
+      "other_names": "Soya Uppit, Soya Uppuma, Semolina Soya Upma, Soya Rava Upma, Veg Soya Uppittu",
+      "food_varieties": [
+        "Soya chunks upma with mixed vegetables",
+        "Soya granules upma",
+        "Oats soya upma",
+        "Broken wheat soya upma",
+        "Vermicelli soya upma"
+      ],
+      "serving_types": [
+        "small bowl — 150.0g",
+        "[BASE] bowl — 200.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "245.6 | 31.4 | 7.2 | 13.8 | 3.6",
+      "correction_macros_raw": "319.0 | 42.8 | 8.6 | 16.2 | 3.4",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 156.0,
+        "carbs": 15.5,
+        "fat": 5.8,
+        "prot": 11.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 245.6,
+        "carbs": 31.4,
+        "fat": 7.2,
+        "prot": 13.8,
+        "fib": 3.6
+      },
+      "input_macros_raw": "156.0 | 15.5 | 5.8 | 11.3 | 0.0",
+      "final_macros_raw": "245.6 | 31.4 | 7.2 | 13.8 | 3.6",
+      "diff": 0.574
+    },
+    {
+      "id": 2,
+      "original_food_name": "Vegetable upma",
+      "standard_name": "Vegetable Upma",
+      "other_names": "Veg Upma, Sabzi Upma, Vegetable Uppuma, Uppit with Vegetables, Rava Vegetable Upma",
+      "food_varieties": [
+        "Plain semolina upma",
+        "Oats upma",
+        "Vermicelli upma",
+        "Bread upma",
+        "Poha upma"
+      ],
+      "serving_types": [
+        "small bowl — 150.0g",
+        "[BASE] bowl — 200.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "242.3 | 40.0 | 5.9 | 7.3 | 2.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": "293.0 | 33.0 | 13.2 | 9.4 | 8.4",
+      "input_macros": {
+        "cal": 243.0,
+        "carbs": 39.9,
+        "fat": 5.9,
+        "prot": 7.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 242.3,
+        "carbs": 40.0,
+        "fat": 5.9,
+        "prot": 7.3,
+        "fib": 2.8
+      },
+      "input_macros_raw": "243.0 | 39.9 | 5.9 | 7.3 | 0.0",
+      "final_macros_raw": "242.3 | 40.0 | 5.9 | 7.3 | 2.8",
+      "diff": -0.003
+    },
+    {
+      "id": 3,
+      "original_food_name": "Jowar upma",
+      "standard_name": "Jowar Upma",
+      "other_names": "Sorghum Upma, Jowar Rava Upma, Jonna Upma, Jolada Uppittu, Sorghum Semolina Porridge",
+      "food_varieties": [
+        "Vegetable Jowar Upma",
+        "Masala Jowar Upma",
+        "Jowar Upma with Peanuts",
+        "Jowar Rava Kichadi"
+      ],
+      "serving_types": [
+        "small bowl — 150.0g",
+        "[BASE] bowl — 200.0g",
+        "half plate — 250.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "280.0 | 43.6 | 8.8 | 6.6 | 6.3",
+      "correction_macros_raw": "280.0 | 43.6 | 8.8 | 6.6 | 6.3",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 237.3,
+        "carbs": 37.7,
+        "fat": 8.2,
+        "prot": 6.8,
+        "fib": null
+      },
+      "final_macros": {
+        "cal": 280.0,
+        "carbs": 43.6,
+        "fat": 8.8,
+        "prot": 6.6,
+        "fib": 6.3
+      },
+      "input_macros_raw": "237.3 | 37.7 | 8.2 | 6.8 | —",
+      "final_macros_raw": "280.0 | 43.6 | 8.8 | 6.6 | 6.3",
+      "diff": 0.18
+    },
+    {
+      "id": 4,
+      "original_food_name": "Mooli gajar ka achaar",
+      "standard_name": "Mooli Gajar Ka Achaar",
+      "other_names": "Radish Carrot Pickle, Mooli Gajar Achar, Mixed Vegetable Pickle with Radish and Carrot, Gajar Mooli ka Achaar",
+      "food_varieties": [
+        "Oil-based mooli gajar achaar with mustard seeds",
+        "Vinegar-based mooli gajar pickle",
+        "Sun-dried mooli gajar achaar",
+        "Instant mooli gajar achaar",
+        "Spicy Punjabi mooli gajar achaar"
+      ],
+      "serving_types": [
+        "1 teaspoon — 5.0g",
+        "[BASE] 1 tablespoon — 15.0g",
+        "2 tablespoons — 30.0g"
+      ],
+      "base_volume": "15g",
+      "gen_macros_raw": "17.8 | 1.1 | 1.4 | 0.2 | 0.3",
+      "correction_macros_raw": "32.0 | 1.3 | 3.0 | 0.4 | 0.5",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 19.1,
+        "carbs": 0.9,
+        "fat": 1.7,
+        "prot": 0.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 17.8,
+        "carbs": 1.1,
+        "fat": 1.4,
+        "prot": 0.2,
+        "fib": 0.3
+      },
+      "input_macros_raw": "19.1 | 0.9 | 1.7 | 0.2 | 0.0",
+      "final_macros_raw": "17.8 | 1.1 | 1.4 | 0.2 | 0.3",
+      "diff": -0.068
+    },
+    {
+      "id": 5,
+      "original_food_name": "Chocolate syrup (nestle)",
+      "standard_name": "Chocolate Syrup Nestle",
+      "other_names": "Nestle Choco Syrup, Chocolate Sauce Nestle, Choco Topping Nestle, Nestle Chocolate Drizzle",
+      "food_varieties": [
+        "Hershey's Chocolate Syrup",
+        "Homemade Chocolate Sauce",
+        "Dark Chocolate Syrup",
+        "Sugar-Free Chocolate Syrup",
+        "Cocoa-Based Chocolate Topping"
+      ],
+      "serving_types": [
+        "[BASE] 1 tablespoon — 20.0g",
+        "2 tablespoons — 40.0g"
+      ],
+      "base_volume": "20g",
+      "gen_macros_raw": "55.5 | 12.8 | 0.3 | 0.4 | 0.2",
+      "correction_macros_raw": "54.0 | 13.1 | 0.4 | 0.4 | 0.4",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 53.8,
+        "carbs": 13.4,
+        "fat": 0.0,
+        "prot": 0.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 55.5,
+        "carbs": 12.8,
+        "fat": 0.3,
+        "prot": 0.4,
+        "fib": 0.2
+      },
+      "input_macros_raw": "53.8 | 13.4 | 0.0 | 0.0 | 0.0",
+      "final_macros_raw": "55.5 | 12.8 | 0.3 | 0.4 | 0.2",
+      "diff": 0.032
+    },
+    {
+      "id": 6,
+      "original_food_name": "Ragi vermicelli (Upma style)",
+      "standard_name": "Ragi Vermicelli Upma",
+      "other_names": "Ragi Semiya Upma, Finger Millet Vermicelli Upma, Nachni Shevai Upma, Ragi Noodle Upma, Kezhvaragu Semiya Upma",
+      "food_varieties": [
+        "Ragi vermicelli upma with vegetables",
+        "Plain ragi vermicelli upma",
+        "Ragi vermicelli upma with peanuts",
+        "Ragi vermicelli upma with coconut"
+      ],
+      "serving_types": [
+        "[BASE] small bowl — 150.0g",
+        "bowl — 200.0g",
+        "half plate — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "201.1 | 35.1 | 5.1 | 3.7 | 2.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 179.0,
+        "carbs": 35.1,
+        "fat": 5.1,
+        "prot": 3.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 201.1,
+        "carbs": 35.1,
+        "fat": 5.1,
+        "prot": 3.7,
+        "fib": 2.1
+      },
+      "input_macros_raw": "179.0 | 35.1 | 5.1 | 3.7 | 0.0",
+      "final_macros_raw": "201.1 | 35.1 | 5.1 | 3.7 | 2.1",
+      "diff": 0.123
+    },
+    {
+      "id": 7,
+      "original_food_name": "Vegetable vermicelli upma",
+      "standard_name": "Vegetable Vermicelli Upma",
+      "other_names": "Semiya Upma with Vegetables, Seviyan Upma, Vermicelli Uppit, Semiya Uppuma, Noodle Upma",
+      "food_varieties": [
+        "Plain vermicelli upma without vegetables",
+        "Roasted vermicelli upma with peanuts",
+        "Vermicelli upma with coconut",
+        "Wheat vermicelli upma with extra vegetables",
+        "Rice vermicelli upma"
+      ],
+      "serving_types": [
+        "small bowl — 150.0g",
+        "[BASE] bowl — 200.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "274.8 | 48.0 | 6.0 | 7.2 | 3.0",
+      "correction_macros_raw": "300.0 | 49.4 | 8.1 | 8.2 | 3.2",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 306.3,
+        "carbs": 57.3,
+        "fat": 5.8,
+        "prot": 7.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 274.8,
+        "carbs": 48.0,
+        "fat": 6.0,
+        "prot": 7.2,
+        "fib": 3.0
+      },
+      "input_macros_raw": "306.3 | 57.3 | 5.8 | 7.1 | 0.0",
+      "final_macros_raw": "274.8 | 48.0 | 6.0 | 7.2 | 3.0",
+      "diff": -0.103
+    },
+    {
+      "id": 8,
+      "original_food_name": "Sevai upma",
+      "standard_name": "Sevai Upma",
+      "other_names": "Rice Vermicelli Upma, Semiya Upma, Shavige Upma, Sevai Uppit, Vermicelli Upma",
+      "food_varieties": [
+        "Wheat Sevai Upma",
+        "Lemon Sevai Upma",
+        "Coconut Sevai Upma",
+        "Tomato Sevai Upma",
+        "Vegetable Sevai Upma"
+      ],
+      "serving_types": [
+        "small bowl — 150.0g",
+        "[BASE] bowl — 200.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "260.4 | 46.0 | 6.0 | 5.6 | 1.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": "256.0 | 45.0 | 5.6 | 6.4 | 1.4",
+      "input_macros": {
+        "cal": 280.4,
+        "carbs": 52.1,
+        "fat": 5.5,
+        "prot": 6.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 260.4,
+        "carbs": 46.0,
+        "fat": 6.0,
+        "prot": 5.6,
+        "fib": 1.2
+      },
+      "input_macros_raw": "280.4 | 52.1 | 5.5 | 6.5 | 0.0",
+      "final_macros_raw": "260.4 | 46.0 | 6.0 | 5.6 | 1.2",
+      "diff": -0.071
+    },
+    {
+      "id": 9,
+      "original_food_name": "Pork cury (Pandi curry)",
+      "standard_name": "Pork Curry",
+      "other_names": "Pandi Curry, Kodava Pork Curry, Coorg Pork Curry, Pandi Kari, Coorgi Pork Curry",
+      "food_varieties": [
+        "Pandi curry with kachampuli (Coorg style with black vinegar)",
+        "Goan pork vindaloo",
+        "Kerala pork curry with coconut milk",
+        "Naga pork curry with bamboo shoot",
+        "Assamese pork curry with mustard"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "255.9 | 20.4 | 17.1 | 5.1 | 1.2",
+      "correction_macros_raw": "255.9 | 20.4 | 17.1 | 5.1 | 1.2",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 142.0,
+        "carbs": 7.4,
+        "fat": 7.6,
+        "prot": 12.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 255.9,
+        "carbs": 20.4,
+        "fat": 17.1,
+        "prot": 5.1,
+        "fib": 1.2
+      },
+      "input_macros_raw": "142.0 | 7.4 | 7.6 | 12.5 | 0.0",
+      "final_macros_raw": "255.9 | 20.4 | 17.1 | 5.1 | 1.2",
+      "diff": 0.802
+    },
+    {
+      "id": 10,
+      "original_food_name": "Masala bhindi",
+      "standard_name": "Masala Bhindi",
+      "other_names": "Bhindi Masala, Okra Fry, Bhindi Sabzi, Stuffed Bhindi Masala",
+      "food_varieties": [
+        "Bharwa Bhindi",
+        "Dahi Bhindi",
+        "Bhindi Do Pyaza",
+        "Kurkuri Bhindi"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "149.0 | 12.0 | 10.2 | 2.3 | 3.5",
+      "correction_macros_raw": "149.0 | 12.0 | 10.2 | 2.3 | 3.5",
+      "db_macros_raw": "112.5 | 12.8 | 5.7 | 2.7 | 5.2",
+      "input_macros": {
+        "cal": 132.5,
+        "carbs": 9.6,
+        "fat": 10.3,
+        "prot": 2.3,
+        "fib": null
+      },
+      "final_macros": {
+        "cal": 149.0,
+        "carbs": 12.0,
+        "fat": 10.2,
+        "prot": 2.3,
+        "fib": 3.5
+      },
+      "input_macros_raw": "132.5 | 9.6 | 10.3 | 2.3 | —",
+      "final_macros_raw": "149.0 | 12.0 | 10.2 | 2.3 | 3.5",
+      "diff": 0.125
+    },
+    {
+      "id": 11,
+      "original_food_name": "Multigrain bread upma",
+      "standard_name": "Multigrain Bread Upma",
+      "other_names": "Bread Upma with Multigrain, Spicy Bread Upma, Masala Bread Upma, Bread Poha",
+      "food_varieties": [
+        "Whole Wheat Bread Upma",
+        "Brown Bread Upma",
+        "Egg Bread Upma",
+        "South Indian Bread Upma"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "half plate — 250.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "357.0 | 50.0 | 13.0 | 10.0 | 8.0",
+      "correction_macros_raw": "357.0 | 50.0 | 13.0 | 10.0 | 8.0",
+      "db_macros_raw": "259.0 | 25.2 | 15.4 | 5.6 | 4.0",
+      "input_macros": {
+        "cal": 386.2,
+        "carbs": 55.0,
+        "fat": 12.9,
+        "prot": 13.6,
+        "fib": null
+      },
+      "final_macros": {
+        "cal": 357.0,
+        "carbs": 50.0,
+        "fat": 13.0,
+        "prot": 10.0,
+        "fib": 8.0
+      },
+      "input_macros_raw": "386.2 | 55.0 | 12.9 | 13.6 | —",
+      "final_macros_raw": "357.0 | 50.0 | 13.0 | 10.0 | 8.0",
+      "diff": -0.076
+    },
+    {
+      "id": 12,
+      "original_food_name": "Couscous vegetable upma",
+      "standard_name": "Couscous Vegetable Upma",
+      "other_names": "Couscous Upma, Vegetable Couscous Upma, Couscous Uppit, Couscous Uppuma with Vegetables",
+      "food_varieties": [
+        "Semolina vegetable upma",
+        "Broken wheat vegetable upma",
+        "Quinoa vegetable upma",
+        "Couscous upma with coconut",
+        "Couscous upma with peanuts"
+      ],
+      "serving_types": [
+        "small bowl — 150.0g",
+        "[BASE] bowl — 200.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "175.4 | 27.4 | 5.0 | 5.2 | 2.6",
+      "correction_macros_raw": "311.0 | 49.2 | 8.5 | 8.5 | 4.5",
+      "db_macros_raw": "293.0 | 33.0 | 13.2 | 9.4 | 8.4",
+      "input_macros": {
+        "cal": 185.2,
+        "carbs": 28.5,
+        "fat": 5.5,
+        "prot": 5.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 175.4,
+        "carbs": 27.4,
+        "fat": 5.0,
+        "prot": 5.2,
+        "fib": 2.6
+      },
+      "input_macros_raw": "185.2 | 28.5 | 5.5 | 5.0 | 0.0",
+      "final_macros_raw": "175.4 | 27.4 | 5.0 | 5.2 | 2.6",
+      "diff": -0.053
+    },
+    {
+      "id": 13,
+      "original_food_name": "Tandoori mushrooms",
+      "standard_name": "Tandoori Mushrooms",
+      "other_names": "Tandoori Mushroom Tikka, Mushroom Tandoori, Tandoori Khumb, Grilled Tandoori Mushrooms",
+      "food_varieties": [
+        "Malai Mushroom Tikka (cream-based marinade)",
+        "Achari Mushroom Tikka (pickle-spiced marinade)",
+        "Mushroom Tikka with bell peppers and onions",
+        "Stuffed Tandoori Mushrooms (paneer-filled)",
+        "Smoked Tandoori Mushrooms (charcoal finish)"
+      ],
+      "serving_types": [
+        "[BASE] plate — 200.0g",
+        "half plate — 100.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "153.8 | 10.4 | 8.2 | 9.6 | 2.8",
+      "correction_macros_raw": "80.0 | 5.3 | 5.0 | 4.1 | 1.3",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 148.1,
+        "carbs": 12.0,
+        "fat": 8.6,
+        "prot": 9.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 153.8,
+        "carbs": 10.4,
+        "fat": 8.2,
+        "prot": 9.6,
+        "fib": 2.8
+      },
+      "input_macros_raw": "148.1 | 12.0 | 8.6 | 9.0 | 0.0",
+      "final_macros_raw": "153.8 | 10.4 | 8.2 | 9.6 | 2.8",
+      "diff": 0.038
+    },
+    {
+      "id": 14,
+      "original_food_name": "Barley upma",
+      "standard_name": "Barley Upma",
+      "other_names": "Jau Upma, Barley Uppuma, Barley Uppit, Jau ka Upma",
+      "food_varieties": [
+        "Broken barley upma with vegetables",
+        "Pearl barley upma with coconut",
+        "Barley upma with peanuts and curry leaves",
+        "Roasted barley upma with tomato",
+        "Barley and semolina mixed upma"
+      ],
+      "serving_types": [
+        "small bowl — 150.0g",
+        "[BASE] bowl — 200.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "220.0 | 36.0 | 5.6 | 6.4 | 5.0",
+      "correction_macros_raw": "291.0 | 45.7 | 8.8 | 6.4 | 9.7",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 191.4,
+        "carbs": 30.1,
+        "fat": 5.9,
+        "prot": 6.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 291.0,
+        "carbs": 45.7,
+        "fat": 8.8,
+        "prot": 6.4,
+        "fib": 9.7
+      },
+      "input_macros_raw": "191.4 | 30.1 | 5.9 | 6.3 | 0.0",
+      "final_macros_raw": "291.0 | 45.7 | 8.8 | 6.4 | 9.7",
+      "diff": 0.52
+    },
+    {
+      "id": 15,
+      "original_food_name": "Oats vermicelli upma",
+      "standard_name": "Oats Vermicelli Upma",
+      "other_names": "Oats Semiya Upma, Oats Sevai Upma, Oats Vermicelli Uppuma, Oats Seviyan Upma, Oats Semiya Uppit",
+      "food_varieties": [
+        "Plain oats upma without vermicelli",
+        "Semolina vermicelli upma without oats",
+        "Oats vermicelli upma with vegetables",
+        "Oats vermicelli upma with peanuts",
+        "Roasted oats vermicelli upma with coconut"
+      ],
+      "serving_types": [
+        "[BASE] small bowl — 150.0g",
+        "bowl — 200.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "175.0 | 26.8 | 5.4 | 4.8 | 2.1",
+      "correction_macros_raw": "257.0 | 39.6 | 7.9 | 6.9 | 3.2",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 165.6,
+        "carbs": 26.2,
+        "fat": 5.3,
+        "prot": 4.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 175.0,
+        "carbs": 26.8,
+        "fat": 5.4,
+        "prot": 4.8,
+        "fib": 2.1
+      },
+      "input_macros_raw": "165.6 | 26.2 | 5.3 | 4.6 | 0.0",
+      "final_macros_raw": "175.0 | 26.8 | 5.4 | 4.8 | 2.1",
+      "diff": 0.057
+    },
+    {
+      "id": 16,
+      "original_food_name": "Rava coconut upma",
+      "standard_name": "Rava Coconut Upma",
+      "other_names": "Sooji Coconut Upma, Semolina Coconut Upma, Rava Upma with Coconut, Uppuma with Coconut, Uppit with Coconut",
+      "food_varieties": [
+        "Plain Rava Upma (without coconut)",
+        "Rava Vegetable Upma",
+        "Rava Upma with Peanuts",
+        "Broken Wheat Upma",
+        "Oats Upma"
+      ],
+      "serving_types": [
+        "small bowl — 150.0g",
+        "[BASE] bowl — 200.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "286.2 | 41.6 | 10.2 | 7.0 | 2.8",
+      "correction_macros_raw": "351.0 | 41.0 | 16.6 | 9.4 | 3.8",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 287.2,
+        "carbs": 43.0,
+        "fat": 8.9,
+        "prot": 8.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 286.2,
+        "carbs": 41.6,
+        "fat": 10.2,
+        "prot": 7.0,
+        "fib": 2.8
+      },
+      "input_macros_raw": "287.2 | 43.0 | 8.9 | 8.3 | 0.0",
+      "final_macros_raw": "286.2 | 41.6 | 10.2 | 7.0 | 2.8",
+      "diff": -0.003
+    },
+    {
+      "id": 17,
+      "original_food_name": "Barley dalia upma",
+      "standard_name": "Barley Dalia Upma",
+      "other_names": "Jau Dalia Upma, Barley Broken Wheat Upma, Jau Ka Upma, Barley Porridge Upma",
+      "food_varieties": [
+        "Barley dalia upma with vegetables",
+        "Barley dalia upma with peanuts",
+        "Barley dalia khichdi style",
+        "Roasted barley dalia upma",
+        "Barley dalia upma with curry leaves and mustard"
+      ],
+      "serving_types": [
+        "small bowl — 150.0g",
+        "[BASE] bowl — 200.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "168.4 | 25.4 | 5.2 | 5.0 | 4.2",
+      "correction_macros_raw": "238.0 | 35.0 | 8.7 | 4.9 | 5.1",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 189.7,
+        "carbs": 27.7,
+        "fat": 7.0,
+        "prot": 5.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 238.0,
+        "carbs": 35.0,
+        "fat": 8.7,
+        "prot": 4.9,
+        "fib": 5.1
+      },
+      "input_macros_raw": "189.7 | 27.7 | 7.0 | 5.0 | 0.0",
+      "final_macros_raw": "238.0 | 35.0 | 8.7 | 4.9 | 5.1",
+      "diff": 0.255
+    },
+    {
+      "id": 18,
+      "original_food_name": "Lemon ginger cucumber water",
+      "standard_name": "Lemon Ginger Cucumber Water",
+      "other_names": "Cucumber Ginger Lemon Detox Water, Ginger Lemon Cucumber Infused Water, Nimbu Adrak Kheera Pani, Detox Water with Lemon and Ginger",
+      "food_varieties": [
+        "Lemon Mint Cucumber Water",
+        "Lemon Ginger Turmeric Water",
+        "Orange Ginger Cucumber Water",
+        "Lemon Ginger Honey Water"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 200.0ml",
+        "large cup — 350.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "4.5 | 0.9 | 0.1 | 0.1 | 0.0",
+      "correction_macros_raw": "4.5 | 0.9 | 0.1 | 0.1 | 0.0",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 21.4,
+        "carbs": 4.1,
+        "fat": 0.3,
+        "prot": 0.9,
+        "fib": null
+      },
+      "final_macros": {
+        "cal": 4.5,
+        "carbs": 0.9,
+        "fat": 0.1,
+        "prot": 0.1,
+        "fib": 0.0
+      },
+      "input_macros_raw": "21.4 | 4.1 | 0.3 | 0.9 | —",
+      "final_macros_raw": "4.5 | 0.9 | 0.1 | 0.1 | 0.0",
+      "diff": -0.79
+    },
+    {
+      "id": 19,
+      "original_food_name": "Sesame cucumber noodles",
+      "standard_name": "Sesame Cucumber Noodles",
+      "other_names": "Til Kheera Noodles, Cold Sesame Noodles with Cucumber, Sesame Noodle Salad, Kheera Til Noodles",
+      "food_varieties": [
+        "Zucchini noodles with sesame dressing",
+        "Soba noodles with sesame and cucumber",
+        "Rice noodles with sesame cucumber",
+        "Spiralized cucumber noodles with peanut sesame sauce",
+        "Udon noodles with sesame cucumber and chilli oil"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "large bowl — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "201.4 | 22.0 | 10.2 | 5.4 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 114.7,
+        "carbs": 9.9,
+        "fat": 8.0,
+        "prot": 2.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 201.4,
+        "carbs": 22.0,
+        "fat": 10.2,
+        "prot": 5.4,
+        "fib": 2.4
+      },
+      "input_macros_raw": "114.7 | 9.9 | 8.0 | 2.7 | 0.0",
+      "final_macros_raw": "201.4 | 22.0 | 10.2 | 5.4 | 2.4",
+      "diff": 0.756
+    },
+    {
+      "id": 20,
+      "original_food_name": "Chicken biryani",
+      "standard_name": "Chicken Biryani",
+      "other_names": "Murgh Biryani, Chicken Dum Biryani, Kozhi Biryani, Chicken Pulao",
+      "food_varieties": [
+        "Hyderabadi Chicken Biryani",
+        "Lucknowi Chicken Biryani",
+        "Kolkata Chicken Biryani",
+        "Malabar Chicken Biryani",
+        "Ambur Chicken Biryani"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 250.0g",
+        "half plate — 350.0g"
+      ],
+      "base_volume": "250g",
+      "gen_macros_raw": "391.0 | 39.0 | 15.0 | 25.0 | 2.5",
+      "correction_macros_raw": "391.0 | 39.0 | 15.0 | 25.0 | 2.5",
+      "db_macros_raw": "470.0 | 58.8 | 15.0 | 27.5 | 2.0",
+      "input_macros": {
+        "cal": 388.4,
+        "carbs": 39.7,
+        "fat": 10.2,
+        "prot": 32.3,
+        "fib": null
+      },
+      "final_macros": {
+        "cal": 391.0,
+        "carbs": 39.0,
+        "fat": 15.0,
+        "prot": 25.0,
+        "fib": 2.5
+      },
+      "input_macros_raw": "388.4 | 39.7 | 10.2 | 32.3 | —",
+      "final_macros_raw": "391.0 | 39.0 | 15.0 | 25.0 | 2.5",
+      "diff": 0.007
+    },
+    {
+      "id": 21,
+      "original_food_name": "Cucumber water",
+      "standard_name": "Cucumber Water",
+      "other_names": "Kheere ka Paani, Cucumber Infused Water, Detox Cucumber Water, Cucumber Cooler",
+      "food_varieties": [
+        "Cucumber Water with Mint",
+        "Cucumber Water with Lemon",
+        "Cucumber Water with Ginger",
+        "Cucumber Water with Basil"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "large cup — 300.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "5.2 | 1.0 | 0.1 | 0.2 | 0.1",
+      "correction_macros_raw": "5.2 | 1.0 | 0.1 | 0.2 | 0.1",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 5.5,
+        "carbs": 1.1,
+        "fat": 0.1,
+        "prot": 0.3,
+        "fib": null
+      },
+      "final_macros": {
+        "cal": 5.2,
+        "carbs": 1.0,
+        "fat": 0.1,
+        "prot": 0.2,
+        "fib": 0.1
+      },
+      "input_macros_raw": "5.5 | 1.1 | 0.1 | 0.3 | —",
+      "final_macros_raw": "5.2 | 1.0 | 0.1 | 0.2 | 0.1",
+      "diff": -0.055
+    },
+    {
+      "id": 22,
+      "original_food_name": "Sabudana vegetable upma",
+      "standard_name": "Sabudana Vegetable Upma",
+      "other_names": "Sabudana Upma with Vegetables, Tapioca Pearl Vegetable Upma, Sago Vegetable Upma, Sabudana Uppit with Veggies, Javvarisi Vegetable Upma",
+      "food_varieties": [
+        "Plain Sabudana Upma (no vegetables)",
+        "Sabudana Khichdi (peanut-heavy, fasting style)",
+        "Sabudana Upma with Coconut",
+        "Sabudana Upma with Groundnuts and Curry Leaves",
+        "Semolina-Sabudana Mixed Upma"
+      ],
+      "serving_types": [
+        "small bowl — 150.0g",
+        "[BASE] bowl — 200.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "282.2 | 48.2 | 8.6 | 3.0 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": "293.0 | 33.0 | 13.2 | 9.4 | 8.4",
+      "input_macros": {
+        "cal": 295.2,
+        "carbs": 51.3,
+        "fat": 9.2,
+        "prot": 2.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 282.2,
+        "carbs": 48.2,
+        "fat": 8.6,
+        "prot": 3.0,
+        "fib": 2.4
+      },
+      "input_macros_raw": "295.2 | 51.3 | 9.2 | 2.5 | 0.0",
+      "final_macros_raw": "282.2 | 48.2 | 8.6 | 3.0 | 2.4",
+      "diff": -0.044
+    },
+    {
+      "id": 23,
+      "original_food_name": "Sooji papad",
+      "standard_name": "Sooji Papad",
+      "other_names": "Rava Papad, Semolina Papad, Sooji Appalam, Rava Sandige",
+      "food_varieties": [
+        "Rice Papad",
+        "Urad Dal Papad",
+        "Moong Dal Papad",
+        "Sabudana Papad"
+      ],
+      "serving_types": [
+        "[BASE] 2 pieces — 10.0g",
+        "4 pieces — 20.0g"
+      ],
+      "base_volume": "10g",
+      "gen_macros_raw": "35.3 | 7.3 | 0.1 | 1.3 | 0.4",
+      "correction_macros_raw": "35.3 | 7.3 | 0.1 | 1.3 | 0.4",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 17.8,
+        "carbs": 3.6,
+        "fat": 0.1,
+        "prot": 0.6,
+        "fib": null
+      },
+      "final_macros": {
+        "cal": 35.3,
+        "carbs": 7.3,
+        "fat": 0.1,
+        "prot": 1.3,
+        "fib": 0.4
+      },
+      "input_macros_raw": "17.8 | 3.6 | 0.1 | 0.6 | —",
+      "final_macros_raw": "35.3 | 7.3 | 0.1 | 1.3 | 0.4",
+      "diff": 0.983
+    },
+    {
+      "id": 24,
+      "original_food_name": "Cucumber martini",
+      "standard_name": "Cucumber Martini",
+      "other_names": "Cucumber Vodka Martini, Kheera Martini, Cucumber Cocktail, Green Martini",
+      "food_varieties": [
+        "Cucumber Gin Martini",
+        "Cucumber Elderflower Martini",
+        "Spicy Cucumber Martini with jalapeño",
+        "Cucumber Mint Martini",
+        "Dirty Cucumber Martini with olive brine"
+      ],
+      "serving_types": [
+        "[BASE] glass — 150.0ml",
+        "large cup — 200.0ml"
+      ],
+      "base_volume": "150ml",
+      "gen_macros_raw": "9.7 | 2.0 | 0.1 | 0.2 | 0.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 114.9,
+        "carbs": 1.3,
+        "fat": 0.0,
+        "prot": 0.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 9.7,
+        "carbs": 2.0,
+        "fat": 0.1,
+        "prot": 0.2,
+        "fib": 0.1
+      },
+      "input_macros_raw": "114.9 | 1.3 | 0.0 | 0.1 | 0.0",
+      "final_macros_raw": "9.7 | 2.0 | 0.1 | 0.2 | 0.1",
+      "diff": -0.916
+    },
+    {
+      "id": 25,
+      "original_food_name": "Plain vermicelli upma",
+      "standard_name": "Vermicelli Upma",
+      "other_names": "Semiya Upma, Shavige Upma, Seviyan Upma, Vermicelli Pulao",
+      "food_varieties": [
+        "Vegetable Vermicelli Upma",
+        "Tomato Semiya Upma",
+        "Lemon Semiya Upma",
+        "Masala Semiya Upma"
+      ],
+      "serving_types": [
+        "small bowl — 150.0g",
+        "[BASE] bowl — 200.0g",
+        "half plate — 250.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "204.0 | 37.0 | 4.0 | 5.0 | 1.6",
+      "correction_macros_raw": "204.0 | 37.0 | 4.0 | 5.0 | 1.6",
+      "db_macros_raw": "256.0 | 45.0 | 5.6 | 6.4 | 1.4",
+      "input_macros": {
+        "cal": 194.0,
+        "carbs": 36.8,
+        "fat": 3.4,
+        "prot": 4.5,
+        "fib": null
+      },
+      "final_macros": {
+        "cal": 204.0,
+        "carbs": 37.0,
+        "fat": 4.0,
+        "prot": 5.0,
+        "fib": 1.6
+      },
+      "input_macros_raw": "194.0 | 36.8 | 3.4 | 4.5 | —",
+      "final_macros_raw": "204.0 | 37.0 | 4.0 | 5.0 | 1.6",
+      "diff": 0.052
+    },
+    {
+      "id": 26,
+      "original_food_name": "Kalu upma (Upma with green pigeon peas)",
+      "standard_name": "Ka Up Up Wi Gr Pi Pe",
+      "other_names": "Upma with Green Pigeon Peas, Tur Dana Upma, Hara Toor Upma, Kalu Uppit, Green Pigeon Pea Semolina Upma",
+      "food_varieties": [
+        "Plain semolina upma without legumes",
+        "Upma with chana dal",
+        "Upma with green peas (matar)",
+        "Upma with mixed vegetables and pigeon peas",
+        "Broken wheat upma with pigeon peas"
+      ],
+      "serving_types": [
+        "small bowl — 150.0g",
+        "[BASE] bowl — 200.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "248.0 | 38.6 | 6.4 | 9.0 | 4.2",
+      "correction_macros_raw": "246.0 | 38.8 | 6.6 | 6.6 | 2.8",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 243.2,
+        "carbs": 39.1,
+        "fat": 6.0,
+        "prot": 8.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 248.0,
+        "carbs": 38.6,
+        "fat": 6.4,
+        "prot": 9.0,
+        "fib": 4.2
+      },
+      "input_macros_raw": "243.2 | 39.1 | 6.0 | 8.0 | 0.0",
+      "final_macros_raw": "248.0 | 38.6 | 6.4 | 9.0 | 4.2",
+      "diff": 0.02
+    },
+    {
+      "id": 27,
+      "original_food_name": "Bread upma (Brown bread)",
+      "standard_name": "Bread Upma Brown Bread",
+      "other_names": "Brown Bread Upma, Bread Upma, Double Roti Upma, Toasted Bread Upma",
+      "food_varieties": [
+        "White bread upma",
+        "Multigrain bread upma",
+        "Bread upma with vegetables",
+        "Bread upma with egg",
+        "Sourdough bread upma"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "273.6 | 34.8 | 11.2 | 8.4 | 4.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": "259.0 | 25.2 | 15.4 | 5.6 | 4.0",
+      "input_macros": {
+        "cal": 489.4,
+        "carbs": 53.1,
+        "fat": 25.8,
+        "prot": 12.9,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 273.6,
+        "carbs": 34.8,
+        "fat": 11.2,
+        "prot": 8.4,
+        "fib": 4.2
+      },
+      "input_macros_raw": "489.4 | 53.1 | 25.8 | 12.9 | 0.0",
+      "final_macros_raw": "273.6 | 34.8 | 11.2 | 8.4 | 4.2",
+      "diff": -0.441
+    },
+    {
+      "id": 28,
+      "original_food_name": "Rawa handvo",
+      "standard_name": "Rawa Handvo",
+      "other_names": "Rava Handvo, Semolina Handvo, Rawa Handwa, Handvo with Rawa",
+      "food_varieties": [
+        "Rawa handvo with bottle gourd",
+        "Rawa handvo with carrot and peas",
+        "Rawa handvo with moong sprouts",
+        "Rawa handvo with ginger-green chilli"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 170.0g",
+        "half plate — 250.0g",
+        "plate — 340.0g"
+      ],
+      "base_volume": "170g",
+      "gen_macros_raw": "266.5 | 37.4 | 9.5 | 7.8 | 1.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 267.8,
+        "carbs": 37.4,
+        "fat": 9.5,
+        "prot": 7.9,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 266.5,
+        "carbs": 37.4,
+        "fat": 9.5,
+        "prot": 7.8,
+        "fib": 1.2
+      },
+      "input_macros_raw": "267.8 | 37.4 | 9.5 | 7.9 | 0.0",
+      "final_macros_raw": "266.5 | 37.4 | 9.5 | 7.8 | 1.2",
+      "diff": -0.005
+    },
+    {
+      "id": 29,
+      "original_food_name": "Gajar paratha",
+      "standard_name": "Gajar Paratha",
+      "other_names": "Carrot Paratha, Gajar Ka Paratha, Carrot Stuffed Paratha, Gajar Roti",
+      "food_varieties": [
+        "Gajar Matar Paratha",
+        "Gajar Paneer Paratha",
+        "Gajar Methi Paratha",
+        "Gajar Mooli Paratha"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 75.0g",
+        "2 pieces — 160.0g"
+      ],
+      "base_volume": "75g",
+      "gen_macros_raw": "173.2 | 26.5 | 5.6 | 4.2 | 4.7",
+      "correction_macros_raw": "173.2 | 26.5 | 5.6 | 4.2 | 4.7",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 187.4,
+        "carbs": 32.7,
+        "fat": 5.0,
+        "prot": 5.7,
+        "fib": null
+      },
+      "final_macros": {
+        "cal": 173.2,
+        "carbs": 26.5,
+        "fat": 5.6,
+        "prot": 4.2,
+        "fib": 4.7
+      },
+      "input_macros_raw": "187.4 | 32.7 | 5.0 | 5.7 | —",
+      "final_macros_raw": "173.2 | 26.5 | 5.6 | 4.2 | 4.7",
+      "diff": -0.076
+    },
+    {
+      "id": 30,
+      "original_food_name": "Peas upma",
+      "standard_name": "Peas Upma",
+      "other_names": "Matar Upma, Green Peas Upma, Matar Rava Upma, Batani Uppittu",
+      "food_varieties": [
+        "Vegetable Upma",
+        "Rava Upma",
+        "Semiya Upma",
+        "Oats Upma"
+      ],
+      "serving_types": [
+        "small bowl — 150.0g",
+        "[BASE] bowl — 200.0g",
+        "half plate — 250.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "222.4 | 35.2 | 6.4 | 6.0 | 2.8",
+      "correction_macros_raw": "222.4 | 35.2 | 6.4 | 6.0 | 2.8",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 211.0,
+        "carbs": 35.8,
+        "fat": 4.3,
+        "prot": 6.7,
+        "fib": null
+      },
+      "final_macros": {
+        "cal": 222.4,
+        "carbs": 35.2,
+        "fat": 6.4,
+        "prot": 6.0,
+        "fib": 2.8
+      },
+      "input_macros_raw": "211.0 | 35.8 | 4.3 | 6.7 | —",
+      "final_macros_raw": "222.4 | 35.2 | 6.4 | 6.0 | 2.8",
+      "diff": 0.054
+    },
+    {
+      "id": 31,
+      "original_food_name": "Cucumber mint lemon juice",
+      "standard_name": "Cucumber Mint Lemon Juice",
+      "other_names": "Kheera Pudina Nimbu Pani, Cucumber Mint Cooler, Detox Cucumber Juice, Pudina Kheera Sharbat",
+      "food_varieties": [
+        "Cucumber Ginger Lemon Juice",
+        "Cucumber Celery Juice",
+        "Salted Cucumber Mint Juice",
+        "Sweet Cucumber Mint Juice"
+      ],
+      "serving_types": [
+        "small cup — 150.0ml",
+        "[BASE] glass — 200.0ml",
+        "large cup — 250.0ml"
+      ],
+      "base_volume": "200ml",
+      "gen_macros_raw": "12.9 | 2.5 | 0.1 | 0.5 | 0.3",
+      "correction_macros_raw": "12.9 | 2.5 | 0.1 | 0.5 | 0.3",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 25.6,
+        "carbs": 4.9,
+        "fat": 0.3,
+        "prot": 1.2,
+        "fib": null
+      },
+      "final_macros": {
+        "cal": 12.9,
+        "carbs": 2.5,
+        "fat": 0.1,
+        "prot": 0.5,
+        "fib": 0.3
+      },
+      "input_macros_raw": "25.6 | 4.9 | 0.3 | 1.2 | —",
+      "final_macros_raw": "12.9 | 2.5 | 0.1 | 0.5 | 0.3",
+      "diff": -0.496
+    },
+    {
+      "id": 32,
+      "original_food_name": "Tomato idli upma",
+      "standard_name": "Tomato Idli Upma",
+      "other_names": "Idli Upma, Masala Idli Upma, Fried Idli Upma, Leftover Idli Upma",
+      "food_varieties": [
+        "Onion Idli Upma",
+        "Podi Idli Upma",
+        "Vegetable Idli Upma",
+        "Capsicum Idli Upma"
+      ],
+      "serving_types": [
+        "[BASE] small bowl — 150.0g",
+        "bowl — 200.0g",
+        "half plate — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "210.6 | 26.7 | 9.0 | 5.7 | 1.2",
+      "correction_macros_raw": "210.6 | 26.7 | 9.0 | 5.7 | 1.2",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 213.9,
+        "carbs": 31.7,
+        "fat": 7.4,
+        "prot": 5.1,
+        "fib": null
+      },
+      "final_macros": {
+        "cal": 210.6,
+        "carbs": 26.7,
+        "fat": 9.0,
+        "prot": 5.7,
+        "fib": 1.2
+      },
+      "input_macros_raw": "213.9 | 31.7 | 7.4 | 5.1 | —",
+      "final_macros_raw": "210.6 | 26.7 | 9.0 | 5.7 | 1.2",
+      "diff": -0.015
+    },
+    {
+      "id": 33,
+      "original_food_name": "Moong dal upma",
+      "standard_name": "Moong Dal Upma",
+      "other_names": "Pasi Paruppu Upma, Yellow Lentil Upma, Moong Dal Khichdi Upma, Pesarattu Upma",
+      "food_varieties": [
+        "Moong Dal Vegetable Upma",
+        "Moong Dal Rava Upma",
+        "Cracked Wheat Moong Dal Upma",
+        "Moong Dal Oats Upma"
+      ],
+      "serving_types": [
+        "[BASE] small bowl — 150.0g",
+        "bowl — 200.0g",
+        "half plate — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "196.8 | 27.9 | 4.8 | 10.5 | 3.3",
+      "correction_macros_raw": "196.8 | 27.9 | 4.8 | 10.5 | 3.3",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 186.9,
+        "carbs": 27.8,
+        "fat": 3.9,
+        "prot": 10.5,
+        "fib": null
+      },
+      "final_macros": {
+        "cal": 196.8,
+        "carbs": 27.9,
+        "fat": 4.8,
+        "prot": 10.5,
+        "fib": 3.3
+      },
+      "input_macros_raw": "186.9 | 27.8 | 3.9 | 10.5 | —",
+      "final_macros_raw": "196.8 | 27.9 | 4.8 | 10.5 | 3.3",
+      "diff": 0.053
+    },
+    {
+      "id": 34,
+      "original_food_name": "Quinoa upma",
+      "standard_name": "Quinoa Upma",
+      "other_names": "Quinoa Uppuma, Quinoa Uppit, Quinoa Breakfast Upma, Quinoa Savory Porridge",
+      "food_varieties": [
+        "Quinoa Upma with vegetables",
+        "Quinoa Upma with peanuts",
+        "Quinoa Upma with coconut",
+        "Quinoa Upma with lemon tempering",
+        "Quinoa Upma with mixed seeds"
+      ],
+      "serving_types": [
+        "small bowl — 150.0g",
+        "[BASE] bowl — 200.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "251.8 | 38.0 | 7.0 | 9.2 | 3.4",
+      "correction_macros_raw": "284.0 | 40.9 | 9.5 | 8.8 | 5.2",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 283.0,
+        "carbs": 45.8,
+        "fat": 7.7,
+        "prot": 8.9,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 284.0,
+        "carbs": 40.9,
+        "fat": 9.5,
+        "prot": 8.8,
+        "fib": 5.2
+      },
+      "input_macros_raw": "283.0 | 45.8 | 7.7 | 8.9 | 0.0",
+      "final_macros_raw": "284.0 | 40.9 | 9.5 | 8.8 | 5.2",
+      "diff": 0.004
+    },
+    {
+      "id": 35,
+      "original_food_name": "Ginger honey lemon water",
+      "standard_name": "Ginger Honey Lemon Water",
+      "other_names": "Adrak Shahad Nimbu Pani, Honey Lemon Ginger Drink, Ginger Lemon Honey Infusion, Adrak Nimbu Honey Water",
+      "food_varieties": [
+        "Ginger lemon water without honey",
+        "Ginger turmeric lemon water",
+        "Ginger honey lemon green tea",
+        "Warm ginger honey lemon water with mint",
+        "Cold ginger lemon honey water"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 200.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "20.8 | 5.1 | 0.0 | 0.1 | 0.1",
+      "correction_macros_raw": "39.0 | 10.5 | 0.1 | 0.2 | 0.1",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 17.9,
+        "carbs": 4.9,
+        "fat": 0.0,
+        "prot": 0.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 20.8,
+        "carbs": 5.1,
+        "fat": 0.0,
+        "prot": 0.1,
+        "fib": 0.1
+      },
+      "input_macros_raw": "17.9 | 4.9 | 0.0 | 0.1 | 0.0",
+      "final_macros_raw": "20.8 | 5.1 | 0.0 | 0.1 | 0.1",
+      "diff": 0.162
+    },
+    {
+      "id": 36,
+      "original_food_name": "Egg oats upma",
+      "standard_name": "Egg Oats Upma",
+      "other_names": "Oats Egg Upma, Egg Oats Uppuma, Oats Upma with Egg, Egg Oats Uppit",
+      "food_varieties": [
+        "Oats upma without egg (plain vegetable oats upma)",
+        "Egg oats upma with scrambled egg mixed in",
+        "Egg oats upma with poached egg on top",
+        "Masala egg oats upma with extra spices and onion",
+        "Egg oats upma with added vegetables (carrot, peas, beans)"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "259.8 | 28.6 | 10.2 | 13.4 | 3.8",
+      "correction_macros_raw": "382.0 | 40.6 | 17.0 | 15.4 | 6.6",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 240.1,
+        "carbs": 19.7,
+        "fat": 13.9,
+        "prot": 9.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 259.8,
+        "carbs": 28.6,
+        "fat": 10.2,
+        "prot": 13.4,
+        "fib": 3.8
+      },
+      "input_macros_raw": "240.1 | 19.7 | 13.9 | 9.6 | 0.0",
+      "final_macros_raw": "259.8 | 28.6 | 10.2 | 13.4 | 3.8",
+      "diff": 0.082
+    },
+    {
+      "id": 37,
+      "original_food_name": "Cucumber yoghurt smoothie",
+      "standard_name": "Cucumber Yoghurt Smoothie",
+      "other_names": "Kheera Dahi Smoothie, Cucumber Curd Smoothie, Kheera Lassi Smoothie, Cucumber Yogurt Drink",
+      "food_varieties": [
+        "Cucumber Mint Yoghurt Smoothie",
+        "Cucumber Yoghurt Smoothie with Honey",
+        "Spiced Cucumber Raita Smoothie",
+        "Cucumber Coconut Yoghurt Smoothie",
+        "Cucumber Ginger Yoghurt Smoothie"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 200.0ml",
+        "large cup — 350.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "89.0 | 8.5 | 3.8 | 5.2 | 0.5",
+      "correction_macros_raw": "137.0 | 19.6 | 4.6 | 5.4 | 0.4",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 90.1,
+        "carbs": 8.2,
+        "fat": 4.3,
+        "prot": 5.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 137.0,
+        "carbs": 19.6,
+        "fat": 4.6,
+        "prot": 5.4,
+        "fib": 0.4
+      },
+      "input_macros_raw": "90.1 | 8.2 | 4.3 | 5.0 | 0.0",
+      "final_macros_raw": "137.0 | 19.6 | 4.6 | 5.4 | 0.4",
+      "diff": 0.521
+    },
+    {
+      "id": 38,
+      "original_food_name": "Methi upma",
+      "standard_name": "Methi Upma",
+      "other_names": "Methi Uppit, Fenugreek Upma, Methi Uppuma, Methi Semolina Upma",
+      "food_varieties": [
+        "Methi Rava Upma with roasted semolina",
+        "Methi Vermicelli Upma",
+        "Methi Oats Upma",
+        "Methi Upma with vegetables",
+        "Methi Upma with peanuts"
+      ],
+      "serving_types": [
+        "small bowl — 150.0g",
+        "[BASE] bowl — 200.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "270.8 | 42.4 | 7.6 | 8.2 | 3.6",
+      "correction_macros_raw": "323.0 | 49.6 | 9.0 | 10.0 | 3.2",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 270.8,
+        "carbs": 42.0,
+        "fat": 7.5,
+        "prot": 8.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 270.8,
+        "carbs": 42.4,
+        "fat": 7.6,
+        "prot": 8.2,
+        "fib": 3.6
+      },
+      "input_macros_raw": "270.8 | 42.0 | 7.5 | 8.1 | 0.0",
+      "final_macros_raw": "270.8 | 42.4 | 7.6 | 8.2 | 3.6",
+      "diff": 0.0
+    },
+    {
+      "id": 39,
+      "original_food_name": "Pori upma (Puffed rice upma)",
+      "standard_name": "Pori Upma",
+      "other_names": "Puffed Rice Upma, Murmura Upma, Borugula Upma, Mamra Upma, Kurmura Upma",
+      "food_varieties": [
+        "Pori upma with vegetables (onion, tomato, carrot)",
+        "Pori upma with peanuts and curry leaves",
+        "Pori upma with coconut and green chilli",
+        "Spicy pori upma with sambar powder",
+        "Pori upma with lemon tempering"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "half plate — 250.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "245.4 | 42.0 | 6.2 | 5.4 | 2.2",
+      "correction_macros_raw": "472.0 | 68.2 | 17.1 | 9.7 | 2.6",
+      "db_macros_raw": "302.6 | 36.0 | 15.0 | 5.2 | 4.2",
+      "input_macros": {
+        "cal": 260.7,
+        "carbs": 49.9,
+        "fat": 4.2,
+        "prot": 7.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 245.4,
+        "carbs": 42.0,
+        "fat": 6.2,
+        "prot": 5.4,
+        "fib": 2.2
+      },
+      "input_macros_raw": "260.7 | 49.9 | 4.2 | 7.3 | 0.0",
+      "final_macros_raw": "245.4 | 42.0 | 6.2 | 5.4 | 2.2",
+      "diff": -0.059
+    },
+    {
+      "id": 40,
+      "original_food_name": "Amaranth seed upma",
+      "standard_name": "Amaranth Seed Upma",
+      "other_names": "Rajgira Upma, Ramdana Upma, Amaranth Uppit, Chaulai Upma, Rajgira Uppuma",
+      "food_varieties": [
+        "Amaranth seed upma with vegetables (onion, carrot, peas)",
+        "Amaranth seed upma with peanuts and curry leaves",
+        "Amaranth seed upma with coconut garnish",
+        "Amaranth seed upma with green chilli and ginger tadka"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "277.4 | 40.8 | 8.6 | 9.2 | 4.4",
+      "correction_macros_raw": "137.0 | 19.5 | 5.0 | 4.1 | 2.1",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 159.8,
+        "carbs": 24.7,
+        "fat": 4.9,
+        "prot": 5.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 277.4,
+        "carbs": 40.8,
+        "fat": 8.6,
+        "prot": 9.2,
+        "fib": 4.4
+      },
+      "input_macros_raw": "159.8 | 24.7 | 4.9 | 5.4 | 0.0",
+      "final_macros_raw": "277.4 | 40.8 | 8.6 | 9.2 | 4.4",
+      "diff": 0.736
+    },
+    {
+      "id": 41,
+      "original_food_name": "Oats upma",
+      "standard_name": "Oats Upma",
+      "other_names": "Oats Uppit, Oats Uppuma, Oatmeal Upma, Oats Savoury Porridge, Masala Oats Upma",
+      "food_varieties": [
+        "Rolled oats upma with vegetables",
+        "Quick oats upma (instant style)",
+        "Steel-cut oats upma",
+        "Oats upma with coconut",
+        "Oats upma with peanuts"
+      ],
+      "serving_types": [
+        "small bowl — 150.0g",
+        "[BASE] bowl — 200.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "204.6 | 29.8 | 6.2 | 7.4 | 3.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": "208.0 | 30.0 | 6.4 | 7.6 | 5.0",
+      "input_macros": {
+        "cal": 240.8,
+        "carbs": 38.5,
+        "fat": 7.3,
+        "prot": 7.9,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 204.6,
+        "carbs": 29.8,
+        "fat": 6.2,
+        "prot": 7.4,
+        "fib": 3.8
+      },
+      "input_macros_raw": "240.8 | 38.5 | 7.3 | 7.9 | 0.0",
+      "final_macros_raw": "204.6 | 29.8 | 6.2 | 7.4 | 3.8",
+      "diff": -0.15
+    },
+    {
+      "id": 42,
+      "original_food_name": "Besanwali bhindi",
+      "standard_name": "Besanwali Bhindi",
+      "other_names": "Besan Bhindi, Bhindi Besan Sabzi, Okra with Gram Flour, Kurkuri Bhindi Besan, Bhindi Besan Masala",
+      "food_varieties": [
+        "Kurkuri Besanwali Bhindi (deep fried)",
+        "Besanwali Bhindi with onion",
+        "Besanwali Bhindi dry roast",
+        "Stuffed Bhindi with besan",
+        "Besanwali Bhindi with amchur"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "183.3 | 16.8 | 10.5 | 5.4 | 4.2",
+      "correction_macros_raw": "241.0 | 22.3 | 13.9 | 7.9 | 5.9",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 199.7,
+        "carbs": 17.1,
+        "fat": 14.1,
+        "prot": 4.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 183.3,
+        "carbs": 16.8,
+        "fat": 10.5,
+        "prot": 5.4,
+        "fib": 4.2
+      },
+      "input_macros_raw": "199.7 | 17.1 | 14.1 | 4.4 | 0.0",
+      "final_macros_raw": "183.3 | 16.8 | 10.5 | 5.4 | 4.2",
+      "diff": -0.082
+    },
+    {
+      "id": 43,
+      "original_food_name": "Cucumber (Peeled, raw)",
+      "standard_name": "Peeled Raw Cucumber",
+      "other_names": "Kheera, Kakdi, Vellarikkai, Dosakaya, Salad Cucumber",
+      "food_varieties": [
+        "English cucumber (seedless, thin skin)",
+        "Indian field cucumber (kakdi, yellow-green)",
+        "Persian cucumber (small, crisp)",
+        "Lemon cucumber (round, pale yellow)"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 100.0g",
+        "small bowl — 50.0g",
+        "large bowl — 200.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "13.3 | 2.5 | 0.1 | 0.6 | 0.5",
+      "correction_macros_raw": "13.0 | 2.5 | 0.1 | 0.6 | 0.5",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 10.0,
+        "carbs": 2.2,
+        "fat": 0.2,
+        "prot": 0.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 13.3,
+        "carbs": 2.5,
+        "fat": 0.1,
+        "prot": 0.6,
+        "fib": 0.5
+      },
+      "input_macros_raw": "10.0 | 2.2 | 0.2 | 0.6 | 0.0",
+      "final_macros_raw": "13.3 | 2.5 | 0.1 | 0.6 | 0.5",
+      "diff": 0.33
+    },
+    {
+      "id": 44,
+      "original_food_name": "Tandoori dip",
+      "standard_name": "Tandoori Dip",
+      "other_names": "Tandoori Sauce, Tandoori Chutney Dip, Tandoori Yogurt Dip, Tandoori Dipping Sauce",
+      "food_varieties": [
+        "Mint-based tandoori dip",
+        "Cream cheese tandoori dip",
+        "Hung curd tandoori dip",
+        "Mayonnaise-based tandoori dip",
+        "Vegan tandoori dip with coconut yogurt"
+      ],
+      "serving_types": [
+        "[BASE] 1 tablespoon — 15.0g",
+        "2 tablespoons — 30.0g"
+      ],
+      "base_volume": "15g",
+      "gen_macros_raw": "11.8 | 1.0 | 0.6 | 0.6 | 0.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 9.9,
+        "carbs": 1.0,
+        "fat": 0.5,
+        "prot": 0.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 11.8,
+        "carbs": 1.0,
+        "fat": 0.6,
+        "prot": 0.6,
+        "fib": 0.1
+      },
+      "input_macros_raw": "9.9 | 1.0 | 0.5 | 0.5 | 0.0",
+      "final_macros_raw": "11.8 | 1.0 | 0.6 | 0.6 | 0.1",
+      "diff": 0.192
+    },
+    {
+      "id": 45,
+      "original_food_name": "Gajar barfi",
+      "standard_name": "Gajar Barfi",
+      "other_names": "Carrot Barfi, Gajar Ki Barfi, Carrot Fudge, Gajar Mithai",
+      "food_varieties": [
+        "Gajar Barfi with khoya (mawa-based)",
+        "Gajar Barfi with condensed milk",
+        "Gajar Barfi with coconut",
+        "Gajar Barfi with dry fruits topping",
+        "Gajar Barfi with besan"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 40.0g",
+        "2 pieces — 80.0g"
+      ],
+      "base_volume": "40g",
+      "gen_macros_raw": "149.8 | 20.4 | 6.2 | 3.1 | 0.6",
+      "correction_macros_raw": "98.0 | 11.7 | 5.2 | 1.7 | 0.5",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 73.0,
+        "carbs": 7.9,
+        "fat": 3.7,
+        "prot": 2.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 149.8,
+        "carbs": 20.4,
+        "fat": 6.2,
+        "prot": 3.1,
+        "fib": 0.6
+      },
+      "input_macros_raw": "73.0 | 7.9 | 3.7 | 2.4 | 0.0",
+      "final_macros_raw": "149.8 | 20.4 | 6.2 | 3.1 | 0.6",
+      "diff": 1.052
+    },
+    {
+      "id": 46,
+      "original_food_name": "Cucumber chutney",
+      "standard_name": "Cucumber Chutney",
+      "other_names": "Kheera Chutney, Cucumber Pickle, Kakdi Chutney, Green Cucumber Chutney",
+      "food_varieties": [
+        "Cucumber chutney with coconut",
+        "Cucumber chutney with mint",
+        "Cucumber chutney with yogurt",
+        "Spiced cucumber chutney with ginger"
+      ],
+      "serving_types": [
+        "[BASE] 1 tablespoon — 15.0g",
+        "1 teaspoon — 5.0g",
+        "2 tablespoons — 30.0g"
+      ],
+      "base_volume": "15g",
+      "gen_macros_raw": "8.8 | 1.1 | 0.4 | 0.2 | 0.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 9.5,
+        "carbs": 0.8,
+        "fat": 0.7,
+        "prot": 0.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 8.8,
+        "carbs": 1.1,
+        "fat": 0.4,
+        "prot": 0.2,
+        "fib": 0.1
+      },
+      "input_macros_raw": "9.5 | 0.8 | 0.7 | 0.2 | 0.0",
+      "final_macros_raw": "8.8 | 1.1 | 0.4 | 0.2 | 0.1",
+      "diff": -0.074
+    },
+    {
+      "id": 47,
+      "original_food_name": "Kiwi cucumber mint smoothie",
+      "standard_name": "Kiwi Cucumber Mint Smoothie",
+      "other_names": "Kiwi Cucumber Smoothie, Green Kiwi Mint Blend, Kiwi Pudina Smoothie, Cucumber Kiwi Mint Drink",
+      "food_varieties": [
+        "Kiwi Spinach Mint Smoothie",
+        "Kiwi Cucumber Ginger Smoothie",
+        "Kiwi Cucumber Coconut Water Smoothie",
+        "Kiwi Cucumber Yogurt Smoothie",
+        "Kiwi Cucumber Lemon Mint Smoothie"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 200.0ml",
+        "large cup — 350.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "66.6 | 13.5 | 0.6 | 1.8 | 2.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 58.6,
+        "carbs": 12.6,
+        "fat": 0.6,
+        "prot": 2.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 66.6,
+        "carbs": 13.5,
+        "fat": 0.6,
+        "prot": 1.8,
+        "fib": 2.0
+      },
+      "input_macros_raw": "58.6 | 12.6 | 0.6 | 2.0 | 0.0",
+      "final_macros_raw": "66.6 | 13.5 | 0.6 | 1.8 | 2.0",
+      "diff": 0.137
+    },
+    {
+      "id": 48,
+      "original_food_name": "Cucumber, orange, round",
+      "standard_name": "Round Orange Cucumber",
+      "other_names": "Orange Cucumber, Round Cucumber, Yellow Round Cucumber, Lemon Cucumber, Desi Gol Kheera",
+      "food_varieties": [
+        "Standard green cucumber",
+        "English cucumber",
+        "Armenian cucumber",
+        "Persian cucumber",
+        "Lemon cucumber (yellow round)"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 150.0g",
+        "bowl — 200.0g",
+        "1 small piece — 75.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "23.2 | 4.3 | 0.2 | 1.1 | 0.8",
+      "correction_macros_raw": "27.0 | 5.4 | 0.2 | 1.1 | 0.8",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 30.0,
+        "carbs": 4.5,
+        "fat": 0.4,
+        "prot": 1.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 27.0,
+        "carbs": 5.4,
+        "fat": 0.2,
+        "prot": 1.1,
+        "fib": 0.8
+      },
+      "input_macros_raw": "30.0 | 4.5 | 0.4 | 1.5 | 0.0",
+      "final_macros_raw": "27.0 | 5.4 | 0.2 | 1.1 | 0.8",
+      "diff": -0.1
+    },
+    {
+      "id": 49,
+      "original_food_name": "Cucumber, green, elongate",
+      "standard_name": "Green Cucumber",
+      "other_names": "Kheera, Kakdi, Vellarikkai, Soutekayi, Dosakaya (green elongate variety)",
+      "food_varieties": [
+        "English cucumber (long, seedless)",
+        "Persian cucumber (short, thin-skinned)",
+        "Indian field cucumber (desi kheera, thicker skin)",
+        "Burpless cucumber (low bitterness variety)",
+        "Ridge gourd-style elongate cucumber"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 100.0g",
+        "small bowl — 50.0g",
+        "large bowl — 200.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "16.1 | 3.1 | 0.1 | 0.7 | 0.5",
+      "correction_macros_raw": "16.0 | 3.1 | 0.1 | 0.7 | 0.5",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 20.0,
+        "carbs": 3.5,
+        "fat": 0.2,
+        "prot": 0.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 16.1,
+        "carbs": 3.1,
+        "fat": 0.1,
+        "prot": 0.7,
+        "fib": 0.5
+      },
+      "input_macros_raw": "20.0 | 3.5 | 0.2 | 0.7 | 0.0",
+      "final_macros_raw": "16.1 | 3.1 | 0.1 | 0.7 | 0.5",
+      "diff": -0.195
+    },
+    {
+      "id": 50,
+      "original_food_name": "Carrot cheese paratha",
+      "standard_name": "Carrot Cheese Paratha",
+      "other_names": "Gajar Cheese Paratha, Carrot Paneer Paratha, Gajar Cheese Stuffed Paratha, Cheese Carrot Stuffed Flatbread",
+      "food_varieties": [
+        "Carrot Paneer Paratha",
+        "Carrot Mozzarella Paratha",
+        "Carrot Cheddar Paratha",
+        "Carrot Cheese Onion Paratha",
+        "Carrot Cheese Aloo Paratha"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 75.0g",
+        "2 pieces — 180.0g"
+      ],
+      "base_volume": "75g",
+      "gen_macros_raw": "235.6 | 29.8 | 9.2 | 8.4 | 2.6",
+      "correction_macros_raw": "185.0 | 25.9 | 6.8 | 5.8 | 4.1",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 235.6,
+        "carbs": 31.7,
+        "fat": 9.4,
+        "prot": 8.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 235.6,
+        "carbs": 29.8,
+        "fat": 9.2,
+        "prot": 8.4,
+        "fib": 2.6
+      },
+      "input_macros_raw": "235.6 | 31.7 | 9.4 | 8.7 | 0.0",
+      "final_macros_raw": "235.6 | 29.8 | 9.2 | 8.4 | 2.6",
+      "diff": 0.0
+    },
+    {
+      "id": 51,
+      "original_food_name": "Cucumber mint Lemonade (restaurant)",
+      "standard_name": "Cucumber Mint Lemonade",
+      "other_names": "Kheera Pudina Nimbu Pani, Cucumber Mint Lemon Juice, Cucumber Lemonade, Pudina Kheera Sharbat",
+      "food_varieties": [
+        "With honey",
+        "With jaggery",
+        "Chilled",
+        "Room temperature"
+      ],
+      "serving_types": [
+        "[BASE] glass — 190.0ml",
+        "small cup — 120.0ml"
+      ],
+      "base_volume": "190ml",
+      "gen_macros_raw": "37.7 | 9.1 | 0.1 | 0.2 | 0.3",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 36.7,
+        "carbs": 9.2,
+        "fat": 0.1,
+        "prot": 0.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 37.7,
+        "carbs": 9.1,
+        "fat": 0.1,
+        "prot": 0.2,
+        "fib": 0.3
+      },
+      "input_macros_raw": "36.7 | 9.2 | 0.1 | 0.2 | 0.0",
+      "final_macros_raw": "37.7 | 9.1 | 0.1 | 0.2 | 0.3",
+      "diff": 0.027
+    },
+    {
+      "id": 52,
+      "original_food_name": "Tandoori Broccoli (restaurant)",
+      "standard_name": "Tandoori Broccoli",
+      "other_names": "Tandoori Broccoli Tikka, Broccoli Tandoori, Grilled Broccoli Tandoori Style, Broccoli Tikka",
+      "food_varieties": [
+        "Achari Broccoli Tikka",
+        "Malai Broccoli Tikka",
+        "Hariyali Broccoli Tikka",
+        "Broccoli Seekh Kebab",
+        "Cheesy Tandoori Broccoli"
+      ],
+      "serving_types": [
+        "[BASE] plate — 200.0g",
+        "half plate — 150.0g",
+        "large bowl — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "200.4 | 13.0 | 13.2 | 7.4 | 4.2",
+      "correction_macros_raw": "262.0 | 14.6 | 18.5 | 9.1 | 6.4",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 197.4,
+        "carbs": 14.7,
+        "fat": 14.6,
+        "prot": 5.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 200.4,
+        "carbs": 13.0,
+        "fat": 13.2,
+        "prot": 7.4,
+        "fib": 4.2
+      },
+      "input_macros_raw": "197.4 | 14.7 | 14.6 | 5.6 | 0.0",
+      "final_macros_raw": "200.4 | 13.0 | 13.2 | 7.4 | 4.2",
+      "diff": 0.015
+    },
+    {
+      "id": 53,
+      "original_food_name": "Tandoori dimsums",
+      "standard_name": "Tandoori Dimsums",
+      "other_names": "Tandoori Momos, Tandoor Dimsums, Grilled Dimsums, Tandoori Dumplings, Smoky Momos",
+      "food_varieties": [
+        "Chicken Tandoori Dimsums",
+        "Paneer Tandoori Dimsums",
+        "Veg Tandoori Dimsums",
+        "Mushroom Tandoori Dimsums",
+        "Prawn Tandoori Dimsums"
+      ],
+      "serving_types": [
+        "[BASE] 4 pieces — 120.0g",
+        "2 pieces — 60.0g",
+        "1 piece — 30.0g"
+      ],
+      "base_volume": "120g",
+      "gen_macros_raw": "226.2 | 27.6 | 7.8 | 11.4 | 2.2",
+      "correction_macros_raw": "227.0 | 30.4 | 8.6 | 7.0 | 2.3",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 560.0,
+        "carbs": 11.2,
+        "fat": 57.5,
+        "prot": 2.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 227.0,
+        "carbs": 30.4,
+        "fat": 8.6,
+        "prot": 7.0,
+        "fib": 2.3
+      },
+      "input_macros_raw": "560.0 | 11.2 | 57.5 | 2.0 | 0.0",
+      "final_macros_raw": "227.0 | 30.4 | 8.6 | 7.0 | 2.3",
+      "diff": -0.595
+    },
+    {
+      "id": 54,
+      "original_food_name": "Cucumber mayo sandwich",
+      "standard_name": "Cucumber Mayo Sandwich",
+      "other_names": "Cucumber Mayonnaise Sandwich, Cucumber Sandwich With Mayo, Veggie Mayo Sandwich, Cucumber Butter Sandwich",
+      "food_varieties": [
+        "With tomato and cucumber",
+        "With lettuce and cucumber",
+        "Whole wheat bread variant",
+        "With low-fat mayo"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 105.0g",
+        "2 pieces — 210.0g"
+      ],
+      "base_volume": "105g",
+      "gen_macros_raw": "221.4 | 29.8 | 8.9 | 5.5 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 220.9,
+        "carbs": 29.5,
+        "fat": 8.8,
+        "prot": 5.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 221.4,
+        "carbs": 29.8,
+        "fat": 8.9,
+        "prot": 5.5,
+        "fib": 0.0
+      },
+      "input_macros_raw": "220.9 | 29.5 | 8.8 | 5.5 | 0.0",
+      "final_macros_raw": "221.4 | 29.8 | 8.9 | 5.5 | 0.0",
+      "diff": 0.002
+    },
+    {
+      "id": 55,
+      "original_food_name": "Tandoori Mushroom (restaurant)",
+      "standard_name": "Tandoori Mushroom",
+      "other_names": "Tandoori Mushrooms, Mushroom Tandoori, Tandoori Khumbh, Grilled Tandoori Mushroom",
+      "food_varieties": [
+        "Tandoori Mushroom with yogurt marinade",
+        "Tandoori Mushroom with cream-based marinade",
+        "Tandoori Mushroom skewers with vegetables",
+        "Tandoori Mushroom with spiced butter baste"
+      ],
+      "serving_types": [
+        "[BASE] 2 pieces — 155.0g",
+        "4 pieces — 310.0g"
+      ],
+      "base_volume": "155g",
+      "gen_macros_raw": "192.3 | 10.5 | 14.7 | 4.4 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 179.9,
+        "carbs": 10.4,
+        "fat": 14.6,
+        "prot": 4.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 192.3,
+        "carbs": 10.5,
+        "fat": 14.7,
+        "prot": 4.4,
+        "fib": 0.0
+      },
+      "input_macros_raw": "179.9 | 10.4 | 14.6 | 4.4 | 0.0",
+      "final_macros_raw": "192.3 | 10.5 | 14.7 | 4.4 | 0.0",
+      "diff": 0.069
+    },
+    {
+      "id": 56,
+      "original_food_name": "Cucumber (With peel, raw)",
+      "standard_name": "Cucumber With Peel Raw",
+      "other_names": "Kheera, Kakdi, Vellarikkai, Soutekayi, Cucumber with skin",
+      "food_varieties": [
+        "English cucumber (seedless, thin peel)",
+        "Indian field cucumber (kakdi, thicker peel)",
+        "Persian cucumber (small, crisp)",
+        "Lemon cucumber (round, yellow-green)",
+        "Bitter cucumber (teasle gourd variant)"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 150.0g",
+        "small bowl — 100.0g",
+        "1 large piece — 200.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "26.6 | 5.3 | 0.2 | 1.0 | 0.9",
+      "correction_macros_raw": "23.0 | 5.5 | 0.2 | 1.0 | 0.8",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 22.5,
+        "carbs": 5.4,
+        "fat": 0.2,
+        "prot": 1.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 26.6,
+        "carbs": 5.3,
+        "fat": 0.2,
+        "prot": 1.0,
+        "fib": 0.9
+      },
+      "input_macros_raw": "22.5 | 5.4 | 0.2 | 1.0 | 0.0",
+      "final_macros_raw": "26.6 | 5.3 | 0.2 | 1.0 | 0.9",
+      "diff": 0.182
+    },
+    {
+      "id": 57,
+      "original_food_name": "Sour cucumber pickle",
+      "standard_name": "Sour Cucumber Pickle",
+      "other_names": "Khatta Kheera Achar, Cucumber Achaar, Sour Kheera Pickle, Fermented Cucumber Pickle, Kheera Ka Khatta Achar",
+      "food_varieties": [
+        "Vinegar-brined cucumber pickle",
+        "Lacto-fermented cucumber pickle",
+        "Spiced sour cucumber pickle with mustard seeds",
+        "Quick lime-juice cucumber pickle",
+        "Dill cucumber pickle"
+      ],
+      "serving_types": [
+        "[BASE] 1 tablespoon — 15.0g",
+        "2 tablespoons — 30.0g"
+      ],
+      "base_volume": "15g",
+      "gen_macros_raw": "2.0 | 0.4 | 0.0 | 0.1 | 0.1",
+      "correction_macros_raw": "3.0 | 0.6 | 0.1 | 0.1 | 0.1",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 1.6,
+        "carbs": 0.3,
+        "fat": 0.0,
+        "prot": 0.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 2.0,
+        "carbs": 0.4,
+        "fat": 0.0,
+        "prot": 0.1,
+        "fib": 0.1
+      },
+      "input_macros_raw": "1.6 | 0.3 | 0.0 | 0.0 | 0.0",
+      "final_macros_raw": "2.0 | 0.4 | 0.0 | 0.1 | 0.1",
+      "diff": 0.25
+    },
+    {
+      "id": 58,
+      "original_food_name": "Carrot cucumber juice",
+      "standard_name": "Carrot Cucumber Juice",
+      "other_names": "Carrot Cucumber Juice Fresh, Mixed Vegetable Juice Carrot Cucumber, Gajar Kheera Juice, Carrot Cucumber Blend",
+      "food_varieties": [
+        "With ginger",
+        "With lemon juice",
+        "With mint",
+        "With black salt"
+      ],
+      "serving_types": [
+        "[BASE] cup — 245.0ml",
+        "small cup — 180.0ml"
+      ],
+      "base_volume": "245ml",
+      "gen_macros_raw": "57.3 | 11.6 | 0.5 | 1.7 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 54.3,
+        "carbs": 11.7,
+        "fat": 0.5,
+        "prot": 1.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 57.3,
+        "carbs": 11.6,
+        "fat": 0.5,
+        "prot": 1.7,
+        "fib": 0.0
+      },
+      "input_macros_raw": "54.3 | 11.7 | 0.5 | 1.7 | 0.0",
+      "final_macros_raw": "57.3 | 11.6 | 0.5 | 1.7 | 0.0",
+      "diff": 0.055
+    },
+    {
+      "id": 59,
+      "original_food_name": "Cumin lemon water",
+      "standard_name": "Cumin Lemon Water",
+      "other_names": "Jeera Nimbu Pani, Jeera Lemon Water, Cumin Infused Lemon Water, Jeera Water with Lemon",
+      "food_varieties": [
+        "Plain Cumin Water (no lemon)",
+        "Cumin Lemon Water with Honey",
+        "Cumin Lemon Ginger Water",
+        "Cumin Lemon Water with Black Salt",
+        "Warm Cumin Lemon Water"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 150.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "6.6 | 1.0 | 0.2 | 0.2 | 0.1",
+      "correction_macros_raw": "11.0 | 1.6 | 0.6 | 0.5 | 0.3",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 5.5,
+        "carbs": 0.9,
+        "fat": 0.3,
+        "prot": 0.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 11.0,
+        "carbs": 1.6,
+        "fat": 0.6,
+        "prot": 0.5,
+        "fib": 0.3
+      },
+      "input_macros_raw": "5.5 | 0.9 | 0.3 | 0.2 | 0.0",
+      "final_macros_raw": "11.0 | 1.6 | 0.6 | 0.5 | 0.3",
+      "diff": 1.0
+    },
+    {
+      "id": 60,
+      "original_food_name": "Kiwi lemonade",
+      "standard_name": "Kiwi Lemonade",
+      "other_names": "Kiwi Nimbu Pani, Kiwi Shikanji, Kiwi Lemon Drink, Kiwi Citrus Cooler",
+      "food_varieties": [
+        "Kiwi mint lemonade",
+        "Sparkling kiwi lemonade",
+        "Kiwi ginger lemonade",
+        "Kiwi strawberry lemonade",
+        "Kiwi lemonade with chia seeds"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "large cup — 350.0ml",
+        "cup — 150.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "69.9 | 16.2 | 0.3 | 0.6 | 1.0",
+      "correction_macros_raw": "70.0 | 16.2 | 0.6 | 0.3 | 1.0",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 62.0,
+        "carbs": 15.9,
+        "fat": 0.3,
+        "prot": 0.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 69.9,
+        "carbs": 16.2,
+        "fat": 0.3,
+        "prot": 0.6,
+        "fib": 1.0
+      },
+      "input_macros_raw": "62.0 | 15.9 | 0.3 | 0.6 | 0.0",
+      "final_macros_raw": "69.9 | 16.2 | 0.3 | 0.6 | 1.0",
+      "diff": 0.127
+    },
+    {
+      "id": 61,
+      "original_food_name": "Ginger lemon water",
+      "standard_name": "Ginger Lemon Water",
+      "other_names": "Adrak Nimbu Pani, Ginger Lemon Infused Water, Adrak Lemon Water, Nimbu Adrak Water",
+      "food_varieties": [
+        "Ginger lemon water with honey",
+        "Ginger lemon water with mint",
+        "Ginger lemon turmeric water",
+        "Ginger lemon water with black salt",
+        "Cold ginger lemon water"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 150.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "9.8 | 2.2 | 0.1 | 0.1 | 0.1",
+      "correction_macros_raw": "10.0 | 2.2 | 0.1 | 0.1 | 0.1",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 9.1,
+        "carbs": 2.2,
+        "fat": 0.1,
+        "prot": 0.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 9.8,
+        "carbs": 2.2,
+        "fat": 0.1,
+        "prot": 0.1,
+        "fib": 0.1
+      },
+      "input_macros_raw": "9.1 | 2.2 | 0.1 | 0.2 | 0.0",
+      "final_macros_raw": "9.8 | 2.2 | 0.1 | 0.1 | 0.1",
+      "diff": 0.077
+    },
+    {
+      "id": 62,
+      "original_food_name": "Fresh cucumber lemonade",
+      "standard_name": "Fresh Cucumber Lemonade",
+      "other_names": "Cucumber Lemon Juice, Cucumber Lemonade, Fresh Cucumber Citrus Drink, Kheera Lemon Beverage",
+      "food_varieties": [
+        "Cucumber lemonade with mint",
+        "Cucumber lemonade with honey",
+        "Chilled cucumber lemonade",
+        "Cucumber lemonade with ginger"
+      ],
+      "serving_types": [
+        "[BASE] glass — 240.0ml",
+        "cup — 180.0ml"
+      ],
+      "base_volume": "240ml",
+      "gen_macros_raw": "61.1 | 14.6 | 0.1 | 0.4 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 58.3,
+        "carbs": 14.5,
+        "fat": 0.1,
+        "prot": 0.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 61.1,
+        "carbs": 14.6,
+        "fat": 0.1,
+        "prot": 0.4,
+        "fib": 0.0
+      },
+      "input_macros_raw": "58.3 | 14.5 | 0.1 | 0.4 | 0.0",
+      "final_macros_raw": "61.1 | 14.6 | 0.1 | 0.4 | 0.0",
+      "diff": 0.048
+    },
+    {
+      "id": 63,
+      "original_food_name": "Warm water with lemon honey cinnamon",
+      "standard_name": "Warm water with lemon honey cinnamon",
+      "other_names": "Lemon Honey Cinnamon Water, Detox Warm Water, Honey Lemon Cinnamon Drink, Garam Paani Nimbu Shahad Dalchini",
+      "food_varieties": [
+        "With ginger added",
+        "With turmeric added",
+        "With apple cider vinegar",
+        "Cold lemon honey water",
+        "With black pepper added"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 200.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "24.2 | 5.9 | 0.0 | 0.1 | 0.1",
+      "correction_macros_raw": "22.0 | 5.9 | 0.0 | 0.1 | 0.0",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 21.4,
+        "carbs": 6.0,
+        "fat": 0.0,
+        "prot": 0.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 24.2,
+        "carbs": 5.9,
+        "fat": 0.0,
+        "prot": 0.1,
+        "fib": 0.1
+      },
+      "input_macros_raw": "21.4 | 6.0 | 0.0 | 0.1 | 0.0",
+      "final_macros_raw": "24.2 | 5.9 | 0.0 | 0.1 | 0.1",
+      "diff": 0.131
+    },
+    {
+      "id": 64,
+      "original_food_name": "Warm water with lime",
+      "standard_name": "Warm Water With Lime",
+      "other_names": "Lemon Water, Nimbu Pani, Warm Lemon Water, Garam Pani Nimbu",
+      "food_varieties": [
+        "With honey",
+        "With salt and sugar",
+        "With ginger",
+        "With cumin"
+      ],
+      "serving_types": [
+        "[BASE] glass — 240.0ml",
+        "cup — 180.0ml"
+      ],
+      "base_volume": "240ml",
+      "gen_macros_raw": "2.4 | 0.5 | 0.0 | 0.0 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": "9.6 | 2.4 | 0.0 | 0.0 | 0.0",
+      "input_macros": {
+        "cal": 1.6,
+        "carbs": 0.5,
+        "fat": 0.0,
+        "prot": 0.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 1.6,
+        "carbs": 0.5,
+        "fat": 0.0,
+        "prot": 0.0,
+        "fib": 0.0
+      },
+      "input_macros_raw": "1.6 | 0.5 | 0.0 | 0.0 | 0.0",
+      "final_macros_raw": "1.6 | 0.5 | 0.0 | 0.0 | 0.0",
+      "diff": 0.0
+    },
+    {
+      "id": 65,
+      "original_food_name": "Jeera water with lemon juice",
+      "standard_name": "Jeera Water With Lemon Juice",
+      "other_names": "Cumin Water With Lemon, Jeera Nimbu Pani, Lemon Cumin Water, Jeera Lemon Infusion",
+      "food_varieties": [
+        "With ginger",
+        "With honey",
+        "With salt",
+        "Chilled jeera water"
+      ],
+      "serving_types": [
+        "[BASE] glass — 240.0ml",
+        "cup — 180.0ml"
+      ],
+      "base_volume": "240ml",
+      "gen_macros_raw": "20.5 | 2.8 | 0.7 | 0.7 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 16.3,
+        "carbs": 2.8,
+        "fat": 0.7,
+        "prot": 0.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 16.3,
+        "carbs": 2.8,
+        "fat": 0.7,
+        "prot": 0.7,
+        "fib": 0.0
+      },
+      "input_macros_raw": "16.3 | 2.8 | 0.7 | 0.7 | 0.0",
+      "final_macros_raw": "16.3 | 2.8 | 0.7 | 0.7 | 0.0",
+      "diff": 0.0
+    },
+    {
+      "id": 66,
+      "original_food_name": "Ginger honey lemon jeera water",
+      "standard_name": "Ginger Honey Lemon Jeera Water",
+      "other_names": "Adrak Shahad Nimbu Jeera Pani, Detox Jeera Water, Ginger Lemon Cumin Infusion, Honey Lemon Ginger Drink",
+      "food_varieties": [
+        "Plain Jeera Water (no ginger or lemon)",
+        "Lemon Ginger Water (no honey or jeera)",
+        "Jeera Water with Mint and Lemon",
+        "Warm Turmeric Ginger Honey Water",
+        "Cold Ginger Lemon Infused Water"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 150.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "20.8 | 5.0 | 0.1 | 0.1 | 0.1",
+      "correction_macros_raw": "21.0 | 5.0 | 0.1 | 0.1 | 0.1",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 18.7,
+        "carbs": 5.0,
+        "fat": 0.1,
+        "prot": 0.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 20.8,
+        "carbs": 5.0,
+        "fat": 0.1,
+        "prot": 0.1,
+        "fib": 0.1
+      },
+      "input_macros_raw": "18.7 | 5.0 | 0.1 | 0.1 | 0.0",
+      "final_macros_raw": "20.8 | 5.0 | 0.1 | 0.1 | 0.1",
+      "diff": 0.112
+    },
+    {
+      "id": 67,
+      "original_food_name": "Lemon barley water",
+      "standard_name": "Lemon Barley Water",
+      "other_names": "Barley Nimbu Pani, Jau Ka Paani with Lemon, Barley Lemon Drink, Jau Sharbat",
+      "food_varieties": [
+        "Plain barley water without lemon",
+        "Barley water with mint and lemon",
+        "Sweetened barley water with ginger",
+        "Barley water with honey instead of sugar",
+        "Unsweetened lemon barley water"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 200.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "54.2 | 12.5 | 0.2 | 0.6 | 0.3",
+      "correction_macros_raw": "106.0 | 24.9 | 0.3 | 1.6 | 2.4",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 128.6,
+        "carbs": 31.1,
+        "fat": 0.3,
+        "prot": 2.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 54.2,
+        "carbs": 12.5,
+        "fat": 0.2,
+        "prot": 0.6,
+        "fib": 0.3
+      },
+      "input_macros_raw": "128.6 | 31.1 | 0.3 | 2.3 | 0.0",
+      "final_macros_raw": "54.2 | 12.5 | 0.2 | 0.6 | 0.3",
+      "diff": -0.579
+    },
+    {
+      "id": 68,
+      "original_food_name": "Cucumber coriander ginger lemon juice",
+      "standard_name": "Cucumber Coriander Ginger Lemon Juice",
+      "other_names": "Kheera Dhaniya Adrak Nimbu Juice, Cucumber Green Detox Juice, Kheera Nimbu Juice, Cucumber Coriander Detox Drink",
+      "food_varieties": [
+        "Cucumber mint lemon juice",
+        "Cucumber ginger lemon water",
+        "Cucumber spinach coriander juice",
+        "Cucumber celery ginger juice",
+        "Cucumber coconut water ginger juice"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 150.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "30.7 | 5.8 | 0.3 | 1.2 | 0.8",
+      "correction_macros_raw": "31.0 | 5.8 | 0.3 | 1.2 | 0.8",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 27.1,
+        "carbs": 5.0,
+        "fat": 0.4,
+        "prot": 1.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 30.7,
+        "carbs": 5.8,
+        "fat": 0.3,
+        "prot": 1.2,
+        "fib": 0.8
+      },
+      "input_macros_raw": "27.1 | 5.0 | 0.4 | 1.5 | 0.0",
+      "final_macros_raw": "30.7 | 5.8 | 0.3 | 1.2 | 0.8",
+      "diff": 0.133
+    },
+    {
+      "id": 69,
+      "original_food_name": "Pork cucumber stir fry",
+      "standard_name": "Pork Cucumber Stir Fry",
+      "other_names": "Pork Kakdi Stir Fry, Cucumber Pork Sabzi, Pork Kheera Fry, Stir Fried Pork with Cucumber",
+      "food_varieties": [
+        "Pork cucumber stir fry with soy sauce and garlic",
+        "Spicy pork cucumber stir fry with chillies",
+        "Pork cucumber stir fry with oyster sauce",
+        "Pork mince cucumber stir fry",
+        "Pork belly cucumber stir fry"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "169.5 | 15.3 | 9.9 | 4.8 | 0.6",
+      "correction_macros_raw": "190.5 | 15.8 | 11.7 | 5.5 | 0.7",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 133.6,
+        "carbs": 4.2,
+        "fat": 7.8,
+        "prot": 12.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 169.5,
+        "carbs": 15.3,
+        "fat": 9.9,
+        "prot": 4.8,
+        "fib": 0.6
+      },
+      "input_macros_raw": "133.6 | 4.2 | 7.8 | 12.3 | 0.0",
+      "final_macros_raw": "169.5 | 15.3 | 9.9 | 4.8 | 0.6",
+      "diff": 0.269
+    },
+    {
+      "id": 70,
+      "original_food_name": "Cucumber dal",
+      "standard_name": "Cucumber Dal",
+      "other_names": "Kheera Dal, Cucumber Lentil Curry, Kheere Ka Dal, Cucumber Moong Dal",
+      "food_varieties": [
+        "Cucumber dal with coconut",
+        "Cucumber dal with ginger-garlic tadka",
+        "Cucumber dal with cumin seeds",
+        "Cucumber dal with mustard seeds and curry leaves"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "116.9 | 17.0 | 2.9 | 5.7 | 1.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 114.4,
+        "carbs": 16.9,
+        "fat": 2.9,
+        "prot": 5.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 116.9,
+        "carbs": 17.0,
+        "fat": 2.9,
+        "prot": 5.7,
+        "fib": 1.2
+      },
+      "input_macros_raw": "114.4 | 16.9 | 2.9 | 5.7 | 0.0",
+      "final_macros_raw": "116.9 | 17.0 | 2.9 | 5.7 | 1.2",
+      "diff": 0.022
+    },
+    {
+      "id": 71,
+      "original_food_name": "Clam curry",
+      "standard_name": "Clam Curry",
+      "other_names": "Tisrya Curry, Clam Masala, Khube Curry, Teesrya Rassa, Clam Gravy",
+      "food_varieties": [
+        "Goan clam curry with coconut milk",
+        "Malvani clam curry with dry coconut",
+        "Kerala clam curry with kudampuli",
+        "Bengali clam curry with mustard paste",
+        "Mangalorean clam sukka (dry)"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "178.5 | 8.4 | 10.5 | 12.6 | 1.8",
+      "correction_macros_raw": "207.4 | 10.5 | 14.6 | 8.5 | 3.4",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 129.4,
+        "carbs": 7.3,
+        "fat": 8.1,
+        "prot": 8.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 178.5,
+        "carbs": 8.4,
+        "fat": 10.5,
+        "prot": 12.6,
+        "fib": 1.8
+      },
+      "input_macros_raw": "129.4 | 7.3 | 8.1 | 8.1 | 0.0",
+      "final_macros_raw": "178.5 | 8.4 | 10.5 | 12.6 | 1.8",
+      "diff": 0.379
+    },
+    {
+      "id": 72,
+      "original_food_name": "Aloo chop",
+      "standard_name": "Aloo Chop",
+      "other_names": "Alu Chop, Potato Chop, Aloo Cutlet, Batata Chop",
+      "food_varieties": [
+        "Aloo chop with peas and corn",
+        "Aloo chop with paneer filling",
+        "Aloo chop with spiced potato and onion",
+        "Aloo chop with ginger-green chilli"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 50.0g",
+        "2 pieces — 100.0g",
+        "4 pieces — 200.0g"
+      ],
+      "base_volume": "50g",
+      "gen_macros_raw": "83.9 | 11.4 | 3.1 | 2.6 | 0.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 82.4,
+        "carbs": 11.3,
+        "fat": 3.1,
+        "prot": 2.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 83.9,
+        "carbs": 11.4,
+        "fat": 3.1,
+        "prot": 2.6,
+        "fib": 0.8
+      },
+      "input_macros_raw": "82.4 | 11.3 | 3.1 | 2.6 | 0.0",
+      "final_macros_raw": "83.9 | 11.4 | 3.1 | 2.6 | 0.8",
+      "diff": 0.018
+    },
+    {
+      "id": 73,
+      "original_food_name": "Cold cucumber soup",
+      "standard_name": "Cold Cucumber Soup",
+      "other_names": "Chilled Cucumber Soup, Kheera Soup Cold, Cucumber Gazpacho Style Soup, Cold Kheera Shorba",
+      "food_varieties": [
+        "Cucumber yogurt cold soup (tzatziki-style blended)",
+        "Cucumber coconut milk cold soup",
+        "Cucumber mint cold soup with cream",
+        "Cucumber avocado cold soup",
+        "Spiced cucumber buttermilk cold soup"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "large cup — 250.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "72.8 | 7.4 | 3.2 | 3.6 | 0.8",
+      "correction_macros_raw": "120.5 | 9.7 | 7.7 | 3.1 | 1.1",
+      "db_macros_raw": "96.0 | 9.2 | 4.0 | 6.0 | 1.8",
+      "input_macros": {
+        "cal": 68.0,
+        "carbs": 7.1,
+        "fat": 3.0,
+        "prot": 3.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 120.5,
+        "carbs": 9.7,
+        "fat": 7.7,
+        "prot": 3.1,
+        "fib": 1.1
+      },
+      "input_macros_raw": "68.0 | 7.1 | 3.0 | 3.4 | 0.0",
+      "final_macros_raw": "120.5 | 9.7 | 7.7 | 3.1 | 1.1",
+      "diff": 0.772
+    },
+    {
+      "id": 74,
+      "original_food_name": "Acerola (Cherry)",
+      "standard_name": "Acerola Cherry",
+      "other_names": "Barbados Cherry, West Indian Cherry, Malpighia Cherry, Vitamin C Cherry",
+      "food_varieties": [
+        "Fresh Acerola Cherry (raw whole fruit)",
+        "Acerola Cherry Juice",
+        "Acerola Cherry Powder (dried)",
+        "Frozen Acerola Cherry Pulp"
+      ],
+      "serving_types": [
+        "[BASE] 1 small handful — 50.0g",
+        "1 handful — 100.0g"
+      ],
+      "base_volume": "50g",
+      "gen_macros_raw": "17.8 | 3.9 | 0.1 | 0.2 | 0.6",
+      "correction_macros_raw": "18.0 | 3.9 | 0.2 | 0.1 | 0.6",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 16.0,
+        "carbs": 3.8,
+        "fat": 0.1,
+        "prot": 0.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 17.8,
+        "carbs": 3.9,
+        "fat": 0.1,
+        "prot": 0.2,
+        "fib": 0.6
+      },
+      "input_macros_raw": "16.0 | 3.8 | 0.1 | 0.2 | 0.0",
+      "final_macros_raw": "17.8 | 3.9 | 0.1 | 0.2 | 0.6",
+      "diff": 0.113
+    },
+    {
+      "id": 75,
+      "original_food_name": "Lamb cucumber yoghurt wrap",
+      "standard_name": "Lamb Cucumber Yoghurt Wrap",
+      "other_names": "Lamb Cucumber Dahi Wrap, Lamb Yogurt Wrap with Cucumber, Lamb Curd Wrap, Lamb Raita Wrap",
+      "food_varieties": [
+        "Lamb wrap with mint yoghurt and cucumber",
+        "Spiced lamb wrap with Greek yoghurt",
+        "Cold lamb wrap with cucumber raita",
+        "Grilled lamb wrap with yoghurt sauce"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 175.0g [[1 wrap Wrap (50g), 1 wrap Lamb (80g), 1 wrap Cucumber (30g), 1 wrap Yoghurt (15g)]]",
+        "half plate — 260.0g",
+        "plate — 345.0g"
+      ],
+      "base_volume": "175g",
+      "gen_macros_raw": "256.6 | 20.5 | 7.3 | 27.2 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 265.7,
+        "carbs": 20.7,
+        "fat": 7.3,
+        "prot": 27.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 256.6,
+        "carbs": 20.5,
+        "fat": 7.3,
+        "prot": 27.2,
+        "fib": 0.0
+      },
+      "input_macros_raw": "265.7 | 20.7 | 7.3 | 27.5 | 0.0",
+      "final_macros_raw": "256.6 | 20.5 | 7.3 | 27.2 | 0.0",
+      "diff": -0.034
+    },
+    {
+      "id": 76,
+      "original_food_name": "Parsley cucumber salad",
+      "standard_name": "Parsley Cucumber Salad",
+      "other_names": "Kheera Parsley Salad, Cucumber Herb Salad, Parsley Kheera Salad, Fresh Cucumber Parsley Salad",
+      "food_varieties": [
+        "Parsley cucumber salad with lemon dressing",
+        "Parsley cucumber tomato salad",
+        "Parsley cucumber salad with olive oil and garlic",
+        "Parsley cucumber salad with red onion and vinegar",
+        "Parsley cucumber feta salad"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 150.0g",
+        "small bowl — 100.0g",
+        "large bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "64.8 | 4.2 | 4.8 | 1.2 | 1.4",
+      "correction_macros_raw": "144.0 | 6.5 | 12.4 | 1.6 | 1.6",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 68.5,
+        "carbs": 3.9,
+        "fat": 5.6,
+        "prot": 1.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 64.8,
+        "carbs": 4.2,
+        "fat": 4.8,
+        "prot": 1.2,
+        "fib": 1.4
+      },
+      "input_macros_raw": "68.5 | 3.9 | 5.6 | 1.0 | 0.0",
+      "final_macros_raw": "64.8 | 4.2 | 4.8 | 1.2 | 1.4",
+      "diff": -0.054
+    },
+    {
+      "id": 77,
+      "original_food_name": "Cucumber broccoli mayo salad",
+      "standard_name": "Cucumber Broccoli Mayo Salad",
+      "other_names": "Cucumber Broccoli Mayonnaise Salad, Kheera Broccoli Mayo Salad, Veg Mayo Salad with Cucumber and Broccoli, Broccoli Cucumber Cold Salad",
+      "food_varieties": [
+        "Cucumber broccoli salad with hung curd dressing",
+        "Cucumber broccoli salad with mustard mayo",
+        "Cucumber broccoli salad with cheese and mayo",
+        "Cucumber broccoli salad with boiled egg and mayo",
+        "Cucumber broccoli salad with olive oil and lemon"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "large bowl — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "201.4 | 13.8 | 14.2 | 4.6 | 3.2",
+      "correction_macros_raw": "282.0 | 8.4 | 27.3 | 2.7 | 2.1",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 210.5,
+        "carbs": 27.2,
+        "fat": 10.5,
+        "prot": 5.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 201.4,
+        "carbs": 13.8,
+        "fat": 14.2,
+        "prot": 4.6,
+        "fib": 3.2
+      },
+      "input_macros_raw": "210.5 | 27.2 | 10.5 | 5.6 | 0.0",
+      "final_macros_raw": "201.4 | 13.8 | 14.2 | 4.6 | 3.2",
+      "diff": -0.043
+    },
+    {
+      "id": 78,
+      "original_food_name": "Cucumber kosambari",
+      "standard_name": "Cucumber Kosambari",
+      "other_names": "Kakdi Kosambari, Cucumber Kosumalli, Kheera Kosambari, Southekayi Kosambari, Cucumber Salad South Indian",
+      "food_varieties": [
+        "Moong dal kosambari with cucumber",
+        "Chana dal kosambari with cucumber",
+        "Cucumber carrot kosambari",
+        "Raw mango cucumber kosambari",
+        "Cucumber kosambari with pomegranate"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "112.2 | 10.8 | 5.4 | 5.1 | 2.6",
+      "correction_macros_raw": "131.0 | 15.1 | 6.0 | 5.4 | 2.9",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 69.2,
+        "carbs": 5.7,
+        "fat": 4.8,
+        "prot": 1.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 112.2,
+        "carbs": 10.8,
+        "fat": 5.4,
+        "prot": 5.1,
+        "fib": 2.6
+      },
+      "input_macros_raw": "69.2 | 5.7 | 4.8 | 1.7 | 0.0",
+      "final_macros_raw": "112.2 | 10.8 | 5.4 | 5.1 | 2.6",
+      "diff": 0.621
+    },
+    {
+      "id": 79,
+      "original_food_name": "Cucumber mint mayo sandwich",
+      "standard_name": "Cucumber Mint Mayo Sandwich",
+      "other_names": "Cucumber Mint Mayonnaise Sandwich, Mint Cucumber Mayo Sandwich, Cucumber Mayo Sandwich with Mint, Kheera Pudina Mayo Sandwich",
+      "food_varieties": [
+        "Cucumber mint mayo sandwich with whole wheat bread",
+        "Cucumber mint mayo sandwich with multigrain bread",
+        "Cucumber mint mayo sandwich with lettuce and tomato",
+        "Cucumber mint mayo sandwich with cream cheese and mint"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 105.0g",
+        "2 pieces — 210.0g"
+      ],
+      "base_volume": "105g",
+      "gen_macros_raw": "186.3 | 21.9 | 9.1 | 4.2 | 1.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 195.8,
+        "carbs": 23.0,
+        "fat": 9.6,
+        "prot": 4.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 186.3,
+        "carbs": 21.9,
+        "fat": 9.1,
+        "prot": 4.2,
+        "fib": 1.2
+      },
+      "input_macros_raw": "195.8 | 23.0 | 9.6 | 4.4 | 0.0",
+      "final_macros_raw": "186.3 | 21.9 | 9.1 | 4.2 | 1.2",
+      "diff": -0.049
+    },
+    {
+      "id": 80,
+      "original_food_name": "Cucumber keto spread",
+      "standard_name": "Cucumber Keto Spread",
+      "other_names": "Cucumber Spread Keto, Keto Cucumber Dip, Low-Carb Cucumber Spread, Cucumber Keto Dip",
+      "food_varieties": [
+        "Cucumber spread with cream cheese base",
+        "Cucumber spread with Greek yogurt base",
+        "Cucumber spread with mayonnaise base",
+        "Cucumber spread with herb infusion"
+      ],
+      "serving_types": [
+        "[BASE] 1 tablespoon — 15.0g",
+        "2 tablespoons — 30.0g"
+      ],
+      "base_volume": "15g",
+      "gen_macros_raw": "17.0 | 0.5 | 1.3 | 0.7 | 0.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 16.8,
+        "carbs": 0.5,
+        "fat": 1.3,
+        "prot": 0.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 16.8,
+        "carbs": 0.5,
+        "fat": 1.3,
+        "prot": 0.7,
+        "fib": 0.0
+      },
+      "input_macros_raw": "16.8 | 0.5 | 1.3 | 0.7 | 0.0",
+      "final_macros_raw": "16.8 | 0.5 | 1.3 | 0.7 | 0.0",
+      "diff": 0.0
+    },
+    {
+      "id": 81,
+      "original_food_name": "Bharwa baingan (Punjabi)",
+      "standard_name": "Bharwa Baingan",
+      "other_names": "Bharwan Baingan, Stuffed Eggplant, Baingan Bharta Punjabi, Khara Baingan",
+      "food_varieties": [
+        "Bharwa Baingan with Paneer filling",
+        "Bharwa Baingan with Potato-Onion filling",
+        "Bharwa Baingan with Coconut-Peanut filling",
+        "Bharwa Baingan with Minced Meat filling"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "128.2 | 11.5 | 8.2 | 2.1 | 2.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 128.8,
+        "carbs": 11.6,
+        "fat": 9.3,
+        "prot": 1.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 128.2,
+        "carbs": 11.5,
+        "fat": 8.2,
+        "prot": 2.1,
+        "fib": 2.8
+      },
+      "input_macros_raw": "128.8 | 11.6 | 9.3 | 1.6 | 0.0",
+      "final_macros_raw": "128.2 | 11.5 | 8.2 | 2.1 | 2.8",
+      "diff": -0.005
+    },
+    {
+      "id": 82,
+      "original_food_name": "Lahsuni bhindi",
+      "standard_name": "Lahsuni Bhindi",
+      "other_names": "Garlic Bhindi, Lahsun Bhindi, Garlic Okra, Lahsuni Okra Fry",
+      "food_varieties": [
+        "Lahsuni bhindi with ginger-garlic paste",
+        "Lahsuni bhindi with dry garlic powder",
+        "Lahsuni bhindi with green chillies and garlic",
+        "Lahsuni bhindi with onions and garlic"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "123.7 | 13.5 | 6.5 | 2.8 | 2.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 115.4,
+        "carbs": 14.0,
+        "fat": 6.5,
+        "prot": 2.8,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 123.7,
+        "carbs": 13.5,
+        "fat": 6.5,
+        "prot": 2.8,
+        "fib": 2.2
+      },
+      "input_macros_raw": "115.4 | 14.0 | 6.5 | 2.8 | 0.0",
+      "final_macros_raw": "123.7 | 13.5 | 6.5 | 2.8 | 2.2",
+      "diff": 0.072
+    },
+    {
+      "id": 83,
+      "original_food_name": "Chicken haleem",
+      "standard_name": "Chicken Haleem",
+      "other_names": "Murgh Haleem, Chicken Halim, Hyderabadi Chicken Haleem, Slow-Cooked Chicken Haleem",
+      "food_varieties": [
+        "With lentil base",
+        "With wheat grain base",
+        "With barley addition",
+        "With meat-heavy variant"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 150.0g",
+        "small bowl — 100.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "165.2 | 11.2 | 7.2 | 13.8 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 161.9,
+        "carbs": 11.0,
+        "fat": 7.1,
+        "prot": 13.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 165.2,
+        "carbs": 11.2,
+        "fat": 7.2,
+        "prot": 13.8,
+        "fib": 0.0
+      },
+      "input_macros_raw": "161.9 | 11.0 | 7.1 | 13.6 | 0.0",
+      "final_macros_raw": "165.2 | 11.2 | 7.2 | 13.8 | 0.0",
+      "diff": 0.02
+    },
+    {
+      "id": 84,
+      "original_food_name": "Cucumber grape salad",
+      "standard_name": "Cucumber Grape Salad",
+      "other_names": "Cucumber Grape Raita, Mixed Vegetable Salad, Kheera Angoor Salad, Fresh Cucumber Grape Mix",
+      "food_varieties": [
+        "With yogurt dressing",
+        "With lemon juice dressing",
+        "With chaat masala",
+        "With mint leaves"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 100.0g",
+        "small bowl — 150.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "110.9 | 7.0 | 8.1 | 2.5 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 106.0,
+        "carbs": 7.0,
+        "fat": 8.1,
+        "prot": 2.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 110.9,
+        "carbs": 7.0,
+        "fat": 8.1,
+        "prot": 2.5,
+        "fib": 0.0
+      },
+      "input_macros_raw": "106.0 | 7.0 | 8.1 | 2.5 | 0.0",
+      "final_macros_raw": "110.9 | 7.0 | 8.1 | 2.5 | 0.0",
+      "diff": 0.046
+    },
+    {
+      "id": 85,
+      "original_food_name": "Carrot radish paratha",
+      "standard_name": "Carrot Radish Paratha",
+      "other_names": "Gajar Mooli Paratha, Carrot Radish Stuffed Flatbread, Vegetable Paratha, Mooli Gajar Roti",
+      "food_varieties": [
+        "With fenugreek leaves",
+        "With green chilli",
+        "With ginger",
+        "With cumin seeds"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 75.0g",
+        "2 pieces — 140.0g"
+      ],
+      "base_volume": "75g",
+      "gen_macros_raw": "147.5 | 23.0 | 4.3 | 4.2 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 146.7,
+        "carbs": 24.3,
+        "fat": 4.5,
+        "prot": 4.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 147.5,
+        "carbs": 23.0,
+        "fat": 4.3,
+        "prot": 4.2,
+        "fib": 0.0
+      },
+      "input_macros_raw": "146.7 | 24.3 | 4.5 | 4.4 | 0.0",
+      "final_macros_raw": "147.5 | 23.0 | 4.3 | 4.2 | 0.0",
+      "diff": 0.005
+    },
+    {
+      "id": 86,
+      "original_food_name": "Lemon ginger water with cinnamon",
+      "standard_name": "Lemon Ginger Water With Cinnamon",
+      "other_names": "Nimbu Adrak Dalchini Pani, Lemon Ginger Cinnamon Infused Water, Detox Lemon Water With Ginger Cinnamon, Adrak Nimbu Pani With Cinnamon",
+      "food_varieties": [
+        "Lemon ginger water with honey",
+        "Lemon ginger turmeric water",
+        "Lemon cinnamon water without ginger",
+        "Lemon ginger water with mint",
+        "Warm lemon water with cinnamon and pepper"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 150.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "5.0 | 1.1 | 0.0 | 0.1 | 0.1",
+      "correction_macros_raw": "4.0 | 1.1 | 0.0 | 0.1 | 0.1",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 3.1,
+        "carbs": 0.8,
+        "fat": 0.0,
+        "prot": 0.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 5.0,
+        "carbs": 1.1,
+        "fat": 0.0,
+        "prot": 0.1,
+        "fib": 0.1
+      },
+      "input_macros_raw": "3.1 | 0.8 | 0.0 | 0.1 | 0.0",
+      "final_macros_raw": "5.0 | 1.1 | 0.0 | 0.1 | 0.1",
+      "diff": 0.613
+    },
+    {
+      "id": 87,
+      "original_food_name": "Warm water with honey lemon",
+      "standard_name": "Warm water with honey lemon",
+      "other_names": "Honey Lemon Water, Lemon Honey Warm Water, Shahad Nimbu Pani, Madh Nimbu Pani",
+      "food_varieties": [
+        "Warm water with honey only",
+        "Warm water with lemon only",
+        "Honey lemon ginger water",
+        "Cold honey lemon water",
+        "Honey lemon water with mint"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 200.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "28.6 | 7.0 | 0.0 | 0.1 | 0.1",
+      "correction_macros_raw": "29.0 | 7.0 | 0.1 | 0.0 | 0.1",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 20.2,
+        "carbs": 5.5,
+        "fat": 0.0,
+        "prot": 0.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 28.6,
+        "carbs": 7.0,
+        "fat": 0.0,
+        "prot": 0.1,
+        "fib": 0.1
+      },
+      "input_macros_raw": "20.2 | 5.5 | 0.0 | 0.0 | 0.0",
+      "final_macros_raw": "28.6 | 7.0 | 0.0 | 0.1 | 0.1",
+      "diff": 0.416
+    },
+    {
+      "id": 88,
+      "original_food_name": "Warm lemon water with haldi cinnamon saffron",
+      "standard_name": "Warm Lemon Water With Haldi Cinnamon Saffron",
+      "other_names": "Haldi Lemon Water, Turmeric Cinnamon Saffron Lemon Water, Spiced Lemon Detox Water, Kesar Haldi Nimbu Pani",
+      "food_varieties": [
+        "Lemon water with only turmeric and black pepper",
+        "Lemon water with ginger and turmeric",
+        "Lemon water with cinnamon and honey",
+        "Plain warm lemon water without spices",
+        "Saffron milk with lemon and spices"
+      ],
+      "serving_types": [
+        "[BASE] cup — 200.0ml",
+        "glass — 300.0ml"
+      ],
+      "base_volume": "200ml",
+      "gen_macros_raw": "8.4 | 1.9 | 0.1 | 0.1 | 0.2",
+      "correction_macros_raw": "2.0 | 0.6 | 0.0 | 0.0 | 0.0",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 5.5,
+        "carbs": 1.6,
+        "fat": 0.1,
+        "prot": 0.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 8.4,
+        "carbs": 1.9,
+        "fat": 0.1,
+        "prot": 0.1,
+        "fib": 0.2
+      },
+      "input_macros_raw": "5.5 | 1.6 | 0.1 | 0.1 | 0.0",
+      "final_macros_raw": "8.4 | 1.9 | 0.1 | 0.1 | 0.2",
+      "diff": 0.527
+    },
+    {
+      "id": 89,
+      "original_food_name": "Warm water with lemon coriander",
+      "standard_name": "Warm Water With Lemon Coriander",
+      "other_names": "Lemon Coriander Water, Warm Lemon Coriander Drink, Coriander Lemon Infusion, Nimbu Dhania Pani",
+      "food_varieties": [
+        "With fresh coriander leaves",
+        "With coriander seeds infusion",
+        "With dried coriander powder",
+        "With honey and lemon"
+      ],
+      "serving_types": [
+        "[BASE] cup — 245.0ml",
+        "glass — 300.0ml"
+      ],
+      "base_volume": "245ml",
+      "gen_macros_raw": "11.7 | 2.5 | 0.1 | 0.2 | 0.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 11.0,
+        "carbs": 2.1,
+        "fat": 0.6,
+        "prot": 0.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 11.7,
+        "carbs": 2.5,
+        "fat": 0.1,
+        "prot": 0.2,
+        "fib": 0.1
+      },
+      "input_macros_raw": "11.0 | 2.1 | 0.6 | 0.5 | 0.0",
+      "final_macros_raw": "11.7 | 2.5 | 0.1 | 0.2 | 0.1",
+      "diff": 0.064
+    },
+    {
+      "id": 90,
+      "original_food_name": "Lemonade salted (Nimbu paani)",
+      "standard_name": "Lemonade Salted",
+      "other_names": "Nimbu Paani, Salted Lemon Water, Nimbu Ka Paani, Lemon Sherbet Salted",
+      "food_varieties": [
+        "Nimbu Paani with honey",
+        "Nimbu Paani with cumin powder",
+        "Nimbu Paani with mint leaves",
+        "Nimbu Paani with black salt"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 200.0ml",
+        "small cup — 150.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "12.1 | 2.6 | 0.1 | 0.2 | 0.0",
+      "correction_macros_raw": "2.6 | 0.2 | 0.2 | 0.0 | 0.0",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 2.6,
+        "carbs": 0.8,
+        "fat": 0.0,
+        "prot": 0.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 2.6,
+        "carbs": 0.2,
+        "fat": 0.2,
+        "prot": 0.0,
+        "fib": 0.0
+      },
+      "input_macros_raw": "2.6 | 0.8 | 0.0 | 0.0 | 0.0",
+      "final_macros_raw": "2.6 | 0.2 | 0.2 | 0.0 | 0.0",
+      "diff": 0.0
+    },
+    {
+      "id": 91,
+      "original_food_name": "Jeera water with lemon flaxseed chia seed",
+      "standard_name": "Jeera Water With Lemon Flaxseed Chia Seed",
+      "other_names": "Cumin Lemon Flaxseed Chia Water, Jeera Nimbu Alsi Sabja Water, Detox Jeera Water With Seeds, Cumin Seed Infused Water With Chia Flax Lemon",
+      "food_varieties": [
+        "Plain jeera water without seeds",
+        "Jeera water with only chia seeds",
+        "Jeera water with flaxseed and ginger",
+        "Jeera water with lemon and honey",
+        "Overnight soaked jeera chia water"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 200.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "36.5 | 3.2 | 2.1 | 1.2 | 2.4",
+      "correction_macros_raw": "69.0 | 5.5 | 4.2 | 2.3 | 3.4",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 31.5,
+        "carbs": 3.6,
+        "fat": 1.9,
+        "prot": 1.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 36.5,
+        "carbs": 3.2,
+        "fat": 2.1,
+        "prot": 1.2,
+        "fib": 2.4
+      },
+      "input_macros_raw": "31.5 | 3.6 | 1.9 | 1.2 | 0.0",
+      "final_macros_raw": "36.5 | 3.2 | 2.1 | 1.2 | 2.4",
+      "diff": 0.159
+    },
+    {
+      "id": 92,
+      "original_food_name": "Lime water with honey",
+      "standard_name": "Lime Water With Honey",
+      "other_names": "Nimbu Shahad Pani, Honey Lime Drink, Nimbu Pani With Honey, Lemon Honey Water",
+      "food_varieties": [
+        "Lime water with honey and ginger",
+        "Lime water with honey and mint",
+        "Warm lime water with honey",
+        "Lime water with honey and black salt",
+        "Lime water with honey and turmeric"
+      ],
+      "serving_types": [
+        "[BASE] glass — 240.0ml",
+        "cup — 150.0ml"
+      ],
+      "base_volume": "240ml",
+      "gen_macros_raw": "34.8 | 8.6 | 0.0 | 0.1 | 0.1",
+      "correction_macros_raw": "35.0 | 8.6 | 0.1 | 0.0 | 0.1",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 31.8,
+        "carbs": 8.7,
+        "fat": 0.0,
+        "prot": 0.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 34.8,
+        "carbs": 8.6,
+        "fat": 0.0,
+        "prot": 0.1,
+        "fib": 0.1
+      },
+      "input_macros_raw": "31.8 | 8.7 | 0.0 | 0.1 | 0.0",
+      "final_macros_raw": "34.8 | 8.6 | 0.0 | 0.1 | 0.1",
+      "diff": 0.094
+    },
+    {
+      "id": 93,
+      "original_food_name": "Ginger garlic lime water",
+      "standard_name": "Ginger Garlic Lime Water",
+      "other_names": "Adrak Lahsun Nimbu Pani, Ginger Garlic Lemon Water, Detox Ginger Lime Water, Adrak Nimbu Water",
+      "food_varieties": [
+        "Ginger lime water without garlic",
+        "Ginger garlic honey lime water",
+        "Ginger garlic mint lime water",
+        "Ginger turmeric lime water"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 150.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "9.8 | 2.2 | 0.1 | 0.1 | 0.1",
+      "correction_macros_raw": "10.0 | 2.2 | 0.1 | 0.1 | 0.1",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 8.0,
+        "carbs": 2.3,
+        "fat": 0.1,
+        "prot": 0.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 9.8,
+        "carbs": 2.2,
+        "fat": 0.1,
+        "prot": 0.1,
+        "fib": 0.1
+      },
+      "input_macros_raw": "8.0 | 2.3 | 0.1 | 0.2 | 0.0",
+      "final_macros_raw": "9.8 | 2.2 | 0.1 | 0.1 | 0.1",
+      "diff": 0.225
+    },
+    {
+      "id": 94,
+      "original_food_name": "Ginger lime mint water",
+      "standard_name": "Ginger Lime Mint Water",
+      "other_names": "Adrak Nimbu Pudina Pani, Detox Infused Water, Ginger Mint Lemon Water, Spiced Infusion Water",
+      "food_varieties": [
+        "Ginger lemon water without mint",
+        "Cucumber mint infused water",
+        "Ginger turmeric detox water",
+        "Mint lime sparkling water",
+        "Ginger honey lime water"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 150.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "10.8 | 2.4 | 0.1 | 0.2 | 0.1",
+      "correction_macros_raw": "11.0 | 2.4 | 0.1 | 0.2 | 0.1",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 9.9,
+        "carbs": 2.3,
+        "fat": 0.1,
+        "prot": 0.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 10.8,
+        "carbs": 2.4,
+        "fat": 0.1,
+        "prot": 0.2,
+        "fib": 0.1
+      },
+      "input_macros_raw": "9.9 | 2.3 | 0.1 | 0.2 | 0.0",
+      "final_macros_raw": "10.8 | 2.4 | 0.1 | 0.2 | 0.1",
+      "diff": 0.091
+    },
+    {
+      "id": 95,
+      "original_food_name": "Jeera water with lemon honey and cinnamon",
+      "standard_name": "Jeera Water With Lemon Honey And Cinnamon",
+      "other_names": "Cumin Water With Honey Lemon, Jeera Pani With Honey, Spiced Cumin Infusion, Jeera Lemon Honey Drink",
+      "food_varieties": [
+        "Without honey",
+        "With ginger added",
+        "Warm version",
+        "Chilled version"
+      ],
+      "serving_types": [
+        "[BASE] glass — 240.0ml",
+        "cup — 180.0ml"
+      ],
+      "base_volume": "240ml",
+      "gen_macros_raw": "23.9 | 5.2 | 0.2 | 0.2 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 20.9,
+        "carbs": 5.2,
+        "fat": 0.2,
+        "prot": 0.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 20.9,
+        "carbs": 5.2,
+        "fat": 0.2,
+        "prot": 0.2,
+        "fib": 0.0
+      },
+      "input_macros_raw": "20.9 | 5.2 | 0.2 | 0.2 | 0.0",
+      "final_macros_raw": "20.9 | 5.2 | 0.2 | 0.2 | 0.0",
+      "diff": 0.0
+    },
+    {
+      "id": 96,
+      "original_food_name": "Nestle chocolate bar",
+      "standard_name": "Nestle Chocolate Bar",
+      "other_names": "Nestle Chocolate, Chocolate Bar, Packaged Chocolate Confection, Nestle Milk Chocolate",
+      "food_varieties": [
+        "Milk chocolate variant",
+        "Dark chocolate variant",
+        "Hazelnut filled variant"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 100.0g",
+        "1 small piece — 30.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "533.3 | 59.6 | 28.9 | 8.7 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 533.0,
+        "carbs": 59.6,
+        "fat": 28.9,
+        "prot": 8.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 533.3,
+        "carbs": 59.6,
+        "fat": 28.9,
+        "prot": 8.7,
+        "fib": 0.0
+      },
+      "input_macros_raw": "533.0 | 59.6 | 28.9 | 8.7 | 0.0",
+      "final_macros_raw": "533.3 | 59.6 | 28.9 | 8.7 | 0.0",
+      "diff": 0.001
+    },
+    {
+      "id": 97,
+      "original_food_name": "Lemonade sweet (Nimbu paani)",
+      "standard_name": "Lemonade Sweet",
+      "other_names": "Nimbu Paani, Sweet Lemon Water, Nimbu Ka Sharbat, Meetha Nimbu Paani",
+      "food_varieties": [
+        "With honey instead of sugar",
+        "With mint leaves and ginger",
+        "With black salt and cumin",
+        "With sparkling water"
+      ],
+      "serving_types": [
+        "[BASE] glass — 240.0ml",
+        "cup — 180.0ml"
+      ],
+      "base_volume": "240ml",
+      "gen_macros_raw": "45.2 | 11.2 | 0.0 | 0.0 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 43.0,
+        "carbs": 11.2,
+        "fat": 0.0,
+        "prot": 0.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 45.2,
+        "carbs": 11.2,
+        "fat": 0.0,
+        "prot": 0.0,
+        "fib": 0.0
+      },
+      "input_macros_raw": "43.0 | 11.2 | 0.0 | 0.0 | 0.0",
+      "final_macros_raw": "45.2 | 11.2 | 0.0 | 0.0 | 0.0",
+      "diff": 0.051
+    },
+    {
+      "id": 98,
+      "original_food_name": "Instant lemon tea (sweet)",
+      "standard_name": "Instant Lemon Tea Sweet",
+      "other_names": "Sweet Lemon Tea Instant, Lemon Tea Powder Drink, Nimbu Chai Instant, Ready Mix Lemon Tea",
+      "food_varieties": [
+        "Unsweetened instant lemon tea",
+        "Instant lemon green tea",
+        "Instant lemon iced tea",
+        "Instant lemon honey tea",
+        "Instant lemon ginger tea"
+      ],
+      "serving_types": [
+        "[BASE] cup — 150.0ml",
+        "glass — 200.0ml"
+      ],
+      "base_volume": "150ml",
+      "gen_macros_raw": "51.1 | 12.6 | 0.1 | 0.1 | 0.0",
+      "correction_macros_raw": "51.0 | 12.6 | 0.1 | 0.1 | 0.0",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 52.5,
+        "carbs": 12.9,
+        "fat": 0.1,
+        "prot": 0.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 51.1,
+        "carbs": 12.6,
+        "fat": 0.1,
+        "prot": 0.1,
+        "fib": 0.0
+      },
+      "input_macros_raw": "52.5 | 12.9 | 0.1 | 0.0 | 0.0",
+      "final_macros_raw": "51.1 | 12.6 | 0.1 | 0.1 | 0.0",
+      "diff": -0.027
+    },
+    {
+      "id": 99,
+      "original_food_name": "Lemon juice with honey chia seeds",
+      "standard_name": "Lemon Juice With Honey Chia Seeds",
+      "other_names": "Nimbu Shahad Chia Drink, Lemon Honey Chia Water, Nimbu Pani With Honey And Chia, Chia Lemon Detox Drink",
+      "food_varieties": [
+        "Lemon juice with honey and basil seeds (sabja)",
+        "Lemon juice with honey and flax seeds",
+        "Warm lemon honey chia drink",
+        "Lemon chia with jaggery instead of honey",
+        "Lemon honey chia with mint"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 150.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "74.3 | 12.1 | 2.3 | 1.3 | 2.8",
+      "correction_macros_raw": "139.1 | 23.8 | 3.9 | 2.2 | 4.5",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 68.2,
+        "carbs": 11.8,
+        "fat": 2.3,
+        "prot": 1.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 74.3,
+        "carbs": 12.1,
+        "fat": 2.3,
+        "prot": 1.3,
+        "fib": 2.8
+      },
+      "input_macros_raw": "68.2 | 11.8 | 2.3 | 1.3 | 0.0",
+      "final_macros_raw": "74.3 | 12.1 | 2.3 | 1.3 | 2.8",
+      "diff": 0.089
+    },
+    {
+      "id": 100,
+      "original_food_name": "Lemon soda (Salted)",
+      "standard_name": "Lemon Soda Salted",
+      "other_names": "Nimbu Soda Namkeen, Salted Nimbu Soda, Lemon Salt Soda, Nimbu Paani Soda",
+      "food_varieties": [
+        "Sweet lemon soda",
+        "Masala lemon soda",
+        "Jeera lemon soda",
+        "Mint lemon soda"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "large cup — 350.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "8.4 | 2.0 | 0.0 | 0.1 | 0.0",
+      "correction_macros_raw": "10.0 | 1.2 | 0.0 | 0.1 | 0.0",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 2.7,
+        "carbs": 0.9,
+        "fat": 0.0,
+        "prot": 0.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 8.4,
+        "carbs": 2.0,
+        "fat": 0.0,
+        "prot": 0.1,
+        "fib": 0.0
+      },
+      "input_macros_raw": "2.7 | 0.9 | 0.0 | 0.0 | 0.0",
+      "final_macros_raw": "8.4 | 2.0 | 0.0 | 0.1 | 0.0",
+      "diff": 2.111
+    },
+    {
+      "id": 101,
+      "original_food_name": "Lemonade with honey",
+      "standard_name": "Lemonade With Honey",
+      "other_names": "Honey Lemon Drink, Nimbu Shahad Sharbat, Honey Nimbu Pani, Lemon Honey Water, Shahad Wala Nimbu Pani",
+      "food_varieties": [
+        "Lemonade with sugar (classic nimbu pani)",
+        "Lemonade with jaggery",
+        "Warm honey lemon water",
+        "Sparkling lemonade with honey",
+        "Mint honey lemonade"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 150.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "74.0 | 18.2 | 0.1 | 0.2 | 0.1",
+      "correction_macros_raw": "24.0 | 6.6 | 0.0 | 0.1 | 0.1",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 40.3,
+        "carbs": 11.1,
+        "fat": 0.0,
+        "prot": 0.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 74.0,
+        "carbs": 18.2,
+        "fat": 0.1,
+        "prot": 0.2,
+        "fib": 0.1
+      },
+      "input_macros_raw": "40.3 | 11.1 | 0.0 | 0.1 | 0.0",
+      "final_macros_raw": "74.0 | 18.2 | 0.1 | 0.2 | 0.1",
+      "diff": 0.836
+    }
+  ]
+}

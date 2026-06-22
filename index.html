@@ -22,12 +22,14 @@
             <h1>Food Macro Reviewer</h1>
             <p id="progress-text" class="progress-text"></p>
             <p id="file-status" class="file-status"></p>
+            <p id="json-status" class="json-status hidden"></p>
           </div>
           <div class="header-actions">
             <label class="btn btn-upload">
               Upload JSON
               <input type="file" id="input-json" accept=".json" hidden>
             </label>
+            <button type="button" id="btn-remove-json" class="btn btn-remove-json hidden">Remove JSON</button>
             <button type="button" id="btn-link" class="btn btn-link-file">Link Output</button>
             <button type="button" id="btn-export" class="btn btn-export">Excel</button>
           </div>

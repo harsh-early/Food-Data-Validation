@@ -1,0 +1,3894 @@
+{
+  "meta": {
+    "source": "Build food data.xlsx (part 4/5)",
+    "part": 4,
+    "parts_total": 5,
+    "part_range": "304-404",
+    "count": 101,
+    "generated_at": "2026-06-22T11:09:20.497998+00:00"
+  },
+  "foods": [
+    {
+      "id": 1,
+      "original_food_name": "Shahi bhindi",
+      "standard_name": "Shahi Bhindi",
+      "other_names": "Royal Okra Curry, Bhindi Shahi, Shahi Lady Finger, Creamy Bhindi Masala, Mughlai Bhindi",
+      "food_varieties": [
+        "Shahi Bhindi with cashew-cream gravy",
+        "Shahi Bhindi with yogurt and nut paste",
+        "Shahi Bhindi dry (semi-dry version)",
+        "Shahi Bhindi with paneer",
+        "Shahi Bhindi restaurant style with heavy cream"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "200.1 | 13.5 | 14.1 | 4.8 | 3.6",
+      "correction_macros_raw": "241.7 | 12.7 | 19.3 | 4.3 | 3.1",
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 122.9,
+        "carbs": 10.0,
+        "fat": 8.6,
+        "prot": 3.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 200.1,
+        "carbs": 13.5,
+        "fat": 14.1,
+        "prot": 4.8,
+        "fib": 3.6
+      },
+      "input_macros_raw": "122.9 | 10.0 | 8.6 | 3.0 | 0.0",
+      "final_macros_raw": "200.1 | 13.5 | 14.1 | 4.8 | 3.6",
+      "diff": 0.628
+    },
+    {
+      "id": 2,
+      "original_food_name": "Bit o honey candy chews (Nestle)",
+      "standard_name": "Bit O Honey Candy Chews",
+      "other_names": "Bit-O-Honey Chews, Honey Taffy Candy, Nestle Bit O Honey, Almond Honey Candy Chews",
+      "food_varieties": [
+        "Original Bit O Honey with almond bits",
+        "Chocolate-coated honey chew variant",
+        "Mini Bit O Honey bites",
+        "Honey taffy with peanut variant",
+        "Sugar-free honey chew variant"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 10.0g",
+        "4 pieces — 40.0g",
+        "1 small handful — 30.0g"
+      ],
+      "base_volume": "10g",
+      "gen_macros_raw": "40.4 | 8.1 | 0.8 | 0.2 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 38.8,
+        "carbs": 8.1,
+        "fat": 0.8,
+        "prot": 0.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 40.4,
+        "carbs": 8.1,
+        "fat": 0.8,
+        "prot": 0.2,
+        "fib": 0.0
+      },
+      "input_macros_raw": "38.8 | 8.1 | 0.8 | 0.2 | 0.0",
+      "final_macros_raw": "40.4 | 8.1 | 0.8 | 0.2 | 0.0",
+      "diff": 0.041
+    },
+    {
+      "id": 3,
+      "original_food_name": "Tinda, tender",
+      "standard_name": "Tender Tinda",
+      "other_names": "Indian Round Gourd, Apple Gourd, Tinde, Dhemase, Baby Tinda",
+      "food_varieties": [
+        "Tinda sabzi (stir-fried with onion-tomato masala)",
+        "Stuffed tinda (bharwa tinda)",
+        "Tinda with yogurt gravy",
+        "Tinda aloo sabzi",
+        "Tinda dal"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "31.5 | 5.1 | 0.3 | 2.1 | 2.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 21.0,
+        "carbs": 2.8,
+        "fat": 0.3,
+        "prot": 1.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 31.5,
+        "carbs": 5.1,
+        "fat": 0.3,
+        "prot": 2.1,
+        "fib": 2.2
+      },
+      "input_macros_raw": "21.0 | 2.8 | 0.3 | 1.5 | 0.0",
+      "final_macros_raw": "31.5 | 5.1 | 0.3 | 2.1 | 2.2",
+      "diff": 0.5
+    },
+    {
+      "id": 4,
+      "original_food_name": "Dondakaya kura",
+      "standard_name": "Dondakaya Kura",
+      "other_names": "Tindora Sabzi, Ivy Gourd Curry, Kovakkai Poriyal, Tendli Bhaji, Kundru Ki Sabzi",
+      "food_varieties": [
+        "Dondakaya Vepudu (dry stir-fry with tempering)",
+        "Dondakaya Tomato Kura (with tomato gravy)",
+        "Dondakaya Peanut Curry (with roasted peanuts)",
+        "Dondakaya Coconut Kura (with grated coconut)",
+        "Dondakaya Egg Kura (with eggs)"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "105.3 | 11.4 | 5.7 | 2.1 | 3.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 87.5,
+        "carbs": 10.0,
+        "fat": 4.8,
+        "prot": 1.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 105.3,
+        "carbs": 11.4,
+        "fat": 5.7,
+        "prot": 2.1,
+        "fib": 3.0
+      },
+      "input_macros_raw": "87.5 | 10.0 | 4.8 | 1.1 | 0.0",
+      "final_macros_raw": "105.3 | 11.4 | 5.7 | 2.1 | 3.0",
+      "diff": 0.203
+    },
+    {
+      "id": 5,
+      "original_food_name": "Carrot amla juice",
+      "standard_name": "Carrot Amla Juice",
+      "other_names": "Gajar Amla Juice, Carrot Indian Gooseberry Juice, Gajar Amla Ka Ras, Carrot Amla Detox Juice",
+      "food_varieties": [
+        "Carrot Amla Ginger Juice",
+        "Carrot Amla Beetroot Juice",
+        "Carrot Amla Orange Juice",
+        "Carrot Amla Juice with Honey",
+        "Carrot Amla Turmeric Juice"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 150.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "63.9 | 14.2 | 0.3 | 1.1 | 1.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 60.6,
+        "carbs": 14.4,
+        "fat": 0.4,
+        "prot": 1.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 63.9,
+        "carbs": 14.2,
+        "fat": 0.3,
+        "prot": 1.1,
+        "fib": 1.8
+      },
+      "input_macros_raw": "60.6 | 14.4 | 0.4 | 1.2 | 0.0",
+      "final_macros_raw": "63.9 | 14.2 | 0.3 | 1.1 | 1.8",
+      "diff": 0.054
+    },
+    {
+      "id": 6,
+      "original_food_name": "Nestle milo chocolate mix (packaged)",
+      "standard_name": "Nestle Milo Chocolate Mix",
+      "other_names": "Milo Powder, Milo Chocolate Drink Mix, Nestle Milo, Milo Energy Drink Powder",
+      "food_varieties": [
+        "Milo Active-Go variant",
+        "Milo 3-in-1 sachet (with milk powder and sugar pre-mixed)",
+        "Milo Gao (thick concentrated version)",
+        "Milo with full-cream milk prepared drink",
+        "Milo with low-fat milk prepared drink"
+      ],
+      "serving_types": [
+        "[BASE] cup — 200.0ml",
+        "small cup — 150.0ml"
+      ],
+      "base_volume": "200ml",
+      "gen_macros_raw": "142.2 | 21.4 | 3.8 | 5.6 | 0.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 664.0,
+        "carbs": 119.4,
+        "fat": 13.2,
+        "prot": 17.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 142.2,
+        "carbs": 21.4,
+        "fat": 3.8,
+        "prot": 5.6,
+        "fib": 0.4
+      },
+      "input_macros_raw": "664.0 | 119.4 | 13.2 | 17.2 | 0.0",
+      "final_macros_raw": "142.2 | 21.4 | 3.8 | 5.6 | 0.4",
+      "diff": -0.786
+    },
+    {
+      "id": 7,
+      "original_food_name": "Munch Nuts Bars",
+      "standard_name": "Munch Nuts Bar",
+      "other_names": "Nestle Munch Nuts, Munch Nuts chocolate bar, Munch Nuts wafer bar, Munch Nuts snack bar",
+      "food_varieties": [
+        "Munch Nuts with extra peanuts",
+        "Munch Nuts dark chocolate variant",
+        "Munch Nuts mini bar",
+        "Munch Nuts king size bar"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 25.0g",
+        "2 pieces — 50.0g"
+      ],
+      "base_volume": "25g",
+      "gen_macros_raw": "126.1 | 14.3 | 6.5 | 2.6 | 0.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 125.5,
+        "carbs": 14.2,
+        "fat": 6.5,
+        "prot": 2.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 126.1,
+        "carbs": 14.3,
+        "fat": 6.5,
+        "prot": 2.6,
+        "fib": 0.4
+      },
+      "input_macros_raw": "125.5 | 14.2 | 6.5 | 2.6 | 0.0",
+      "final_macros_raw": "126.1 | 14.3 | 6.5 | 2.6 | 0.4",
+      "diff": 0.005
+    },
+    {
+      "id": 8,
+      "original_food_name": "Kantola curry",
+      "standard_name": "Kantola Curry",
+      "other_names": "Kantola Sabzi, Spine Gourd Curry, Kakrol Curry, Teasle Gourd Sabzi, Kartoli Curry",
+      "food_varieties": [
+        "Dry kantola sabzi (sukhi sabzi style, minimal gravy)",
+        "Kantola masala curry (onion-tomato gravy)",
+        "Kantola with besan coating (gram flour stir-fry)",
+        "Kantola aloo curry (with potato)",
+        "Stuffed kantola curry (bharwa style)"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "120.0 | 10.5 | 7.2 | 3.3 | 3.6",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 98.1,
+        "carbs": 7.5,
+        "fat": 6.9,
+        "prot": 2.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 120.0,
+        "carbs": 10.5,
+        "fat": 7.2,
+        "prot": 3.3,
+        "fib": 3.6
+      },
+      "input_macros_raw": "98.1 | 7.5 | 6.9 | 2.3 | 0.0",
+      "final_macros_raw": "120.0 | 10.5 | 7.2 | 3.3 | 3.6",
+      "diff": 0.223
+    },
+    {
+      "id": 9,
+      "original_food_name": "Nestle milkybar moosha (caramel)",
+      "standard_name": "Nestle Milkybar Moosha Caramel",
+      "other_names": "Milkybar Moosha Caramel, Nestle Moosha Caramel Chocolate, Moosha White Chocolate Caramel Bar, Milkybar Moosha Caramel Wafer",
+      "food_varieties": [
+        "Milkybar Moosha Original (plain white chocolate)",
+        "Milkybar Moosha Strawberry",
+        "Milkybar Moosha Choco (milk chocolate variant)",
+        "Milkybar Classic (without wafer/caramel)"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 25.0g",
+        "2 pieces — 50.0g"
+      ],
+      "base_volume": "25g",
+      "gen_macros_raw": "128.6 | 16.8 | 6.2 | 1.4 | 0.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 96.5,
+        "carbs": 14.2,
+        "fat": 4.0,
+        "prot": 0.9,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 128.6,
+        "carbs": 16.8,
+        "fat": 6.2,
+        "prot": 1.4,
+        "fib": 0.1
+      },
+      "input_macros_raw": "96.5 | 14.2 | 4.0 | 0.9 | 0.0",
+      "final_macros_raw": "128.6 | 16.8 | 6.2 | 1.4 | 0.1",
+      "diff": 0.333
+    },
+    {
+      "id": 10,
+      "original_food_name": "Baby ruth bar",
+      "standard_name": "Baby Ruth Bar",
+      "other_names": "Baby Ruth Candy Bar, Baby Ruth Chocolate Bar, Peanut Caramel Nougat Bar",
+      "food_varieties": [
+        "Fun size Baby Ruth bar",
+        "King size Baby Ruth bar",
+        "Baby Ruth with dark chocolate coating",
+        "Homemade peanut nougat caramel bar"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 60.0g",
+        "1 small piece — 30.0g"
+      ],
+      "base_volume": "60g",
+      "gen_macros_raw": "285.0 | 38.5 | 13.0 | 3.5 | 1.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 285.0,
+        "carbs": 38.9,
+        "fat": 13.0,
+        "prot": 3.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 285.0,
+        "carbs": 38.5,
+        "fat": 13.0,
+        "prot": 3.5,
+        "fib": 1.2
+      },
+      "input_macros_raw": "285.0 | 38.9 | 13.0 | 3.2 | 0.0",
+      "final_macros_raw": "285.0 | 38.5 | 13.0 | 3.5 | 1.2",
+      "diff": 0.0
+    },
+    {
+      "id": 11,
+      "original_food_name": "Oh henry! bar",
+      "standard_name": "Oh Henry! Bar",
+      "other_names": "Oh Henry candy bar, Oh Henry chocolate bar, Hershey Oh Henry bar",
+      "food_varieties": [
+        "Oh Henry! King Size Bar",
+        "Oh Henry! with Caramel",
+        "Oh Henry! Peanut Butter variant",
+        "Oh Henry! Mini Bars",
+        "Oh Henry! Dark Chocolate variant"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 55.0g",
+        "2 pieces — 110.0g"
+      ],
+      "base_volume": "55g",
+      "gen_macros_raw": "260.0 | 33.5 | 12.0 | 4.5 | 1.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 254.1,
+        "carbs": 36.0,
+        "fat": 12.7,
+        "prot": 4.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 260.0,
+        "carbs": 33.5,
+        "fat": 12.0,
+        "prot": 4.5,
+        "fib": 1.2
+      },
+      "input_macros_raw": "254.1 | 36.0 | 12.7 | 4.2 | 0.0",
+      "final_macros_raw": "260.0 | 33.5 | 12.0 | 4.5 | 1.2",
+      "diff": 0.023
+    },
+    {
+      "id": 12,
+      "original_food_name": "infant formula, nestle, good start supreme, with iron, dha and ara, prepared from liquid concentrate",
+      "standard_name": "Nestle Good Start Supreme Infant Formula With Iron Dha Ara",
+      "other_names": "Good Start Supreme Liquid Concentrate Formula, Nestle Infant Formula With DHA ARA, Good Start Supreme Baby Formula Prepared",
+      "food_varieties": [
+        "Nestle Good Start Gentle powder formula",
+        "Nestle Good Start Soy formula",
+        "Nestle Good Start Supreme ready-to-feed formula",
+        "Nestle Good Start Stage 2 follow-up formula"
+      ],
+      "serving_types": [
+        "[BASE] cup — 150.0ml",
+        "small cup — 100.0ml"
+      ],
+      "base_volume": "150ml",
+      "gen_macros_raw": "98.6 | 11.1 | 5.1 | 2.2 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 99.0,
+        "carbs": 11.1,
+        "fat": 5.1,
+        "prot": 2.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 98.6,
+        "carbs": 11.1,
+        "fat": 5.1,
+        "prot": 2.2,
+        "fib": 0.0
+      },
+      "input_macros_raw": "99.0 | 11.1 | 5.1 | 2.2 | 0.0",
+      "final_macros_raw": "98.6 | 11.1 | 5.1 | 2.2 | 0.0",
+      "diff": -0.004
+    },
+    {
+      "id": 13,
+      "original_food_name": "Tapioca curry (Cassava curry)",
+      "standard_name": "Tapioca Curry",
+      "other_names": "Cassava Curry, Kappa Curry, Kappa Masala, Tapioca Masala, Maravalli Kizhangu Curry, Kuchi Kizhangu Curry",
+      "food_varieties": [
+        "Kappa with coconut milk gravy",
+        "Dry tapioca stir-fry (Kappa Mezhukkupuratti)",
+        "Tapioca with fish curry (Kappa Meen Curry)",
+        "Tapioca with green chili and mustard tempering",
+        "Tapioca with lentil and coconut (Kappa Parippu)"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "177.6 | 26.4 | 7.2 | 1.8 | 1.7",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 131.0,
+        "carbs": 22.9,
+        "fat": 4.0,
+        "prot": 1.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 177.6,
+        "carbs": 26.4,
+        "fat": 7.2,
+        "prot": 1.8,
+        "fib": 1.7
+      },
+      "input_macros_raw": "131.0 | 22.9 | 4.0 | 1.4 | 0.0",
+      "final_macros_raw": "177.6 | 26.4 | 7.2 | 1.8 | 1.7",
+      "diff": 0.356
+    },
+    {
+      "id": 14,
+      "original_food_name": "Carrot beetroot idli",
+      "standard_name": "Carrot Beetroot Idli",
+      "other_names": "Gajar Chukandar Idli, Vegetable Idli with Carrot and Beetroot, Coloured Idli, Beetroot Carrot Idli",
+      "food_varieties": [
+        "Plain idli (no vegetables)",
+        "Spinach idli",
+        "Tomato idli",
+        "Rava carrot beetroot idli",
+        "Oats carrot beetroot idli"
+      ],
+      "serving_types": [
+        "[BASE] 2 pieces — 80.0g",
+        "3 pieces — 135.0g",
+        "1 piece — 45.0g"
+      ],
+      "base_volume": "80g",
+      "gen_macros_raw": "105.3 | 21.8 | 0.5 | 3.4 | 1.6",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 114.2,
+        "carbs": 23.8,
+        "fat": 0.3,
+        "prot": 3.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 105.3,
+        "carbs": 21.8,
+        "fat": 0.5,
+        "prot": 3.4,
+        "fib": 1.6
+      },
+      "input_macros_raw": "114.2 | 23.8 | 0.3 | 3.4 | 0.0",
+      "final_macros_raw": "105.3 | 21.8 | 0.5 | 3.4 | 1.6",
+      "diff": -0.078
+    },
+    {
+      "id": 15,
+      "original_food_name": "Maggi instant mushroom penne (packaged)",
+      "standard_name": "Maggi Instant Mushroom Penne",
+      "other_names": "Maggi Mushroom Penne Pasta, Instant Mushroom Penne Noodles, Maggi Penne Mushroom Flavour, Packaged Mushroom Pasta Maggi",
+      "food_varieties": [
+        "Maggi Instant Masala Penne",
+        "Maggi Instant Tomato Penne",
+        "Maggi Instant Cheese Penne",
+        "Maggi Instant Veggie Penne"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "half plate — 250.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "297.2 | 54.0 | 5.2 | 8.6 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 696.0,
+        "carbs": 137.0,
+        "fat": 6.2,
+        "prot": 23.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 297.2,
+        "carbs": 54.0,
+        "fat": 5.2,
+        "prot": 8.6,
+        "fib": 2.4
+      },
+      "input_macros_raw": "696.0 | 137.0 | 6.2 | 23.2 | 0.0",
+      "final_macros_raw": "297.2 | 54.0 | 5.2 | 8.6 | 2.4",
+      "diff": -0.573
+    },
+    {
+      "id": 16,
+      "original_food_name": "grekyo strawberry greek yoghurt (packaged)",
+      "standard_name": "Strawberry Greek Yoghurt",
+      "other_names": "Grekyo Strawberry Greek Yogurt, Flavoured Greek Dahi, Strawberry Strained Yoghurt, Greek Style Strawberry Curd",
+      "food_varieties": [
+        "Plain Greek Yoghurt (unflavoured)",
+        "Blueberry Greek Yoghurt",
+        "Mango Greek Yoghurt",
+        "Honey Greek Yoghurt",
+        "Low-fat Strawberry Greek Yoghurt"
+      ],
+      "serving_types": [
+        "[BASE] cup — 150.0g",
+        "small cup — 100.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "147.0 | 22.5 | 3.0 | 7.5 | 0.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 157.5,
+        "carbs": 24.9,
+        "fat": 3.0,
+        "prot": 7.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 147.0,
+        "carbs": 22.5,
+        "fat": 3.0,
+        "prot": 7.5,
+        "fib": 0.2
+      },
+      "input_macros_raw": "157.5 | 24.9 | 3.0 | 7.6 | 0.0",
+      "final_macros_raw": "147.0 | 22.5 | 3.0 | 7.5 | 0.2",
+      "diff": -0.067
+    },
+    {
+      "id": 17,
+      "original_food_name": "Veg linketts (loma linda, canned)",
+      "standard_name": "Veg Linketts Canned",
+      "other_names": "Loma Linda Veg Linketts, Vegetarian Sausage Links Canned, Meatless Sausage Links, Veg Sausage Loma Linda",
+      "food_varieties": [
+        "Veg Linketts grilled",
+        "Veg Linketts pan-fried",
+        "Veg Linketts with sauce",
+        "Veg Linketts sliced in sandwich",
+        "Veg Linketts baked"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 45.0g",
+        "2 pieces — 90.0g",
+        "4 pieces — 180.0g"
+      ],
+      "base_volume": "45g",
+      "gen_macros_raw": "94.1 | 9.6 | 5.3 | 2.0 | 0.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 94.0,
+        "carbs": 2.0,
+        "fat": 5.3,
+        "prot": 9.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 94.1,
+        "carbs": 9.6,
+        "fat": 5.3,
+        "prot": 2.0,
+        "fib": 0.5
+      },
+      "input_macros_raw": "94.0 | 2.0 | 5.3 | 9.6 | 0.0",
+      "final_macros_raw": "94.1 | 9.6 | 5.3 | 2.0 | 0.5",
+      "diff": 0.001
+    },
+    {
+      "id": 18,
+      "original_food_name": "Almond dark chocolate bar (grow fit)",
+      "standard_name": "Almond Dark Chocolate Bar Grow Fit",
+      "other_names": "Grow Fit Almond Dark Choco Bar, Dark Chocolate Almond Bar, Almond Choco Bar Grow Fit, Grow Fit Protein Chocolate Bar",
+      "food_varieties": [
+        "Plain dark chocolate bar",
+        "Hazelnut dark chocolate bar",
+        "Almond milk chocolate bar",
+        "Dark chocolate with seeds bar",
+        "Sugar-free dark chocolate almond bar"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 25.0g",
+        "2 pieces — 50.0g"
+      ],
+      "base_volume": "25g",
+      "gen_macros_raw": "124.5 | 9.0 | 8.5 | 3.0 | 1.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 113.6,
+        "carbs": 6.8,
+        "fat": 8.0,
+        "prot": 3.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 124.5,
+        "carbs": 9.0,
+        "fat": 8.5,
+        "prot": 3.0,
+        "fib": 1.5
+      },
+      "input_macros_raw": "113.6 | 6.8 | 8.0 | 3.4 | 0.0",
+      "final_macros_raw": "124.5 | 9.0 | 8.5 | 3.0 | 1.5",
+      "diff": 0.096
+    },
+    {
+      "id": 19,
+      "original_food_name": "Veg little links (loma linda, canned)",
+      "standard_name": "Veg Little Links Canned",
+      "other_names": "Loma Linda Veg Links, Vegetarian Sausage Links Canned, Plant-Based Little Links, Veg Sausage Links",
+      "food_varieties": [
+        "Grilled veg sausage links",
+        "Pan-fried veg links",
+        "Veg links with BBQ glaze",
+        "Baked veg sausage links"
+      ],
+      "serving_types": [
+        "1 piece — 45.0g",
+        "[BASE] bowl — 100.0g",
+        "2 pieces — 90.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "217.0 | 19.5 | 13.0 | 5.5 | 2.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 221.0,
+        "carbs": 5.5,
+        "fat": 13.5,
+        "prot": 19.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 217.0,
+        "carbs": 19.5,
+        "fat": 13.0,
+        "prot": 5.5,
+        "fib": 2.5
+      },
+      "input_macros_raw": "221.0 | 5.5 | 13.5 | 19.4 | 0.0",
+      "final_macros_raw": "217.0 | 19.5 | 13.0 | 5.5 | 2.5",
+      "diff": -0.018
+    },
+    {
+      "id": 20,
+      "original_food_name": "Veg big frank (loma linda, canned)",
+      "standard_name": "Veg Big Frank Loma Linda Canned",
+      "other_names": "Loma Linda Big Frank, Vegetarian Frank Canned, Veg Sausage Loma Linda, Plant-Based Frank Canned",
+      "food_varieties": [
+        "Loma Linda Little Links",
+        "Worthington Stripples",
+        "Morningstar Farms Veggie Dogs",
+        "Loma Linda Veja-Links",
+        "Generic Canned Vegetarian Sausage"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 65.0g",
+        "2 pieces — 130.0g"
+      ],
+      "base_volume": "65g",
+      "gen_macros_raw": "142.3 | 14.0 | 7.9 | 3.8 | 1.3",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 141.7,
+        "carbs": 3.8,
+        "fat": 7.9,
+        "prot": 14.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 142.3,
+        "carbs": 14.0,
+        "fat": 7.9,
+        "prot": 3.8,
+        "fib": 1.3
+      },
+      "input_macros_raw": "141.7 | 3.8 | 7.9 | 14.0 | 0.0",
+      "final_macros_raw": "142.3 | 14.0 | 7.9 | 3.8 | 1.3",
+      "diff": 0.004
+    },
+    {
+      "id": 21,
+      "original_food_name": "Onions (Raw)",
+      "standard_name": "Onions Raw",
+      "other_names": "Kanda, Pyaz, Vengayam, Ullipayalu, Dungli, Raw Onion, Fresh Onion",
+      "food_varieties": [
+        "Red Onion Raw",
+        "White Onion Raw",
+        "Spring Onion Raw",
+        "Shallots Raw",
+        "Yellow Onion Raw"
+      ],
+      "serving_types": [
+        "[BASE] 1 small handful — 50.0g",
+        "1 tablespoon — 10.0g",
+        "1 handful — 100.0g"
+      ],
+      "base_volume": "50g",
+      "gen_macros_raw": "21.6 | 4.7 | 0.1 | 0.6 | 0.9",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 20.0,
+        "carbs": 4.7,
+        "fat": 0.1,
+        "prot": 0.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 21.6,
+        "carbs": 4.7,
+        "fat": 0.1,
+        "prot": 0.6,
+        "fib": 0.9
+      },
+      "input_macros_raw": "20.0 | 4.7 | 0.1 | 0.6 | 0.0",
+      "final_macros_raw": "21.6 | 4.7 | 0.1 | 0.6 | 0.9",
+      "diff": 0.08
+    },
+    {
+      "id": 22,
+      "original_food_name": "sweet onion sauce (veeba)",
+      "standard_name": "Sweet Onion Sauce Veeba",
+      "other_names": "Veeba Sweet Onion Dip, Sweet Onion Dressing, Onion Sauce Veeba, Veeba Onion Condiment",
+      "food_varieties": [
+        "Honey Mustard Sauce",
+        "Thousand Island Dressing",
+        "Sweet Chilli Sauce",
+        "Garlic Mayo Sauce",
+        "Chipotle Sauce"
+      ],
+      "serving_types": [
+        "1 tablespoon — 15.0g",
+        "[BASE] 2 tablespoons — 30.0g"
+      ],
+      "base_volume": "30g",
+      "gen_macros_raw": "38.1 | 8.1 | 0.5 | 0.3 | 0.3",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 58.6,
+        "carbs": 13.6,
+        "fat": 0.3,
+        "prot": 0.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 38.1,
+        "carbs": 8.1,
+        "fat": 0.5,
+        "prot": 0.3,
+        "fib": 0.3
+      },
+      "input_macros_raw": "58.6 | 13.6 | 0.3 | 0.3 | 0.0",
+      "final_macros_raw": "38.1 | 8.1 | 0.5 | 0.3 | 0.3",
+      "diff": -0.35
+    },
+    {
+      "id": 23,
+      "original_food_name": "Veg redi-burger (loma linda, canned)",
+      "standard_name": "Veg Redi-burger Canned",
+      "other_names": "Loma Linda Veg Burger, Canned Vegetable Burger Patty, Ready Burger Canned, Veg Burger Loma Linda",
+      "food_varieties": [
+        "Loma Linda Big Franks canned",
+        "Worthington Veja-Links canned",
+        "Loma Linda Linketts canned",
+        "Canned soy-based veggie patty",
+        "Canned wheat gluten burger"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 85.0g",
+        "2 pieces — 170.0g"
+      ],
+      "base_volume": "85g",
+      "gen_macros_raw": "181.9 | 25.5 | 5.1 | 8.5 | 2.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 124.1,
+        "carbs": 7.0,
+        "fat": 2.4,
+        "prot": 18.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 181.9,
+        "carbs": 25.5,
+        "fat": 5.1,
+        "prot": 8.5,
+        "fib": 2.0
+      },
+      "input_macros_raw": "124.1 | 7.0 | 2.4 | 18.6 | 0.0",
+      "final_macros_raw": "181.9 | 25.5 | 5.1 | 8.5 | 2.0",
+      "diff": 0.466
+    },
+    {
+      "id": 24,
+      "original_food_name": "Spinach onion soup",
+      "standard_name": "Spinach Onion Soup",
+      "other_names": "Palak Pyaz Soup, Spinach Onion Shorba, Palak Soup with Onion, Spinach Onion Broth",
+      "food_varieties": [
+        "Creamy spinach onion soup with cream",
+        "Spinach onion tomato soup",
+        "Spinach onion lentil soup",
+        "Spiced spinach onion soup with ginger garlic",
+        "Spinach onion soup with coconut milk"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "large bowl — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "105.2 | 9.2 | 6.0 | 3.6 | 2.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 113.7,
+        "carbs": 9.7,
+        "fat": 7.2,
+        "prot": 4.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 105.2,
+        "carbs": 9.2,
+        "fat": 6.0,
+        "prot": 3.6,
+        "fib": 2.2
+      },
+      "input_macros_raw": "113.7 | 9.7 | 7.2 | 4.2 | 0.0",
+      "final_macros_raw": "105.2 | 9.2 | 6.0 | 3.6 | 2.2",
+      "diff": -0.075
+    },
+    {
+      "id": 25,
+      "original_food_name": "Almond coconut bar (yoga bar)",
+      "standard_name": "Almond Coconut Bar Yoga Bar",
+      "other_names": "Yoga Bar Almond Coconut, Almond Coconut Energy Bar, Yoga Bar Nut Bar Almond Coconut, Almond Nariyal Bar",
+      "food_varieties": [
+        "Yoga Bar Oats and Almonds Bar",
+        "Yoga Bar Dark Chocolate Bar",
+        "Yoga Bar Peanut Butter Bar",
+        "Almond Date Energy Bar",
+        "Coconut Almond Protein Bar"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 50.0g",
+        "2 pieces — 100.0g"
+      ],
+      "base_volume": "50g",
+      "gen_macros_raw": "224.5 | 26.0 | 10.5 | 6.5 | 2.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 229.0,
+        "carbs": 29.6,
+        "fat": 9.0,
+        "prot": 7.9,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 224.5,
+        "carbs": 26.0,
+        "fat": 10.5,
+        "prot": 6.5,
+        "fib": 2.8
+      },
+      "input_macros_raw": "229.0 | 29.6 | 9.0 | 7.9 | 0.0",
+      "final_macros_raw": "224.5 | 26.0 | 10.5 | 6.5 | 2.8",
+      "diff": -0.02
+    },
+    {
+      "id": 26,
+      "original_food_name": "infant formula, nestle, good start supreme, with iron, ready-to-feed",
+      "standard_name": "Nestle Good Start Supreme Infant Formula With Iron Ready To Feed",
+      "other_names": "Good Start Supreme Ready To Feed, Nestle Infant Formula Ready To Feed, Good Start Iron Fortified Baby Formula, RTF Infant Formula With Iron",
+      "food_varieties": [
+        "Nestle Good Start Supreme powder formula (reconstituted)",
+        "Nestle Good Start Gentle infant formula",
+        "Similac Advance ready-to-feed infant formula",
+        "Enfamil Infant ready-to-feed formula",
+        "Nestle Good Start Soy infant formula"
+      ],
+      "serving_types": [
+        "[BASE] small cup — 100.0ml",
+        "cup — 150.0ml",
+        "glass — 200.0ml"
+      ],
+      "base_volume": "100ml",
+      "gen_macros_raw": "65.7 | 7.4 | 3.4 | 1.4 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 66.0,
+        "carbs": 7.4,
+        "fat": 3.4,
+        "prot": 1.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 65.7,
+        "carbs": 7.4,
+        "fat": 3.4,
+        "prot": 1.4,
+        "fib": 0.0
+      },
+      "input_macros_raw": "66.0 | 7.4 | 3.4 | 1.4 | 0.0",
+      "final_macros_raw": "65.7 | 7.4 | 3.4 | 1.4 | 0.0",
+      "diff": -0.005
+    },
+    {
+      "id": 27,
+      "original_food_name": "Upma",
+      "standard_name": "Upma",
+      "other_names": "Uppit, Uppuma, Rava Upma, Sooji Upma, Uppindi",
+      "food_varieties": [
+        "Vegetable Upma",
+        "Oats Upma",
+        "Semiya Upma",
+        "Poha Upma",
+        "Rava Kichadi"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "259.8 | 39.4 | 8.6 | 6.2 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": "224.0 | 35.0 | 7.0 | 5.6 | 2.0",
+      "input_macros": {
+        "cal": 329.8,
+        "carbs": 46.3,
+        "fat": 11.9,
+        "prot": 9.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 259.8,
+        "carbs": 39.4,
+        "fat": 8.6,
+        "prot": 6.2,
+        "fib": 2.4
+      },
+      "input_macros_raw": "329.8 | 46.3 | 11.9 | 9.3 | 0.0",
+      "final_macros_raw": "259.8 | 39.4 | 8.6 | 6.2 | 2.4",
+      "diff": -0.212
+    },
+    {
+      "id": 28,
+      "original_food_name": "Caramelized almond cake",
+      "standard_name": "Caramelized Almond Cake",
+      "other_names": "Almond Caramel Cake, Badam Caramel Cake, Caramelised Almond Cake, Almond Toffee Cake",
+      "food_varieties": [
+        "Caramelized Almond Tart",
+        "Almond Praline Cake",
+        "Caramelized Almond Flourless Cake",
+        "Almond Butter Cake with Caramel Topping",
+        "Caramelized Almond Financier"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 100.0g",
+        "1 large piece — 150.0g",
+        "2 pieces — 200.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "404.7 | 41.2 | 23.5 | 7.1 | 2.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 387.5,
+        "carbs": 40.2,
+        "fat": 23.2,
+        "prot": 6.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 404.7,
+        "carbs": 41.2,
+        "fat": 23.5,
+        "prot": 7.1,
+        "fib": 2.1
+      },
+      "input_macros_raw": "387.5 | 40.2 | 23.2 | 6.6 | 0.0",
+      "final_macros_raw": "404.7 | 41.2 | 23.5 | 7.1 | 2.1",
+      "diff": 0.044
+    },
+    {
+      "id": 29,
+      "original_food_name": "Keto pancake (Almond flour)",
+      "standard_name": "Keto Pancake Almond Flour",
+      "other_names": "Almond Flour Pancake, Low Carb Pancake, Keto Cheela Almond, Badam Atta Pancake",
+      "food_varieties": [
+        "Almond flour pancake with cream cheese",
+        "Almond flour pancake with whey protein",
+        "Coconut flour keto pancake",
+        "Almond flour pancake with flaxseed",
+        "Almond flour blueberry keto pancake"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 60.0g",
+        "2 pieces — 120.0g"
+      ],
+      "base_volume": "60g",
+      "gen_macros_raw": "220.2 | 5.4 | 18.6 | 7.8 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 214.3,
+        "carbs": 5.0,
+        "fat": 19.3,
+        "prot": 7.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 220.2,
+        "carbs": 5.4,
+        "fat": 18.6,
+        "prot": 7.8,
+        "fib": 2.4
+      },
+      "input_macros_raw": "214.3 | 5.0 | 19.3 | 7.3 | 0.0",
+      "final_macros_raw": "220.2 | 5.4 | 18.6 | 7.8 | 2.4",
+      "diff": 0.028
+    },
+    {
+      "id": 30,
+      "original_food_name": "Fig almond smoothie",
+      "standard_name": "Fig Almond Smoothie",
+      "other_names": "Anjeer Badam Smoothie, Fig Badam Shake, Anjeer Almond Shake, Fig Nut Smoothie",
+      "food_varieties": [
+        "Fig almond smoothie with honey",
+        "Fig almond smoothie with banana",
+        "Fig almond smoothie with oats",
+        "Dried fig almond smoothie with dates",
+        "Fig almond smoothie with Greek yogurt"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 200.0ml",
+        "large cup — 350.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "232.0 | 28.5 | 9.2 | 8.8 | 3.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 248.7,
+        "carbs": 36.9,
+        "fat": 8.8,
+        "prot": 8.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 232.0,
+        "carbs": 28.5,
+        "fat": 9.2,
+        "prot": 8.8,
+        "fib": 3.2
+      },
+      "input_macros_raw": "248.7 | 36.9 | 8.8 | 8.4 | 0.0",
+      "final_macros_raw": "232.0 | 28.5 | 9.2 | 8.8 | 3.2",
+      "diff": -0.067
+    },
+    {
+      "id": 31,
+      "original_food_name": "Almond",
+      "standard_name": "Almond",
+      "other_names": "Badam, Badaam, Sweet Almond, Raw Almond, Whole Almond",
+      "food_varieties": [
+        "Roasted Almond",
+        "Soaked Almond",
+        "Blanched Almond",
+        "Salted Almond",
+        "Almond with Skin"
+      ],
+      "serving_types": [
+        "[BASE] 4 pieces — 5.0g",
+        "1 small handful — 20.0g"
+      ],
+      "base_volume": "5g",
+      "gen_macros_raw": "30.5 | 0.9 | 2.5 | 1.1 | 0.6",
+      "correction_macros_raw": null,
+      "db_macros_raw": "30.5 | 0.9 | 2.9 | 0.2 | 0.7",
+      "input_macros": {
+        "cal": 30.5,
+        "carbs": 0.2,
+        "fat": 2.9,
+        "prot": 0.9,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 30.5,
+        "carbs": 0.9,
+        "fat": 2.5,
+        "prot": 1.1,
+        "fib": 0.6
+      },
+      "input_macros_raw": "30.5 | 0.2 | 2.9 | 0.9 | 0.0",
+      "final_macros_raw": "30.5 | 0.9 | 2.5 | 1.1 | 0.6",
+      "diff": 0.0
+    },
+    {
+      "id": 32,
+      "original_food_name": "Almond flour (Or meal)",
+      "standard_name": "Almond Flour",
+      "other_names": "Almond Meal, Badam Atta, Badam Powder, Ground Almonds, Blanched Almond Flour",
+      "food_varieties": [
+        "Blanched almond flour (skin removed, finely ground)",
+        "Almond meal (unblanched, coarser grind with skin)",
+        "Defatted almond flour (lower fat, higher protein)",
+        "Super-fine almond flour (extra fine grind for baking)"
+      ],
+      "serving_types": [
+        "1 tablespoon — 10.0g",
+        "[BASE] cup — 100.0g",
+        "1 small handful — 30.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "619.0 | 19.7 | 50.6 | 21.2 | 10.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 579.0,
+        "carbs": 21.5,
+        "fat": 49.9,
+        "prot": 21.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 619.0,
+        "carbs": 19.7,
+        "fat": 50.6,
+        "prot": 21.2,
+        "fib": 10.5
+      },
+      "input_macros_raw": "579.0 | 21.5 | 49.9 | 21.1 | 0.0",
+      "final_macros_raw": "619.0 | 19.7 | 50.6 | 21.2 | 10.5",
+      "diff": 0.069
+    },
+    {
+      "id": 33,
+      "original_food_name": "Almond finger biscuit (Cookie)",
+      "standard_name": "Almond Finger Biscuit",
+      "other_names": "Almond Cookie, Badam Finger Biscuit, Almond Finger Cookie, Badam Biscuit, Almond Shortbread Finger",
+      "food_varieties": [
+        "Plain almond biscuit (round)",
+        "Almond biscotti (twice-baked)",
+        "Almond butter cookie",
+        "Chocolate-dipped almond finger biscuit",
+        "Eggless almond finger biscuit"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 15.0g",
+        "4 pieces — 60.0g",
+        "2 pieces — 30.0g"
+      ],
+      "base_volume": "15g",
+      "gen_macros_raw": "74.1 | 7.8 | 4.1 | 1.5 | 0.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 60.9,
+        "carbs": 5.4,
+        "fat": 3.8,
+        "prot": 1.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 74.1,
+        "carbs": 7.8,
+        "fat": 4.1,
+        "prot": 1.5,
+        "fib": 0.4
+      },
+      "input_macros_raw": "60.9 | 5.4 | 3.8 | 1.5 | 0.0",
+      "final_macros_raw": "74.1 | 7.8 | 4.1 | 1.5 | 0.4",
+      "diff": 0.217
+    },
+    {
+      "id": 34,
+      "original_food_name": "Dark chocolate Almond (Larabar)",
+      "standard_name": "Dark Chocolate Almond Larabar",
+      "other_names": "Larabar Dark Choco Almond Bar, Dark Chocolate Almond Energy Bar, Larabar Choco Badam Bar, Dark Choco Almond Fruit Nut Bar",
+      "food_varieties": [
+        "Larabar Peanut Butter Chocolate Chip",
+        "Larabar Cashew Cookie",
+        "Larabar Apple Pie",
+        "Larabar Coconut Cream Pie",
+        "Larabar Cherry Pie"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 45.0g",
+        "1 small piece — 30.0g"
+      ],
+      "base_volume": "45g",
+      "gen_macros_raw": "225.0 | 22.0 | 13.0 | 5.0 | 3.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 257.1,
+        "carbs": 16.7,
+        "fat": 19.3,
+        "prot": 6.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 225.0,
+        "carbs": 22.0,
+        "fat": 13.0,
+        "prot": 5.0,
+        "fib": 3.5
+      },
+      "input_macros_raw": "257.1 | 16.7 | 19.3 | 6.4 | 0.0",
+      "final_macros_raw": "225.0 | 22.0 | 13.0 | 5.0 | 3.5",
+      "diff": -0.125
+    },
+    {
+      "id": 35,
+      "original_food_name": "Praline almond ice cream (packaged)",
+      "standard_name": "Praline Almond Ice Cream",
+      "other_names": "Almond Praline Ice Cream, Praline Badam Ice Cream, Packaged Almond Ice Cream, Badam Praline Ice Cream",
+      "food_varieties": [
+        "Praline cashew ice cream",
+        "Chocolate almond ice cream",
+        "Vanilla almond crunch ice cream",
+        "Butterscotch praline ice cream",
+        "Almond toffee ice cream"
+      ],
+      "serving_types": [
+        "[BASE] small cup — 100.0g",
+        "cup — 150.0g",
+        "large cup — 200.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "255.1 | 29.2 | 13.5 | 4.2 | 0.6",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 258.5,
+        "carbs": 28.5,
+        "fat": 13.9,
+        "prot": 4.8,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 255.1,
+        "carbs": 29.2,
+        "fat": 13.5,
+        "prot": 4.2,
+        "fib": 0.6
+      },
+      "input_macros_raw": "258.5 | 28.5 | 13.9 | 4.8 | 0.0",
+      "final_macros_raw": "255.1 | 29.2 | 13.5 | 4.2 | 0.6",
+      "diff": -0.013
+    },
+    {
+      "id": 36,
+      "original_food_name": "infant formula, nestle, good start supreme, with iron, powder",
+      "standard_name": "Nestle Good Start Supreme Infant Formula With Iron Powder",
+      "other_names": "Good Start Supreme Powder, Nestle Infant Formula With Iron, Good Start Iron Fortified Formula Powder, Nestle Good Start Baby Formula",
+      "food_varieties": [
+        "Nestle Good Start Gentle infant formula powder",
+        "Nestle Good Start Soy infant formula powder",
+        "Nestle Good Start Stage 2 follow-on formula powder",
+        "Nestle NAN Pro infant formula powder",
+        "Similac Advance iron-fortified infant formula powder"
+      ],
+      "serving_types": [
+        "[BASE] 1 tablespoon — 100.0g",
+        "2 tablespoons — 15.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "509.3 | 57.3 | 26.1 | 11.3 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 509.0,
+        "carbs": 57.3,
+        "fat": 26.1,
+        "prot": 11.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 509.3,
+        "carbs": 57.3,
+        "fat": 26.1,
+        "prot": 11.3,
+        "fib": 0.0
+      },
+      "input_macros_raw": "509.0 | 57.3 | 26.1 | 11.3 | 0.0",
+      "final_macros_raw": "509.3 | 57.3 | 26.1 | 11.3 | 0.0",
+      "diff": 0.001
+    },
+    {
+      "id": 37,
+      "original_food_name": "Avocado almond milk smoothie (Keto)",
+      "standard_name": "Avocado Almond Milk Smoothie (keto)",
+      "other_names": "Keto Avocado Smoothie, Avocado Almond Milk Shake, Low Carb Avocado Smoothie, Keto Green Smoothie",
+      "food_varieties": [
+        "Avocado coconut milk smoothie (keto)",
+        "Avocado spinach almond milk smoothie",
+        "Avocado chia seed smoothie",
+        "Avocado MCT oil smoothie",
+        "Avocado hemp seed smoothie"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "small cup — 150.0ml",
+        "large cup — 350.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "155.5 | 6.8 | 13.1 | 2.6 | 4.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 138.0,
+        "carbs": 7.0,
+        "fat": 12.1,
+        "prot": 2.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 155.5,
+        "carbs": 6.8,
+        "fat": 13.1,
+        "prot": 2.6,
+        "fib": 4.2
+      },
+      "input_macros_raw": "138.0 | 7.0 | 12.1 | 2.5 | 0.0",
+      "final_macros_raw": "155.5 | 6.8 | 13.1 | 2.6 | 4.2",
+      "diff": 0.127
+    },
+    {
+      "id": 38,
+      "original_food_name": "infant formula, nestle, good start 2 essentials, with iron, powder",
+      "standard_name": "Nestle Good Start 2 Essentials Infant Formula Powder With Iron",
+      "other_names": "Good Start 2 Iron Formula Powder, Nestle Good Start Stage 2 Powder, Follow-On Formula Powder With Iron, Good Start Essentials 2 Baby Formula",
+      "food_varieties": [
+        "Nestle Good Start 1 Essentials (Stage 1, 0-6 months)",
+        "Nestle Good Start Supreme (whey-based variant)",
+        "Nestle NAN Pro 2 Follow-Up Formula",
+        "Similac Follow-On Gold Stage 2",
+        "Enfamil A+ Stage 2 Follow-Up Formula"
+      ],
+      "serving_types": [
+        "[BASE] 1 tablespoon — 100.0g",
+        "2 tablespoons — 15.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "471.3 | 62.2 | 19.3 | 12.2 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 471.0,
+        "carbs": 62.2,
+        "fat": 19.3,
+        "prot": 12.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 471.3,
+        "carbs": 62.2,
+        "fat": 19.3,
+        "prot": 12.2,
+        "fib": 0.0
+      },
+      "input_macros_raw": "471.0 | 62.2 | 19.3 | 12.2 | 0.0",
+      "final_macros_raw": "471.3 | 62.2 | 19.3 | 12.2 | 0.0",
+      "diff": 0.001
+    },
+    {
+      "id": 39,
+      "original_food_name": "Cream of asparagus & almond soup",
+      "standard_name": "Cream Of Asparagus & Almond Soup",
+      "other_names": "Asparagus Almond Cream Soup, Creamy Asparagus Soup with Almonds, Asparagus Badam Soup",
+      "food_varieties": [
+        "Asparagus soup with coconut cream (dairy-free)",
+        "Roasted asparagus and almond soup",
+        "Asparagus soup with almond milk base",
+        "Chilled asparagus almond vichyssoise",
+        "Asparagus soup with toasted almond garnish"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "large bowl — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "105.6 | 8.2 | 6.4 | 3.8 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 99.7,
+        "carbs": 10.0,
+        "fat": 5.7,
+        "prot": 3.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 105.6,
+        "carbs": 8.2,
+        "fat": 6.4,
+        "prot": 3.8,
+        "fib": 2.4
+      },
+      "input_macros_raw": "99.7 | 10.0 | 5.7 | 3.7 | 0.0",
+      "final_macros_raw": "105.6 | 8.2 | 6.4 | 3.8 | 2.4",
+      "diff": 0.059
+    },
+    {
+      "id": 40,
+      "original_food_name": "Almond Croissant (Starbucks India)",
+      "standard_name": "Almond Croissant",
+      "other_names": "Starbucks Almond Croissant, Badam Croissant, Almond Filled Croissant, Croissant aux Amandes",
+      "food_varieties": [
+        "Plain Butter Croissant",
+        "Chocolate Croissant",
+        "Cheese Croissant",
+        "Double Almond Croissant",
+        "Almond Pain au Chocolat"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 105.0g",
+        "1 small piece — 75.0g"
+      ],
+      "base_volume": "105g",
+      "gen_macros_raw": "430.0 | 40.0 | 26.0 | 9.0 | 2.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 430.0,
+        "carbs": 30.0,
+        "fat": 30.7,
+        "prot": 8.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 430.0,
+        "carbs": 40.0,
+        "fat": 26.0,
+        "prot": 9.0,
+        "fib": 2.5
+      },
+      "input_macros_raw": "430.0 | 30.0 | 30.7 | 8.7 | 0.0",
+      "final_macros_raw": "430.0 | 40.0 | 26.0 | 9.0 | 2.5",
+      "diff": 0.0
+    },
+    {
+      "id": 41,
+      "original_food_name": "kesar rava burfi",
+      "standard_name": "Kesar Rava Burfi",
+      "other_names": "Saffron Sooji Barfi, Kesar Suji Burfi, Semolina Saffron Fudge, Rava Kesari Barfi",
+      "food_varieties": [
+        "Plain Rava Burfi (without saffron)",
+        "Kesar Rava Burfi with Milk Powder",
+        "Coconut Rava Burfi",
+        "Kesar Rava Burfi with Condensed Milk",
+        "Dry Fruit Rava Burfi"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 35.0g",
+        "2 pieces — 70.0g"
+      ],
+      "base_volume": "35g",
+      "gen_macros_raw": "152.0 | 19.8 | 6.8 | 2.9 | 0.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 146.2,
+        "carbs": 14.1,
+        "fat": 8.9,
+        "prot": 3.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 152.0,
+        "carbs": 19.8,
+        "fat": 6.8,
+        "prot": 2.9,
+        "fib": 0.4
+      },
+      "input_macros_raw": "146.2 | 14.1 | 8.9 | 3.5 | 0.0",
+      "final_macros_raw": "152.0 | 19.8 | 6.8 | 2.9 | 0.4",
+      "diff": 0.04
+    },
+    {
+      "id": 42,
+      "original_food_name": "Sweet potato stir fry",
+      "standard_name": "Sweet Potato Stir Fry",
+      "other_names": "Shakarkandi Sabzi, Sweet Potato Sabzi, Shakarkand Stir Fry, Meetha Aloo Fry, Sweet Potato Bhaji",
+      "food_varieties": [
+        "Spiced sweet potato stir fry with mustard seeds and curry leaves",
+        "Sweet potato stir fry with onion and garlic",
+        "Sweet potato stir fry with coconut and green chilli",
+        "Sweet potato stir fry with cumin and coriander",
+        "Sweet potato stir fry with sesame seeds"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "182.4 | 27.3 | 7.2 | 2.1 | 3.6",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 204.6,
+        "carbs": 24.6,
+        "fat": 11.3,
+        "prot": 2.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 182.4,
+        "carbs": 27.3,
+        "fat": 7.2,
+        "prot": 2.1,
+        "fib": 3.6
+      },
+      "input_macros_raw": "204.6 | 24.6 | 11.3 | 2.3 | 0.0",
+      "final_macros_raw": "182.4 | 27.3 | 7.2 | 2.1 | 3.6",
+      "diff": -0.109
+    },
+    {
+      "id": 43,
+      "original_food_name": "Honey Almond Cranberry (Larabar)",
+      "standard_name": "Honey Almond Cranberry Larabar",
+      "other_names": "Larabar Honey Almond Cranberry Bar, Honey Almond Cranberry Energy Bar, Larabar Fruit Nut Bar Honey Almond Cranberry, Almond Cranberry Honey Bar",
+      "food_varieties": [
+        "Larabar Apple Pie (dates, almonds, apples)",
+        "Larabar Cashew Cookie (dates, cashews)",
+        "Larabar Peanut Butter Chocolate Chip",
+        "Larabar Cherry Pie (dates, almonds, cherries)",
+        "Larabar Blueberry Muffin (dates, almonds, blueberries)"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 45.0g",
+        "1 small piece — 25.0g"
+      ],
+      "base_volume": "45g",
+      "gen_macros_raw": "211.0 | 23.0 | 11.0 | 5.0 | 3.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 244.3,
+        "carbs": 18.0,
+        "fat": 18.0,
+        "prot": 6.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 211.0,
+        "carbs": 23.0,
+        "fat": 11.0,
+        "prot": 5.0,
+        "fib": 3.0
+      },
+      "input_macros_raw": "244.3 | 18.0 | 18.0 | 6.4 | 0.0",
+      "final_macros_raw": "211.0 | 23.0 | 11.0 | 5.0 | 3.0",
+      "diff": -0.136
+    },
+    {
+      "id": 44,
+      "original_food_name": "Vegetable curry",
+      "standard_name": "Vegetable Curry",
+      "other_names": "Sabzi Curry, Mixed Veg Curry, Tarkari, Subzi Gravy, Veg Masala Curry",
+      "food_varieties": [
+        "Dry vegetable curry (sukhi sabzi)",
+        "Coconut milk vegetable curry",
+        "North Indian vegetable curry with tomato-onion gravy",
+        "South Indian vegetable curry with tamarind",
+        "Punjabi mixed vegetable curry"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "120.9 | 13.8 | 5.7 | 3.6 | 3.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": "124.7 | 10.8 | 7.1 | 4.2 | 4.9",
+      "input_macros": {
+        "cal": 83.7,
+        "carbs": 10.9,
+        "fat": 3.6,
+        "prot": 2.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 120.9,
+        "carbs": 13.8,
+        "fat": 5.7,
+        "prot": 3.6,
+        "fib": 3.2
+      },
+      "input_macros_raw": "83.7 | 10.9 | 3.6 | 2.6 | 0.0",
+      "final_macros_raw": "120.9 | 13.8 | 5.7 | 3.6 | 3.2",
+      "diff": 0.444
+    },
+    {
+      "id": 45,
+      "original_food_name": "grekyo greek yoghurt with blue berry (packaged)",
+      "standard_name": "Greek Yoghurt With Blueberry",
+      "other_names": "Blueberry Greek Yogurt, Grekyo Blueberry Yoghurt, Greek Dahi With Blueberry, Strained Yogurt Blueberry Flavour",
+      "food_varieties": [
+        "Plain Greek Yoghurt",
+        "Greek Yoghurt With Strawberry",
+        "Greek Yoghurt With Mango",
+        "Low-Fat Greek Yoghurt With Blueberry",
+        "Greek Yoghurt With Honey"
+      ],
+      "serving_types": [
+        "[BASE] cup — 150.0g",
+        "small cup — 100.0g",
+        "large cup — 200.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "144.2 | 18.0 | 3.0 | 11.3 | 0.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 160.5,
+        "carbs": 25.8,
+        "fat": 3.0,
+        "prot": 7.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 144.2,
+        "carbs": 18.0,
+        "fat": 3.0,
+        "prot": 11.3,
+        "fib": 0.5
+      },
+      "input_macros_raw": "160.5 | 25.8 | 3.0 | 7.6 | 0.0",
+      "final_macros_raw": "144.2 | 18.0 | 3.0 | 11.3 | 0.5",
+      "diff": -0.102
+    },
+    {
+      "id": 46,
+      "original_food_name": "Carrot beet paratha",
+      "standard_name": "Carrot Beet Paratha",
+      "other_names": "Gajar Chukandar Paratha, Carrot Beetroot Paratha, Beet Carrot Stuffed Flatbread, Gajar Beet Paratha",
+      "food_varieties": [
+        "Stuffed carrot beet paratha with spiced filling",
+        "Mixed dough carrot beet paratha (grated veg kneaded into dough)",
+        "Carrot beet paratha with paneer filling",
+        "Carrot beet paratha with whole wheat and multigrain flour",
+        "Carrot beet paratha with minimal oil (dry roasted)"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 75.0g",
+        "2 pieces — 160.0g"
+      ],
+      "base_volume": "75g",
+      "gen_macros_raw": "196.8 | 32.1 | 5.2 | 5.4 | 3.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 187.7,
+        "carbs": 32.7,
+        "fat": 5.0,
+        "prot": 5.8,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 196.8,
+        "carbs": 32.1,
+        "fat": 5.2,
+        "prot": 5.4,
+        "fib": 3.2
+      },
+      "input_macros_raw": "187.7 | 32.7 | 5.0 | 5.8 | 0.0",
+      "final_macros_raw": "196.8 | 32.1 | 5.2 | 5.4 | 3.2",
+      "diff": 0.048
+    },
+    {
+      "id": 47,
+      "original_food_name": "Oats almond date granola bar",
+      "standard_name": "Oats Almond Date Granola Bar",
+      "other_names": "Oats Date Almond Bar, Granola Bar with Almonds and Dates, Oat Nut Date Energy Bar, Dry Fruit Oat Bar",
+      "food_varieties": [
+        "Oats Peanut Jaggery Granola Bar",
+        "Oats Cashew Honey Granola Bar",
+        "Oats Raisin Almond Bar",
+        "Multigrain Nut Date Bar",
+        "Oats Coconut Date Bar"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 40.0g",
+        "2 pieces — 80.0g"
+      ],
+      "base_volume": "40g",
+      "gen_macros_raw": "176.4 | 25.2 | 6.8 | 3.6 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 152.5,
+        "carbs": 22.1,
+        "fat": 6.7,
+        "prot": 3.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 176.4,
+        "carbs": 25.2,
+        "fat": 6.8,
+        "prot": 3.6,
+        "fib": 2.4
+      },
+      "input_macros_raw": "152.5 | 22.1 | 6.7 | 3.5 | 0.0",
+      "final_macros_raw": "176.4 | 25.2 | 6.8 | 3.6 | 2.4",
+      "diff": 0.157
+    },
+    {
+      "id": 48,
+      "original_food_name": "Almond Granola bar (hard)",
+      "standard_name": "Almond Granola Bar Hard",
+      "other_names": "Almond Crunch Bar, Hard Granola Bar with Almonds, Badam Granola Bar, Crunchy Almond Cereal Bar",
+      "food_varieties": [
+        "Chocolate Almond Granola Bar",
+        "Honey Oat Granola Bar",
+        "Mixed Nut Granola Bar",
+        "Peanut Butter Granola Bar",
+        "Soft Chewy Almond Granola Bar"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 40.0g",
+        "2 pieces — 80.0g"
+      ],
+      "base_volume": "40g",
+      "gen_macros_raw": "203.4 | 25.2 | 9.8 | 3.6 | 1.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 198.0,
+        "carbs": 24.8,
+        "fat": 10.2,
+        "prot": 3.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 203.4,
+        "carbs": 25.2,
+        "fat": 9.8,
+        "prot": 3.6,
+        "fib": 1.8
+      },
+      "input_macros_raw": "198.0 | 24.8 | 10.2 | 3.1 | 0.0",
+      "final_macros_raw": "203.4 | 25.2 | 9.8 | 3.6 | 1.8",
+      "diff": 0.027
+    },
+    {
+      "id": 49,
+      "original_food_name": "Tender rounds with gravy (loma linda, canned)",
+      "standard_name": "Tender Rounds With Gravy",
+      "other_names": "Loma Linda Tender Rounds, Canned Vegetarian Meatballs in Gravy, Soy Protein Rounds in Gravy, Loma Linda Canned Rounds",
+      "food_varieties": [
+        "Tender rounds in tomato sauce",
+        "Tender rounds with mushroom gravy",
+        "Homemade soy protein balls in gravy",
+        "Textured vegetable protein rounds",
+        "Gluten-based rounds in brown gravy"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 150.0g",
+        "small bowl — 100.0g",
+        "large bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "215.5 | 24.2 | 8.3 | 11.0 | 2.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 217.5,
+        "carbs": 11.1,
+        "fat": 8.4,
+        "prot": 24.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 215.5,
+        "carbs": 24.2,
+        "fat": 8.3,
+        "prot": 11.0,
+        "fib": 2.1
+      },
+      "input_macros_raw": "217.5 | 11.1 | 8.4 | 24.5 | 0.0",
+      "final_macros_raw": "215.5 | 24.2 | 8.3 | 11.0 | 2.1",
+      "diff": -0.009
+    },
+    {
+      "id": 50,
+      "original_food_name": "Almond Granola Bar",
+      "standard_name": "Almond Granola Bar",
+      "other_names": "Almond Energy Bar, Badam Granola Bar, Nut Granola Bar, Almond Oat Bar, Badam Oats Bar",
+      "food_varieties": [
+        "Dark Chocolate Almond Granola Bar",
+        "Honey Almond Granola Bar",
+        "Cranberry Almond Granola Bar",
+        "Peanut Butter Granola Bar",
+        "Mixed Nut Granola Bar"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 40.0g",
+        "2 pieces — 80.0g"
+      ],
+      "base_volume": "40g",
+      "gen_macros_raw": "194.0 | 24.0 | 9.2 | 3.8 | 2.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 198.0,
+        "carbs": 24.8,
+        "fat": 10.2,
+        "prot": 3.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 194.0,
+        "carbs": 24.0,
+        "fat": 9.2,
+        "prot": 3.8,
+        "fib": 2.2
+      },
+      "input_macros_raw": "198.0 | 24.8 | 10.2 | 3.1 | 0.0",
+      "final_macros_raw": "194.0 | 24.0 | 9.2 | 3.8 | 2.2",
+      "diff": -0.02
+    },
+    {
+      "id": 51,
+      "original_food_name": "Swiss stake with gravy (loma linda, canned)",
+      "standard_name": "Swiss Steak With Gravy Canned",
+      "other_names": "Loma Linda Swiss Stake, Canned Swiss Steak Gravy, Vegetarian Swiss Steak Loma Linda, Swiss Stake Loma Linda Tin",
+      "food_varieties": [
+        "Loma Linda Swiss Stake original canned",
+        "Worthington vegetarian beef-style steak",
+        "Homemade seitan Swiss steak with gravy",
+        "Canned vegetarian steak in mushroom gravy",
+        "Soy-based Swiss steak with brown gravy"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 150.0g",
+        "small bowl — 100.0g",
+        "large bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "202.2 | 15.3 | 9.0 | 15.0 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 207.0,
+        "carbs": 15.6,
+        "fat": 9.3,
+        "prot": 15.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 202.2,
+        "carbs": 15.3,
+        "fat": 9.0,
+        "prot": 15.0,
+        "fib": 2.4
+      },
+      "input_macros_raw": "207.0 | 15.6 | 9.3 | 15.3 | 0.0",
+      "final_macros_raw": "202.2 | 15.3 | 9.0 | 15.0 | 2.4",
+      "diff": -0.023
+    },
+    {
+      "id": 52,
+      "original_food_name": "Egg onion pulao",
+      "standard_name": "Egg Onion Pulao",
+      "other_names": "Anda Pyaz Pulao, Egg Pulao with Onion, Anda Pulao, Egg Rice Pulao, Anday Wala Pulao",
+      "food_varieties": [
+        "Boiled egg pulao with whole spices",
+        "Scrambled egg pulao",
+        "Fried egg pulao",
+        "Brown onion egg biryani-style pulao",
+        "Coconut milk egg onion pulao"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "half plate — 250.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "267.8 | 37.4 | 8.6 | 10.2 | 1.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 266.0,
+        "carbs": 37.3,
+        "fat": 8.2,
+        "prot": 9.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 267.8,
+        "carbs": 37.4,
+        "fat": 8.6,
+        "prot": 10.2,
+        "fib": 1.2
+      },
+      "input_macros_raw": "266.0 | 37.3 | 8.2 | 9.3 | 0.0",
+      "final_macros_raw": "267.8 | 37.4 | 8.6 | 10.2 | 1.2",
+      "diff": 0.007
+    },
+    {
+      "id": 53,
+      "original_food_name": "Onion and thyme soup",
+      "standard_name": "Onion And Thyme Soup",
+      "other_names": "Onion Thyme Soup, Pyaz Thyme Shorba, Thyme Onion Broth, French-style Onion Soup with Thyme",
+      "food_varieties": [
+        "French onion soup with cheese crouton",
+        "Caramelized onion soup",
+        "Onion and herb soup with cream",
+        "Roasted onion and thyme soup",
+        "Onion leek and thyme soup"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 250.0g",
+        "small bowl — 150.0g"
+      ],
+      "base_volume": "250g",
+      "gen_macros_raw": "144.7 | 16.5 | 7.5 | 2.8 | 2.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 75.9,
+        "carbs": 9.5,
+        "fat": 4.0,
+        "prot": 1.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 144.7,
+        "carbs": 16.5,
+        "fat": 7.5,
+        "prot": 2.8,
+        "fib": 2.2
+      },
+      "input_macros_raw": "75.9 | 9.5 | 4.0 | 1.2 | 0.0",
+      "final_macros_raw": "144.7 | 16.5 | 7.5 | 2.8 | 2.2",
+      "diff": 0.906
+    },
+    {
+      "id": 54,
+      "original_food_name": "Onion rings (Denny's)",
+      "standard_name": "Onion Rings Denny's",
+      "other_names": "Fried Onion Rings, Battered Onion Rings, Crispy Onion Rings, Deep Fried Onion Rings",
+      "food_varieties": [
+        "Beer-battered onion rings",
+        "Panko-crusted onion rings",
+        "Tempura onion rings",
+        "Air-fried onion rings",
+        "Thin-sliced onion rings"
+      ],
+      "serving_types": [
+        "[BASE] plate — 150.0g",
+        "half plate — 100.0g",
+        "bowl — 200.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "379.5 | 41.0 | 21.5 | 5.5 | 2.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 577.5,
+        "carbs": 61.6,
+        "fat": 33.3,
+        "prot": 7.9,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 379.5,
+        "carbs": 41.0,
+        "fat": 21.5,
+        "prot": 5.5,
+        "fib": 2.2
+      },
+      "input_macros_raw": "577.5 | 61.6 | 33.3 | 7.9 | 0.0",
+      "final_macros_raw": "379.5 | 41.0 | 21.5 | 5.5 | 2.2",
+      "diff": -0.343
+    },
+    {
+      "id": 55,
+      "original_food_name": "French onion dip",
+      "standard_name": "French Onion Dip",
+      "other_names": "Onion Dip, Sour Cream Onion Dip, French Onion Sauce, Chip Dip",
+      "food_varieties": [
+        "Homemade sour cream and onion soup mix dip",
+        "Greek yogurt French onion dip",
+        "Low-fat French onion dip",
+        "Caramelized onion cream cheese dip",
+        "Vegan French onion dip"
+      ],
+      "serving_types": [
+        "[BASE] 1 tablespoon — 30.0g",
+        "2 tablespoons — 60.0g"
+      ],
+      "base_volume": "30g",
+      "gen_macros_raw": "53.2 | 1.8 | 4.8 | 0.7 | 0.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 95.1,
+        "carbs": 1.5,
+        "fat": 9.8,
+        "prot": 0.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 53.2,
+        "carbs": 1.8,
+        "fat": 4.8,
+        "prot": 0.7,
+        "fib": 0.1
+      },
+      "input_macros_raw": "95.1 | 1.5 | 9.8 | 0.4 | 0.0",
+      "final_macros_raw": "53.2 | 1.8 | 4.8 | 0.7 | 0.1",
+      "diff": -0.441
+    },
+    {
+      "id": 56,
+      "original_food_name": "Turai keema",
+      "standard_name": "Turai Keema",
+      "other_names": "Ridge Gourd Keema, Tori Keema, Torai Keema, Gilki Keema, Turai Mutton Keema",
+      "food_varieties": [
+        "Turai Chicken Keema",
+        "Turai Mutton Keema",
+        "Turai Soya Keema",
+        "Turai Keema with Peas",
+        "Turai Keema Dry Style"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "198.0 | 13.8 | 13.2 | 6.0 | 1.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 232.7,
+        "carbs": 5.9,
+        "fat": 18.2,
+        "prot": 11.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 198.0,
+        "carbs": 13.8,
+        "fat": 13.2,
+        "prot": 6.0,
+        "fib": 1.8
+      },
+      "input_macros_raw": "232.7 | 5.9 | 18.2 | 11.2 | 0.0",
+      "final_macros_raw": "198.0 | 13.8 | 13.2 | 6.0 | 1.8",
+      "diff": -0.149
+    },
+    {
+      "id": 57,
+      "original_food_name": "infant formula, nestle, good start supreme, with iron, liquid concentrate, not reconstituted",
+      "standard_name": "Nestle Good Start Supreme Infant Formula With Iron Liquid Concentrate",
+      "other_names": "Good Start Supreme Liquid Concentrate, Nestle Infant Formula Liquid Concentrate With Iron, Good Start Iron Formula Concentrate, Nestle Baby Formula Liquid Not Reconstituted",
+      "food_varieties": [
+        "Nestle Good Start Supreme Powder Formula With Iron",
+        "Nestle Good Start Supreme Ready-to-Feed Formula",
+        "Nestle Good Start Gentle Infant Formula",
+        "Similac Advance Liquid Concentrate With Iron",
+        "Enfamil Premium Infant Formula Liquid Concentrate"
+      ],
+      "serving_types": [
+        "[BASE] small cup — 100.0ml",
+        "cup — 200.0ml"
+      ],
+      "base_volume": "100ml",
+      "gen_macros_raw": "126.5 | 14.2 | 6.5 | 2.8 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 127.0,
+        "carbs": 14.2,
+        "fat": 6.5,
+        "prot": 2.8,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 126.5,
+        "carbs": 14.2,
+        "fat": 6.5,
+        "prot": 2.8,
+        "fib": 0.0
+      },
+      "input_macros_raw": "127.0 | 14.2 | 6.5 | 2.8 | 0.0",
+      "final_macros_raw": "126.5 | 14.2 | 6.5 | 2.8 | 0.0",
+      "diff": -0.004
+    },
+    {
+      "id": 58,
+      "original_food_name": "Carrot orange juice (Homemade)",
+      "standard_name": "Carrot Orange Juice",
+      "other_names": "Gajar Orange Juice, Carrot Santra Juice, Gajar Santra Juice, Carrot Orange Fresh Juice",
+      "food_varieties": [
+        "Carrot orange ginger juice",
+        "Carrot orange apple juice",
+        "Carrot orange turmeric juice",
+        "Carrot orange lemon juice",
+        "Carrot juice without orange"
+      ],
+      "serving_types": [
+        "[BASE] glass — 250.0ml",
+        "cup — 200.0ml",
+        "large cup — 300.0ml"
+      ],
+      "base_volume": "250ml",
+      "gen_macros_raw": "113.6 | 25.5 | 0.4 | 2.0 | 1.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 109.5,
+        "carbs": 26.5,
+        "fat": 0.5,
+        "prot": 2.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 113.6,
+        "carbs": 25.5,
+        "fat": 0.4,
+        "prot": 2.0,
+        "fib": 1.5
+      },
+      "input_macros_raw": "109.5 | 26.5 | 0.5 | 2.3 | 0.0",
+      "final_macros_raw": "113.6 | 25.5 | 0.4 | 2.0 | 1.5",
+      "diff": 0.037
+    },
+    {
+      "id": 59,
+      "original_food_name": "Kothimbir wadi",
+      "standard_name": "Kothimbir Wadi",
+      "other_names": "Coriander Wadi, Kothmir Vadi, Kothimbir Vadi, Maharashtrian Coriander Fritters, Kothimbir chi Wadi",
+      "food_varieties": [
+        "Steamed then shallow-fried kothimbir wadi",
+        "Deep-fried kothimbir wadi",
+        "Baked kothimbir wadi",
+        "Kothimbir wadi with peanuts",
+        "Kothimbir wadi with sesame seeds"
+      ],
+      "serving_types": [
+        "[BASE] 4 pieces — 100.0g",
+        "2 pieces — 50.0g",
+        "1 piece — 25.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "224.0 | 24.5 | 10.8 | 7.2 | 3.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 215.8,
+        "carbs": 20.2,
+        "fat": 12.2,
+        "prot": 6.8,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 224.0,
+        "carbs": 24.5,
+        "fat": 10.8,
+        "prot": 7.2,
+        "fib": 3.2
+      },
+      "input_macros_raw": "215.8 | 20.2 | 12.2 | 6.8 | 0.0",
+      "final_macros_raw": "224.0 | 24.5 | 10.8 | 7.2 | 3.2",
+      "diff": 0.038
+    },
+    {
+      "id": 60,
+      "original_food_name": "Onion rings (Restaurant)",
+      "standard_name": "Onion Rings Restaurant",
+      "other_names": "Fried Onion Rings, Battered Onion Rings, Crispy Onion Rings, Ring Fritters",
+      "food_varieties": [
+        "Beer-battered onion rings",
+        "Panko-crusted onion rings",
+        "Spiced masala onion rings",
+        "Thin-sliced crispy onion rings",
+        "Tempura onion rings"
+      ],
+      "serving_types": [
+        "[BASE] plate — 150.0g",
+        "half plate — 100.0g",
+        "4 pieces — 60.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "496.2 | 56.5 | 27.0 | 6.8 | 2.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 534.0,
+        "carbs": 61.1,
+        "fat": 28.9,
+        "prot": 7.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 496.2,
+        "carbs": 56.5,
+        "fat": 27.0,
+        "prot": 6.8,
+        "fib": 2.5
+      },
+      "input_macros_raw": "534.0 | 61.1 | 28.9 | 7.3 | 0.0",
+      "final_macros_raw": "496.2 | 56.5 | 27.0 | 6.8 | 2.5",
+      "diff": -0.071
+    },
+    {
+      "id": 61,
+      "original_food_name": "Broccoli spring onion soup",
+      "standard_name": "Broccoli Spring Onion Soup",
+      "other_names": "Broccoli Green Onion Soup, Hare Pyaz Broccoli Soup, Broccoli Scallion Soup, Broccoli Soup with Spring Onion",
+      "food_varieties": [
+        "Creamy broccoli spring onion soup with cream",
+        "Broccoli spring onion soup with coconut milk",
+        "Chunky broccoli spring onion soup",
+        "Broccoli spring onion clear soup",
+        "Roasted broccoli spring onion soup"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 250.0g",
+        "small bowl — 150.0g"
+      ],
+      "base_volume": "250g",
+      "gen_macros_raw": "133.5 | 12.0 | 7.5 | 4.5 | 3.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 108.6,
+        "carbs": 11.0,
+        "fat": 7.1,
+        "prot": 3.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 133.5,
+        "carbs": 12.0,
+        "fat": 7.5,
+        "prot": 4.5,
+        "fib": 3.5
+      },
+      "input_macros_raw": "108.6 | 11.0 | 7.1 | 3.6 | 0.0",
+      "final_macros_raw": "133.5 | 12.0 | 7.5 | 4.5 | 3.5",
+      "diff": 0.229
+    },
+    {
+      "id": 62,
+      "original_food_name": "Brinjal carrot subji",
+      "standard_name": "Brinjal Carrot Subji",
+      "other_names": "Baingan Gajar Sabzi, Eggplant Carrot Sabji, Brinjal Carrot Sabzi, Baingan Gajar ki Sabzi",
+      "food_varieties": [
+        "Brinjal carrot subji with coconut",
+        "Brinjal carrot subji with tomato gravy",
+        "Brinjal carrot subji with mustard seeds and curry leaves (South Indian style)",
+        "Brinjal carrot subji with peanuts",
+        "Brinjal carrot subji dry (no gravy)"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "101.4 | 11.1 | 5.4 | 2.1 | 3.6",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 113.4,
+        "carbs": 14.9,
+        "fat": 5.8,
+        "prot": 2.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 101.4,
+        "carbs": 11.1,
+        "fat": 5.4,
+        "prot": 2.1,
+        "fib": 3.6
+      },
+      "input_macros_raw": "113.4 | 14.9 | 5.8 | 2.2 | 0.0",
+      "final_macros_raw": "101.4 | 11.1 | 5.4 | 2.1 | 3.6",
+      "diff": -0.106
+    },
+    {
+      "id": 63,
+      "original_food_name": "Crunchy onion rings (Applebee's)",
+      "standard_name": "Crunchy Onion Rings",
+      "other_names": "Crispy Onion Rings, Battered Onion Rings, Applebee's Onion Rings, Deep Fried Onion Rings",
+      "food_varieties": [
+        "Beer-battered onion rings",
+        "Panko-crusted onion rings",
+        "Tempura onion rings",
+        "Spicy onion rings",
+        "Air-fried onion rings"
+      ],
+      "serving_types": [
+        "[BASE] plate — 200.0g",
+        "half plate — 100.0g",
+        "1 small handful — 50.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "622.0 | 70.0 | 34.0 | 9.0 | 3.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 712.0,
+        "carbs": 80.3,
+        "fat": 39.2,
+        "prot": 9.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 622.0,
+        "carbs": 70.0,
+        "fat": 34.0,
+        "prot": 9.0,
+        "fib": 3.0
+      },
+      "input_macros_raw": "712.0 | 80.3 | 39.2 | 9.2 | 0.0",
+      "final_macros_raw": "622.0 | 70.0 | 34.0 | 9.0 | 3.0",
+      "diff": -0.126
+    },
+    {
+      "id": 64,
+      "original_food_name": "Bhindi pachadi",
+      "standard_name": "Bhindi Pachadi",
+      "other_names": "Okra Pachadi, Bhindi Raita, Vendakkai Pachadi, Bhindi Yogurt Curry, Okra Curd Curry",
+      "food_varieties": [
+        "Bhindi Pachadi with fried okra in curd base",
+        "Bhindi Pachadi with roasted okra and coconut",
+        "Bhindi Pachadi Kerala style with coconut paste",
+        "Bhindi Pachadi Andhra style with tamarind and curd",
+        "Bhindi Pachadi dry roasted without curd"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "121.2 | 9.6 | 7.2 | 4.5 | 2.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 137.0,
+        "carbs": 8.9,
+        "fat": 10.0,
+        "prot": 4.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 121.2,
+        "carbs": 9.6,
+        "fat": 7.2,
+        "prot": 4.5,
+        "fib": 2.8
+      },
+      "input_macros_raw": "137.0 | 8.9 | 10.0 | 4.3 | 0.0",
+      "final_macros_raw": "121.2 | 9.6 | 7.2 | 4.5 | 2.8",
+      "diff": -0.115
+    },
+    {
+      "id": 65,
+      "original_food_name": "infant formula, nestle, good start 2 essentials, with iron, ready-to-feed",
+      "standard_name": "Nestle Good Start 2 Essentials Infant Formula With Iron Ready-to-feed",
+      "other_names": "Good Start 2 RTF Formula, Nestle Good Start Stage 2 Iron Formula, Good Start Essentials 2 Ready To Feed, Infant Follow-Up Formula RTF",
+      "food_varieties": [
+        "Good Start 1 Essentials (Stage 1, 0-6 months)",
+        "Good Start 2 Essentials Powder (reconstituted)",
+        "Good Start Supreme 2 (comfort proteins variant)",
+        "Good Start 2 Soy-based formula",
+        "Good Start 2 DHA/ARA enriched variant"
+      ],
+      "serving_types": [
+        "[BASE] cup — 150.0ml",
+        "small cup — 100.0ml",
+        "glass — 200.0ml"
+      ],
+      "base_volume": "150ml",
+      "gen_macros_raw": "97.9 | 12.8 | 4.0 | 2.5 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 97.5,
+        "carbs": 12.8,
+        "fat": 4.1,
+        "prot": 2.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 97.9,
+        "carbs": 12.8,
+        "fat": 4.0,
+        "prot": 2.5,
+        "fib": 0.0
+      },
+      "input_macros_raw": "97.5 | 12.8 | 4.1 | 2.5 | 0.0",
+      "final_macros_raw": "97.9 | 12.8 | 4.0 | 2.5 | 0.0",
+      "diff": 0.004
+    },
+    {
+      "id": 66,
+      "original_food_name": "Onion pasta",
+      "standard_name": "Onion Pasta",
+      "other_names": "Pyaz Pasta, Onion Macaroni, Pasta with Onion, Desi Onion Pasta",
+      "food_varieties": [
+        "Creamy onion pasta with white sauce",
+        "Onion tomato pasta in red sauce",
+        "Caramelized onion pasta with olive oil",
+        "Spicy Indian-style onion pasta",
+        "Onion garlic aglio e olio style pasta"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "plate — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "262.0 | 46.0 | 5.2 | 7.8 | 2.6",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 155.9,
+        "carbs": 27.7,
+        "fat": 2.9,
+        "prot": 4.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 262.0,
+        "carbs": 46.0,
+        "fat": 5.2,
+        "prot": 7.8,
+        "fib": 2.6
+      },
+      "input_macros_raw": "155.9 | 27.7 | 2.9 | 4.6 | 0.0",
+      "final_macros_raw": "262.0 | 46.0 | 5.2 | 7.8 | 2.6",
+      "diff": 0.681
+    },
+    {
+      "id": 67,
+      "original_food_name": "Dahi turai subji",
+      "standard_name": "Dahi Turai Subji",
+      "other_names": "Dahi Turai Sabzi, Curd Ridge Gourd Curry, Turai Dahi Ki Sabzi, Gilki Dahi Subji, Ridge Gourd Yogurt Curry",
+      "food_varieties": [
+        "Turai sabzi without dahi (dry stir-fry)",
+        "Dahi turai with mustard seeds tadka",
+        "Turai dahi sabzi with besan",
+        "Turai dahi sabzi with onion-tomato base",
+        "Turai dahi sabzi with coconut"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "79.8 | 7.1 | 4.2 | 3.4 | 1.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 67.9,
+        "carbs": 8.2,
+        "fat": 3.0,
+        "prot": 2.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 79.8,
+        "carbs": 7.1,
+        "fat": 4.2,
+        "prot": 3.4,
+        "fib": 1.8
+      },
+      "input_macros_raw": "67.9 | 8.2 | 3.0 | 2.5 | 0.0",
+      "final_macros_raw": "79.8 | 7.1 | 4.2 | 3.4 | 1.8",
+      "diff": 0.175
+    },
+    {
+      "id": 68,
+      "original_food_name": "Chicken paratha",
+      "standard_name": "Chicken Paratha",
+      "other_names": "Keema Paratha with Chicken, Chicken Stuffed Paratha, Murgh Paratha, Chicken ka Paratha",
+      "food_varieties": [
+        "Minced chicken stuffed paratha",
+        "Shredded chicken paratha",
+        "Chicken tikka paratha",
+        "Chicken egg paratha",
+        "Chicken cheese paratha"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 100.0g",
+        "2 pieces — 240.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "296.4 | 35.2 | 10.8 | 14.6 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 251.7,
+        "carbs": 34.8,
+        "fat": 9.1,
+        "prot": 11.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 296.4,
+        "carbs": 35.2,
+        "fat": 10.8,
+        "prot": 14.6,
+        "fib": 2.4
+      },
+      "input_macros_raw": "251.7 | 34.8 | 9.1 | 11.0 | 0.0",
+      "final_macros_raw": "296.4 | 35.2 | 10.8 | 14.6 | 2.4",
+      "diff": 0.178
+    },
+    {
+      "id": 69,
+      "original_food_name": "Onion paratha",
+      "standard_name": "Onion Paratha",
+      "other_names": "Pyaz Paratha, Kanda Paratha, Pyaaz ka Paratha, Onion Stuffed Paratha, Pyaz Wala Paratha",
+      "food_varieties": [
+        "Onion Paratha with green chilli and coriander stuffing",
+        "Onion Paratha with caramelized onion filling",
+        "Onion Paratha made with whole wheat and ajwain",
+        "Onion Paratha with cheese and onion filling",
+        "Layered onion paratha (lachha style)"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 75.0g",
+        "2 pieces — 160.0g"
+      ],
+      "base_volume": "75g",
+      "gen_macros_raw": "220.2 | 31.0 | 8.2 | 5.6 | 2.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 190.9,
+        "carbs": 28.5,
+        "fat": 7.2,
+        "prot": 5.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 220.2,
+        "carbs": 31.0,
+        "fat": 8.2,
+        "prot": 5.6,
+        "fib": 2.8
+      },
+      "input_macros_raw": "190.9 | 28.5 | 7.2 | 5.6 | 0.0",
+      "final_macros_raw": "220.2 | 31.0 | 8.2 | 5.6 | 2.8",
+      "diff": 0.153
+    },
+    {
+      "id": 70,
+      "original_food_name": "Cucumber curry",
+      "standard_name": "Cucumber Curry",
+      "other_names": "Kakdi Chi Bhaji, Vellarikka Curry, Kheera Sabzi, Dosakaya Curry, Cucumber Sabzi",
+      "food_varieties": [
+        "Dosakaya Pappu (yellow cucumber dal curry)",
+        "Vellarikka Theeyal (Kerala coconut-tamarind cucumber curry)",
+        "Cucumber Kootu (Tamil Nadu lentil-coconut style)",
+        "Kheera Masala (North Indian dry sabzi style)",
+        "Cucumber Coconut Curry (South Indian coconut milk base)"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "127.3 | 10.4 | 8.1 | 3.2 | 2.3",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 73.9,
+        "carbs": 2.7,
+        "fat": 6.9,
+        "prot": 1.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 127.3,
+        "carbs": 10.4,
+        "fat": 8.1,
+        "prot": 3.2,
+        "fib": 2.3
+      },
+      "input_macros_raw": "73.9 | 2.7 | 6.9 | 1.0 | 0.0",
+      "final_macros_raw": "127.3 | 10.4 | 8.1 | 3.2 | 2.3",
+      "diff": 0.723
+    },
+    {
+      "id": 71,
+      "original_food_name": "Onion kulcha",
+      "standard_name": "Onion Kulcha",
+      "other_names": "Pyaz Kulcha, Onion Stuffed Kulcha, Pyaaz Kulcha, Onion Naan Kulcha",
+      "food_varieties": [
+        "Amritsari Onion Kulcha (tandoor-baked, street style)",
+        "Onion Cheese Kulcha",
+        "Onion Potato Kulcha",
+        "Whole Wheat Onion Kulcha",
+        "Onion Garlic Kulcha"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 75.0g",
+        "2 pieces — 160.0g"
+      ],
+      "base_volume": "75g",
+      "gen_macros_raw": "215.4 | 35.2 | 5.8 | 5.6 | 1.6",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 156.4,
+        "carbs": 23.6,
+        "fat": 5.2,
+        "prot": 3.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 215.4,
+        "carbs": 35.2,
+        "fat": 5.8,
+        "prot": 5.6,
+        "fib": 1.6
+      },
+      "input_macros_raw": "156.4 | 23.6 | 5.2 | 3.6 | 0.0",
+      "final_macros_raw": "215.4 | 35.2 | 5.8 | 5.6 | 1.6",
+      "diff": 0.377
+    },
+    {
+      "id": 72,
+      "original_food_name": "Wheat flakes with almond milk",
+      "standard_name": "Wheat Flakes With Almond Milk",
+      "other_names": "Wheat Flakes Almond Milk Bowl, Gehun Flakes with Badam Milk, Cereal with Almond Milk, Wheat Cereal Almond Milk",
+      "food_varieties": [
+        "Wheat flakes with dairy milk",
+        "Wheat flakes with oat milk",
+        "Wheat flakes with soy milk",
+        "Toasted wheat flakes with almond milk and honey",
+        "Multigrain flakes with almond milk"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g [[1 small bowl Wheat Flakes (40g), 1 cup Almond Milk (160g)]]",
+        "small bowl — 150.0g",
+        "large bowl — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "181.7 | 30.2 | 4.5 | 5.1 | 2.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 108.4,
+        "carbs": 21.6,
+        "fat": 2.4,
+        "prot": 3.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 181.7,
+        "carbs": 30.2,
+        "fat": 4.5,
+        "prot": 5.1,
+        "fib": 2.8
+      },
+      "input_macros_raw": "108.4 | 21.6 | 2.4 | 3.3 | 0.0",
+      "final_macros_raw": "181.7 | 30.2 | 4.5 | 5.1 | 2.8",
+      "diff": 0.676
+    },
+    {
+      "id": 73,
+      "original_food_name": "chocolate almond ice cream",
+      "standard_name": "Chocolate Almond Ice Cream",
+      "other_names": "Choco Badam Ice Cream, Chocolate Almond Flavour Ice Cream, Badam Chocolate Ice Cream, Choco Almond Frozen Dessert",
+      "food_varieties": [
+        "Dark chocolate almond ice cream",
+        "Milk chocolate almond ice cream",
+        "Chocolate almond gelato",
+        "Vegan chocolate almond ice cream",
+        "Chocolate almond fudge ice cream"
+      ],
+      "serving_types": [
+        "[BASE] small bowl — 100.0g",
+        "bowl — 150.0g",
+        "cup — 200.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "225.5 | 22.0 | 13.5 | 4.0 | 1.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 303.5,
+        "carbs": 29.1,
+        "fat": 19.9,
+        "prot": 5.9,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 225.5,
+        "carbs": 22.0,
+        "fat": 13.5,
+        "prot": 4.0,
+        "fib": 1.2
+      },
+      "input_macros_raw": "303.5 | 29.1 | 19.9 | 5.9 | 0.0",
+      "final_macros_raw": "225.5 | 22.0 | 13.5 | 4.0 | 1.2",
+      "diff": -0.257
+    },
+    {
+      "id": 74,
+      "original_food_name": "Onion salad (Pyaaz ka lachcha",
+      "standard_name": "Onion Salad",
+      "other_names": "Pyaaz ka Lachcha, Laccha Pyaaz, Onion Rings Salad, Kanda Salad, Sliced Onion Salad",
+      "food_varieties": [
+        "Onion salad with lemon and chaat masala",
+        "Onion salad with green chilli and coriander",
+        "Onion salad with vinegar and salt",
+        "Onion salad with raw mango and spices"
+      ],
+      "serving_types": [
+        "[BASE] small katori — 50.0g",
+        "katori — 100.0g"
+      ],
+      "base_volume": "50g",
+      "gen_macros_raw": "22.9 | 4.9 | 0.1 | 0.6 | 0.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 20.2,
+        "carbs": 4.7,
+        "fat": 0.1,
+        "prot": 0.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 22.9,
+        "carbs": 4.9,
+        "fat": 0.1,
+        "prot": 0.6,
+        "fib": 0.8
+      },
+      "input_macros_raw": "20.2 | 4.7 | 0.1 | 0.6 | 0.0",
+      "final_macros_raw": "22.9 | 4.9 | 0.1 | 0.6 | 0.8",
+      "diff": 0.134
+    },
+    {
+      "id": 75,
+      "original_food_name": "Tomato onion uttappam",
+      "standard_name": "Tomato Onion Uttappam",
+      "other_names": "Tomato Onion Uthappam, Uttapam with Tomato Onion, Onion Tomato Uttappam, Tomato Pyaaz Uttappam, South Indian Thick Dosa with Toppings",
+      "food_varieties": [
+        "Plain Uttappam",
+        "Mixed Vegetable Uttappam",
+        "Onion Uttappam",
+        "Cheese Uttappam",
+        "Rava Uttappam"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 150.0g",
+        "2 pieces — 300.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "224.4 | 38.5 | 4.8 | 6.8 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 221.3,
+        "carbs": 41.8,
+        "fat": 2.4,
+        "prot": 7.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 224.4,
+        "carbs": 38.5,
+        "fat": 4.8,
+        "prot": 6.8,
+        "fib": 2.4
+      },
+      "input_macros_raw": "221.3 | 41.8 | 2.4 | 7.5 | 0.0",
+      "final_macros_raw": "224.4 | 38.5 | 4.8 | 6.8 | 2.4",
+      "diff": 0.014
+    },
+    {
+      "id": 76,
+      "original_food_name": "Onion tomato gotsu",
+      "standard_name": "Onion Tomato Gotsu",
+      "other_names": "Vengaya Thakkali Gotsu, Onion Tomato Gosthu, Gotsu, Vengaya Gotsu, Tomato Onion Gravy",
+      "food_varieties": [
+        "Plain Tomato Gotsu (without onion)",
+        "Brinjal Gotsu (kathirikai gotsu)",
+        "Raw Banana Gotsu",
+        "Spicy Gotsu with tamarind",
+        "Gotsu with coconut"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "100.5 | 10.2 | 5.7 | 2.1 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 64.8,
+        "carbs": 7.6,
+        "fat": 3.8,
+        "prot": 1.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 100.5,
+        "carbs": 10.2,
+        "fat": 5.7,
+        "prot": 2.1,
+        "fib": 2.4
+      },
+      "input_macros_raw": "64.8 | 7.6 | 3.8 | 1.3 | 0.0",
+      "final_macros_raw": "100.5 | 10.2 | 5.7 | 2.1 | 2.4",
+      "diff": 0.551
+    },
+    {
+      "id": 77,
+      "original_food_name": "Til wadi",
+      "standard_name": "Til Wadi",
+      "other_names": "Tilwadi, Til ki Wadi, Sesame Chikki, Til Gajak Bar, Sesame Jaggery Bar",
+      "food_varieties": [
+        "Til Wadi with sugar (instead of jaggery)",
+        "Til Wadi with peanuts added",
+        "Soft Til Wadi (less cooked jaggery, chewy texture)",
+        "Til Wadi with coconut",
+        "Til Wadi with cardamom and ghee"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 30.0g",
+        "2 pieces — 60.0g"
+      ],
+      "base_volume": "30g",
+      "gen_macros_raw": "155.3 | 17.2 | 8.1 | 3.4 | 1.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 148.5,
+        "carbs": 17.7,
+        "fat": 8.2,
+        "prot": 2.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 155.3,
+        "carbs": 17.2,
+        "fat": 8.1,
+        "prot": 3.4,
+        "fib": 1.8
+      },
+      "input_macros_raw": "148.5 | 17.7 | 8.2 | 2.7 | 0.0",
+      "final_macros_raw": "155.3 | 17.2 | 8.1 | 3.4 | 1.8",
+      "diff": 0.046
+    },
+    {
+      "id": 78,
+      "original_food_name": "Onion tomato raita",
+      "standard_name": "Onion Tomato Raita",
+      "other_names": "Pyaz Tamatar Raita, Onion Tomato Curd Salad, Raita with Onion and Tomato, Pyaaz Tamatar Ka Raita",
+      "food_varieties": [
+        "Cucumber Onion Raita",
+        "Boondi Raita",
+        "Mint Raita",
+        "Mixed Vegetable Raita",
+        "Onion Raita"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "73.2 | 7.1 | 3.2 | 4.0 | 0.6",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 77.2,
+        "carbs": 8.5,
+        "fat": 3.4,
+        "prot": 4.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 73.2,
+        "carbs": 7.1,
+        "fat": 3.2,
+        "prot": 4.0,
+        "fib": 0.6
+      },
+      "input_macros_raw": "77.2 | 8.5 | 3.4 | 4.0 | 0.0",
+      "final_macros_raw": "73.2 | 7.1 | 3.2 | 4.0 | 0.6",
+      "diff": -0.052
+    },
+    {
+      "id": 79,
+      "original_food_name": "Onion pickle",
+      "standard_name": "Onion Pickle",
+      "other_names": "Pyaz ka Achar, Kanda Loncha, Vengaya Oorugai, Ulli Achar, Onion Achaar",
+      "food_varieties": [
+        "Vinegar-based onion pickle",
+        "Oil-based spiced onion pickle",
+        "Sweet and sour onion pickle",
+        "Raw onion pickle with mustard seeds",
+        "Rajasthani onion pickle with red chilli"
+      ],
+      "serving_types": [
+        "1 teaspoon — 5.0g",
+        "[BASE] 1 tablespoon — 15.0g",
+        "2 tablespoons — 30.0g"
+      ],
+      "base_volume": "15g",
+      "gen_macros_raw": "18.0 | 1.6 | 1.2 | 0.2 | 0.3",
+      "correction_macros_raw": null,
+      "db_macros_raw": "2.5 | 0.4 | 0.1 | 0.2 | 0.2",
+      "input_macros": {
+        "cal": 18.3,
+        "carbs": 0.8,
+        "fat": 1.7,
+        "prot": 0.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 18.0,
+        "carbs": 1.6,
+        "fat": 1.2,
+        "prot": 0.2,
+        "fib": 0.3
+      },
+      "input_macros_raw": "18.3 | 0.8 | 1.7 | 0.1 | 0.0",
+      "final_macros_raw": "18.0 | 1.6 | 1.2 | 0.2 | 0.3",
+      "diff": -0.016
+    },
+    {
+      "id": 80,
+      "original_food_name": "Onion cheese omelette",
+      "standard_name": "Onion Cheese Omelette",
+      "other_names": "Cheese Onion Omelette, Pyaz Cheese Omelette, Cheesy Onion Anda, Onion Cheese Anda Omelette",
+      "food_varieties": [
+        "Plain cheese omelette",
+        "Onion tomato cheese omelette",
+        "Mushroom cheese omelette",
+        "Spinach cheese omelette",
+        "Three-egg onion cheese omelette"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 100.0g",
+        "2 pieces — 240.0g"
+      ],
+      "base_volume": "100g",
+      "gen_macros_raw": "217.8 | 14.6 | 16.2 | 3.4 | 0.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 179.6,
+        "carbs": 2.3,
+        "fat": 14.0,
+        "prot": 10.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 217.8,
+        "carbs": 14.6,
+        "fat": 16.2,
+        "prot": 3.4,
+        "fib": 0.4
+      },
+      "input_macros_raw": "179.6 | 2.3 | 14.0 | 10.7 | 0.0",
+      "final_macros_raw": "217.8 | 14.6 | 16.2 | 3.4 | 0.4",
+      "diff": 0.213
+    },
+    {
+      "id": 81,
+      "original_food_name": "Onion green chilli raita",
+      "standard_name": "Onion Green Chilli Raita",
+      "other_names": "Pyaz Hari Mirch Raita, Onion Chilli Raita, Kanda Mirchi Raita, Pyaz Mirch Raita, Green Chilli Onion Raita",
+      "food_varieties": [
+        "Onion tomato raita",
+        "Onion cucumber raita",
+        "Boondi raita with onion",
+        "Mint onion raita",
+        "Onion green chilli raita with roasted cumin"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "85.2 | 7.8 | 3.6 | 5.4 | 0.6",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 82.2,
+        "carbs": 8.2,
+        "fat": 3.7,
+        "prot": 4.4,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 85.2,
+        "carbs": 7.8,
+        "fat": 3.6,
+        "prot": 5.4,
+        "fib": 0.6
+      },
+      "input_macros_raw": "82.2 | 8.2 | 3.7 | 4.4 | 0.0",
+      "final_macros_raw": "85.2 | 7.8 | 3.6 | 5.4 | 0.6",
+      "diff": 0.036
+    },
+    {
+      "id": 82,
+      "original_food_name": "Tomato cucumber onion raita",
+      "standard_name": "Tomato Cucumber Onion Raita",
+      "other_names": "Vegetable Raita, Kheera Tamatar Pyaz Raita, Mixed Veg Raita, Salad Raita, Dahi Raita with Vegetables",
+      "food_varieties": [
+        "Boondi Raita",
+        "Mint Cucumber Raita",
+        "Pomegranate Raita",
+        "Lauki Raita",
+        "Spinach Raita"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "73.5 | 7.8 | 2.7 | 4.5 | 0.9",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 61.1,
+        "carbs": 6.9,
+        "fat": 2.6,
+        "prot": 3.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 73.5,
+        "carbs": 7.8,
+        "fat": 2.7,
+        "prot": 4.5,
+        "fib": 0.9
+      },
+      "input_macros_raw": "61.1 | 6.9 | 2.6 | 3.2 | 0.0",
+      "final_macros_raw": "73.5 | 7.8 | 2.7 | 4.5 | 0.9",
+      "diff": 0.203
+    },
+    {
+      "id": 83,
+      "original_food_name": "Toasteds onion crackers",
+      "standard_name": "Toasteds Onion Crackers",
+      "other_names": "Onion Toasted Crackers, Kellogg's Toasteds Onion, Toasted Onion Biscuits, Onion Flavored Crackers",
+      "food_varieties": [
+        "Toasteds Wheat Crackers",
+        "Toasteds Buttercrisp Crackers",
+        "Toasteds Sesame Crackers",
+        "Onion Cream Crackers",
+        "Baked Onion Snack Crackers"
+      ],
+      "serving_types": [
+        "[BASE] 1 small handful — 30.0g",
+        "1 handful — 55.0g"
+      ],
+      "base_volume": "30g",
+      "gen_macros_raw": "142.4 | 20.0 | 6.0 | 2.1 | 0.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 143.7,
+        "carbs": 20.3,
+        "fat": 6.2,
+        "prot": 1.7,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 142.4,
+        "carbs": 20.0,
+        "fat": 6.0,
+        "prot": 2.1,
+        "fib": 0.8
+      },
+      "input_macros_raw": "143.7 | 20.3 | 6.2 | 1.7 | 0.0",
+      "final_macros_raw": "142.4 | 20.0 | 6.0 | 2.1 | 0.8",
+      "diff": -0.009
+    },
+    {
+      "id": 84,
+      "original_food_name": "Caramelised onion chicken soup",
+      "standard_name": "Caramelised Onion Chicken Soup",
+      "other_names": "Caramelized Onion Chicken Soup, Chicken Onion Soup, French Onion Chicken Soup, Pyaz Chicken Shorba",
+      "food_varieties": [
+        "Caramelised onion chicken soup with cream",
+        "Caramelised onion chicken soup with noodles",
+        "Caramelised onion chicken broth with herbs",
+        "Roasted garlic caramelised onion chicken soup",
+        "Caramelised onion chicken soup with croutons"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 250.0g",
+        "small bowl — 150.0g",
+        "large bowl — 350.0g"
+      ],
+      "base_volume": "250g",
+      "gen_macros_raw": "149.5 | 8.5 | 5.5 | 16.5 | 1.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": "145.0 | 10.0 | 3.8 | 17.0 | 1.2",
+      "input_macros": {
+        "cal": 158.3,
+        "carbs": 6.8,
+        "fat": 4.6,
+        "prot": 22.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 149.5,
+        "carbs": 8.5,
+        "fat": 5.5,
+        "prot": 16.5,
+        "fib": 1.0
+      },
+      "input_macros_raw": "158.3 | 6.8 | 4.6 | 22.3 | 0.0",
+      "final_macros_raw": "149.5 | 8.5 | 5.5 | 16.5 | 1.0",
+      "diff": -0.056
+    },
+    {
+      "id": 85,
+      "original_food_name": "Rava idli fry",
+      "standard_name": "Rava Idli Fry",
+      "other_names": "Semolina Idli Fry, Fried Rava Idli, Tawa Fried Rava Idli, Sooji Idli Fry",
+      "food_varieties": [
+        "Rava Idli Fry with vegetables",
+        "Rava Idli Fry with egg",
+        "Rava Idli Fry with curry leaves and mustard",
+        "Masala Rava Idli Fry",
+        "Rava Idli Fry with coconut"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 80.0g",
+        "2 pieces — 160.0g"
+      ],
+      "base_volume": "80g",
+      "gen_macros_raw": "133.8 | 20.4 | 4.2 | 3.6 | 0.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 245.9,
+        "carbs": 25.4,
+        "fat": 14.0,
+        "prot": 5.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 133.8,
+        "carbs": 20.4,
+        "fat": 4.2,
+        "prot": 3.6,
+        "fib": 0.8
+      },
+      "input_macros_raw": "245.9 | 25.4 | 14.0 | 5.3 | 0.0",
+      "final_macros_raw": "133.8 | 20.4 | 4.2 | 3.6 | 0.8",
+      "diff": -0.456
+    },
+    {
+      "id": 86,
+      "original_food_name": "Onion gravy (dry, mix)",
+      "standard_name": "Onion Gravy Dry Mix",
+      "other_names": "Onion Gravy Mix, Pyaz Gravy Mix, Dry Onion Gravy Powder, Instant Onion Gravy Mix, Onion Masala Mix",
+      "food_varieties": [
+        "Onion tomato gravy mix",
+        "Onion cashew gravy mix",
+        "Onion garlic gravy mix",
+        "Onion ginger gravy mix"
+      ],
+      "serving_types": [
+        "[BASE] 1 tablespoon — 15.0g",
+        "2 tablespoons — 30.0g"
+      ],
+      "base_volume": "15g",
+      "gen_macros_raw": "50.5 | 10.1 | 0.5 | 1.4 | 1.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 48.3,
+        "carbs": 10.1,
+        "fat": 0.4,
+        "prot": 1.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 50.5,
+        "carbs": 10.1,
+        "fat": 0.5,
+        "prot": 1.4,
+        "fib": 1.2
+      },
+      "input_macros_raw": "48.3 | 10.1 | 0.4 | 1.3 | 0.0",
+      "final_macros_raw": "50.5 | 10.1 | 0.5 | 1.4 | 1.2",
+      "diff": 0.046
+    },
+    {
+      "id": 87,
+      "original_food_name": "Ridge gourd radish vegetable",
+      "standard_name": "Ridge Gourd Radish Vegetable",
+      "other_names": "Turai Mooli Sabzi, Ridge Gourd Radish Sabzi, Torai Muli ki Sabzi, Gilki Mooli Sabzi",
+      "food_varieties": [
+        "Ridge gourd radish dry sabzi",
+        "Ridge gourd radish with mustard seeds tadka",
+        "Ridge gourd radish with tomato",
+        "Ridge gourd radish with coconut",
+        "Ridge gourd radish with green chilli and garlic"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "71.1 | 7.2 | 3.9 | 1.8 | 2.4",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 62.9,
+        "carbs": 5.0,
+        "fat": 4.4,
+        "prot": 1.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 71.1,
+        "carbs": 7.2,
+        "fat": 3.9,
+        "prot": 1.8,
+        "fib": 2.4
+      },
+      "input_macros_raw": "62.9 | 5.0 | 4.4 | 1.1 | 0.0",
+      "final_macros_raw": "71.1 | 7.2 | 3.9 | 1.8 | 2.4",
+      "diff": 0.13
+    },
+    {
+      "id": 88,
+      "original_food_name": "pumpkin pie spice",
+      "standard_name": "Pumpkin Pie Spice",
+      "other_names": "Pumpkin Spice Mix, Pumpkin Spice Blend, Pie Spice Mix, Kaddu Masala Mix",
+      "food_varieties": [
+        "Cinnamon-heavy blend",
+        "Ginger-forward blend",
+        "Allspice and clove dominant blend",
+        "Nutmeg-heavy blend",
+        "DIY homemade pumpkin spice"
+      ],
+      "serving_types": [
+        "[BASE] 1 teaspoon — 5.0g",
+        "1 tablespoon — 10.0g"
+      ],
+      "base_volume": "5g",
+      "gen_macros_raw": "8.7 | 1.4 | 0.3 | 0.1 | 0.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 17.1,
+        "carbs": 3.5,
+        "fat": 0.6,
+        "prot": 0.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 8.7,
+        "carbs": 1.4,
+        "fat": 0.3,
+        "prot": 0.1,
+        "fib": 0.5
+      },
+      "input_macros_raw": "17.1 | 3.5 | 0.6 | 0.3 | 0.0",
+      "final_macros_raw": "8.7 | 1.4 | 0.3 | 0.1 | 0.5",
+      "diff": -0.491
+    },
+    {
+      "id": 89,
+      "original_food_name": "Metkut spice",
+      "standard_name": "Metkut Spice",
+      "other_names": "Metkut, Met Kut, Maharashtrian spice powder, Lentil spice mix, Metkoot",
+      "food_varieties": [
+        "Metkut with roasted chana dal base",
+        "Metkut with urad dal dominant",
+        "Metkut with extra dry coconut",
+        "Metkut with sesame seeds",
+        "Metkut with extra red chili"
+      ],
+      "serving_types": [
+        "[BASE] 1 teaspoon — 5.0g",
+        "1 tablespoon — 10.0g"
+      ],
+      "base_volume": "5g",
+      "gen_macros_raw": "18.6 | 2.4 | 0.6 | 0.9 | 0.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 18.2,
+        "carbs": 3.1,
+        "fat": 0.3,
+        "prot": 0.9,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 18.6,
+        "carbs": 2.4,
+        "fat": 0.6,
+        "prot": 0.9,
+        "fib": 0.5
+      },
+      "input_macros_raw": "18.2 | 3.1 | 0.3 | 0.9 | 0.0",
+      "final_macros_raw": "18.6 | 2.4 | 0.6 | 0.9 | 0.5",
+      "diff": 0.022
+    },
+    {
+      "id": 90,
+      "original_food_name": "Carrot soup",
+      "standard_name": "Carrot Soup",
+      "other_names": "Gajar ka Soup, Gajar Shorba, Carrot Shorba, Gajar Soup",
+      "food_varieties": [
+        "Creamy Carrot Soup (with cream or coconut milk)",
+        "Carrot Ginger Soup",
+        "Carrot Tomato Soup",
+        "Spiced Carrot Lentil Soup",
+        "Roasted Carrot Soup"
+      ],
+      "serving_types": [
+        "[BASE] bowl — 200.0g",
+        "small bowl — 150.0g",
+        "large bowl — 300.0g"
+      ],
+      "base_volume": "200g",
+      "gen_macros_raw": "116.6 | 16.4 | 4.6 | 2.4 | 3.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": "335.2 | 11.4 | 24.8 | 16.6 | 4.0",
+      "input_macros": {
+        "cal": 59.4,
+        "carbs": 9.4,
+        "fat": 2.6,
+        "prot": 1.1,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 116.6,
+        "carbs": 16.4,
+        "fat": 4.6,
+        "prot": 2.4,
+        "fib": 3.2
+      },
+      "input_macros_raw": "59.4 | 9.4 | 2.6 | 1.1 | 0.0",
+      "final_macros_raw": "116.6 | 16.4 | 4.6 | 2.4 | 3.2",
+      "diff": 0.963
+    },
+    {
+      "id": 91,
+      "original_food_name": "Carrot pickle",
+      "standard_name": "Carrot Pickle",
+      "other_names": "Gajar ka Achar, Gajar Achar, Carrot Achaar, Gajjar Pickle",
+      "food_varieties": [
+        "Punjabi style carrot pickle with mustard and chili",
+        "South Indian carrot pickle with sesame oil",
+        "Instant carrot pickle (no fermentation)",
+        "Carrot and green chili pickle",
+        "Carrot and ginger pickle"
+      ],
+      "serving_types": [
+        "1 teaspoon — 5.0g",
+        "[BASE] 1 tablespoon — 15.0g",
+        "2 tablespoons — 30.0g"
+      ],
+      "base_volume": "15g",
+      "gen_macros_raw": "22.4 | 1.7 | 1.6 | 0.3 | 0.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 32.1,
+        "carbs": 1.4,
+        "fat": 2.9,
+        "prot": 0.3,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 22.4,
+        "carbs": 1.7,
+        "fat": 1.6,
+        "prot": 0.3,
+        "fib": 0.5
+      },
+      "input_macros_raw": "32.1 | 1.4 | 2.9 | 0.3 | 0.0",
+      "final_macros_raw": "22.4 | 1.7 | 1.6 | 0.3 | 0.5",
+      "diff": -0.302
+    },
+    {
+      "id": 92,
+      "original_food_name": "Tamarind spice dip (Boombay)",
+      "standard_name": "Tamarind Spice Dip",
+      "other_names": "Imli Chutney Dip, Tamarind Dipping Sauce, Meethi Imli Dip, Boombay Tamarind Dip",
+      "food_varieties": [
+        "Tamarind date chutney dip",
+        "Spicy tamarind garlic dip",
+        "Tamarind jaggery dip",
+        "Tamarind mint dip",
+        "Tamarind chilli dip"
+      ],
+      "serving_types": [
+        "[BASE] 1 tablespoon — 15.0g",
+        "2 tablespoons — 30.0g"
+      ],
+      "base_volume": "15g",
+      "gen_macros_raw": "19.3 | 4.4 | 0.1 | 0.2 | 0.3",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 32.7,
+        "carbs": 0.8,
+        "fat": 3.0,
+        "prot": 0.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 19.3,
+        "carbs": 4.4,
+        "fat": 0.1,
+        "prot": 0.2,
+        "fib": 0.3
+      },
+      "input_macros_raw": "32.7 | 0.8 | 3.0 | 0.5 | 0.0",
+      "final_macros_raw": "19.3 | 4.4 | 0.1 | 0.2 | 0.3",
+      "diff": -0.41
+    },
+    {
+      "id": 93,
+      "original_food_name": "Pumpkin pie spice cookie (nibble box)",
+      "standard_name": "Pumpkin Pie Spice Cookie",
+      "other_names": "Pumpkin Spice Biscuit, Nibble Box Pumpkin Cookie, Pumpkin Spice Snack Cookie, Pumpkin Flavored Cookie",
+      "food_varieties": [
+        "Plain pumpkin cookie without spice blend",
+        "Pumpkin oatmeal cookie",
+        "Pumpkin chocolate chip cookie",
+        "Gluten-free pumpkin spice cookie",
+        "Pumpkin snickerdoodle"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 30.0g",
+        "2 pieces — 60.0g"
+      ],
+      "base_volume": "30g",
+      "gen_macros_raw": "131.2 | 20.2 | 4.8 | 1.8 | 0.5",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 128.2,
+        "carbs": 20.8,
+        "fat": 4.1,
+        "prot": 2.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 131.2,
+        "carbs": 20.2,
+        "fat": 4.8,
+        "prot": 1.8,
+        "fib": 0.5
+      },
+      "input_macros_raw": "128.2 | 20.8 | 4.1 | 2.0 | 0.0",
+      "final_macros_raw": "131.2 | 20.2 | 4.8 | 1.8 | 0.5",
+      "diff": 0.023
+    },
+    {
+      "id": 94,
+      "original_food_name": "Cajun spice mix",
+      "standard_name": "Cajun Spice Mix",
+      "other_names": "Cajun Seasoning, Cajun Masala, Cajun Spice Blend, Creole Spice Mix",
+      "food_varieties": [
+        "Mild Cajun Spice Mix",
+        "Hot Cajun Spice Mix",
+        "Smoked Cajun Seasoning",
+        "Salt-Free Cajun Blend",
+        "Cajun Dry Rub"
+      ],
+      "serving_types": [
+        "[BASE] 1 teaspoon — 5.0g",
+        "1 tablespoon — 10.0g"
+      ],
+      "base_volume": "5g",
+      "gen_macros_raw": "17.2 | 2.8 | 0.4 | 0.6 | 0.9",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 15.0,
+        "carbs": 3.3,
+        "fat": 0.3,
+        "prot": 0.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 17.2,
+        "carbs": 2.8,
+        "fat": 0.4,
+        "prot": 0.6,
+        "fib": 0.9
+      },
+      "input_macros_raw": "15.0 | 3.3 | 0.3 | 0.6 | 0.0",
+      "final_macros_raw": "17.2 | 2.8 | 0.4 | 0.6 | 0.9",
+      "diff": 0.147
+    },
+    {
+      "id": 95,
+      "original_food_name": "pumpkin spice latte granola bar (nibble box)",
+      "standard_name": "Pumpkin Spice Latte Granola Bar",
+      "other_names": "Nibble Box Granola Bar, Pumpkin Spice Granola Bar, PSL Granola Bar",
+      "food_varieties": [
+        "Chocolate Chip Granola Bar",
+        "Peanut Butter Granola Bar",
+        "Mixed Nut Granola Bar",
+        "Oats and Honey Granola Bar",
+        "Cranberry Almond Granola Bar"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 40.0g",
+        "2 pieces — 80.0g"
+      ],
+      "base_volume": "40g",
+      "gen_macros_raw": "163.5 | 25.0 | 5.5 | 3.5 | 2.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 158.0,
+        "carbs": 29.7,
+        "fat": 2.5,
+        "prot": 4.0,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 163.5,
+        "carbs": 25.0,
+        "fat": 5.5,
+        "prot": 3.5,
+        "fib": 2.0
+      },
+      "input_macros_raw": "158.0 | 29.7 | 2.5 | 4.0 | 0.0",
+      "final_macros_raw": "163.5 | 25.0 | 5.5 | 3.5 | 2.0",
+      "diff": 0.035
+    },
+    {
+      "id": 96,
+      "original_food_name": "Bombay duck curry",
+      "standard_name": "Bombay Duck Curry",
+      "other_names": "Bombil Curry, Bombil Rassa, Bummalo Fish Curry, Bombay Duck Gravy, Bombil Chi Amti",
+      "food_varieties": [
+        "Dried Bombay Duck Curry",
+        "Bombay Duck Coconut Curry",
+        "Bombay Duck Tomato Curry",
+        "Bombay Duck Green Masala Curry",
+        "Bombay Duck Onion Gravy Curry"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "171.6 | 12.6 | 10.8 | 6.0 | 1.2",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 131.5,
+        "carbs": 3.5,
+        "fat": 9.8,
+        "prot": 7.6,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 171.6,
+        "carbs": 12.6,
+        "fat": 10.8,
+        "prot": 6.0,
+        "fib": 1.2
+      },
+      "input_macros_raw": "131.5 | 3.5 | 9.8 | 7.6 | 0.0",
+      "final_macros_raw": "171.6 | 12.6 | 10.8 | 6.0 | 1.2",
+      "diff": 0.305
+    },
+    {
+      "id": 97,
+      "original_food_name": "Carrot raisin muffin",
+      "standard_name": "Carrot Raisin Muffin",
+      "other_names": "Gajar Kishmish Muffin, Carrot Muffin with Raisins, Gajar Muffin, Carrot Dry Fruit Muffin",
+      "food_varieties": [
+        "Whole wheat carrot raisin muffin",
+        "Carrot raisin walnut muffin",
+        "Eggless carrot raisin muffin",
+        "Carrot raisin cream cheese muffin",
+        "Oat bran carrot raisin muffin"
+      ],
+      "serving_types": [
+        "[BASE] 1 piece — 85.0g",
+        "2 pieces — 170.0g"
+      ],
+      "base_volume": "85g",
+      "gen_macros_raw": "229.7 | 34.2 | 8.5 | 4.1 | 1.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 180.0,
+        "carbs": 25.9,
+        "fat": 6.8,
+        "prot": 4.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 229.7,
+        "carbs": 34.2,
+        "fat": 8.5,
+        "prot": 4.1,
+        "fib": 1.8
+      },
+      "input_macros_raw": "180.0 | 25.9 | 6.8 | 4.2 | 0.0",
+      "final_macros_raw": "229.7 | 34.2 | 8.5 | 4.1 | 1.8",
+      "diff": 0.276
+    },
+    {
+      "id": 98,
+      "original_food_name": "infant formula, nestle, good start essentials soy, with iron, liquid concentrate, not reconstituted",
+      "standard_name": "Nestle Good Start Essentials Soy Infant Formula With Iron Liquid Concentrate",
+      "other_names": "Good Start Soy Liquid Concentrate, Nestle Soy Baby Formula Concentrate, Soy Infant Formula With Iron Concentrate, Good Start Essentials Soy Formula",
+      "food_varieties": [
+        "Nestle Good Start Essentials Soy Powder Formula",
+        "Nestle Good Start Essentials Dairy-Based Liquid Concentrate",
+        "Similac Soy Isomil Liquid Concentrate",
+        "Enfamil ProSobee Soy Infant Formula",
+        "Store-brand Soy Infant Formula Concentrate"
+      ],
+      "serving_types": [
+        "[BASE] small cup — 100.0ml",
+        "cup — 150.0ml"
+      ],
+      "base_volume": "100ml",
+      "gen_macros_raw": "126.5 | 13.8 | 6.5 | 3.2 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 128.0,
+        "carbs": 14.1,
+        "fat": 6.5,
+        "prot": 3.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 126.5,
+        "carbs": 13.8,
+        "fat": 6.5,
+        "prot": 3.2,
+        "fib": 0.0
+      },
+      "input_macros_raw": "128.0 | 14.1 | 6.5 | 3.2 | 0.0",
+      "final_macros_raw": "126.5 | 13.8 | 6.5 | 3.2 | 0.0",
+      "diff": -0.012
+    },
+    {
+      "id": 99,
+      "original_food_name": "Green pork curry",
+      "standard_name": "Green Pork Curry",
+      "other_names": "Pork Hara Masala, Green Masala Pork, Hara Pork Curry, Pork Hari Curry, Green Pork Sabzi",
+      "food_varieties": [
+        "Goan green pork curry with coconut and green chillies",
+        "Northeast Indian pork curry with bamboo shoot and green herbs",
+        "Thai-style green pork curry with coconut milk",
+        "Pork curry with spinach and green masala paste",
+        "Pork curry with coriander-mint green gravy"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "301.5 | 24.0 | 19.5 | 7.5 | 2.1",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 127.1,
+        "carbs": 6.0,
+        "fat": 6.0,
+        "prot": 13.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 301.5,
+        "carbs": 24.0,
+        "fat": 19.5,
+        "prot": 7.5,
+        "fib": 2.1
+      },
+      "input_macros_raw": "127.1 | 6.0 | 6.0 | 13.5 | 0.0",
+      "final_macros_raw": "301.5 | 24.0 | 19.5 | 7.5 | 2.1",
+      "diff": 1.372
+    },
+    {
+      "id": 100,
+      "original_food_name": "Soya tori",
+      "standard_name": "Soya Tori",
+      "other_names": "Soya Ridge Gourd Sabzi, Soyabean Turai Sabzi, Soya Chunks Tori Curry, Torai Soya Sabzi",
+      "food_varieties": [
+        "Soya chunks with ridge gourd in dry sabzi style",
+        "Soya granules with tori in gravy",
+        "Soya tori with tomato-onion masala",
+        "Soya tori with mustard tempering (South Indian style)",
+        "Soya tori with minimal spices (Jain style)"
+      ],
+      "serving_types": [
+        "[BASE] katori — 150.0g",
+        "small katori — 100.0g",
+        "bowl — 250.0g"
+      ],
+      "base_volume": "150g",
+      "gen_macros_raw": "114.6 | 9.3 | 5.4 | 7.2 | 2.8",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 92.8,
+        "carbs": 8.1,
+        "fat": 5.0,
+        "prot": 4.5,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 114.6,
+        "carbs": 9.3,
+        "fat": 5.4,
+        "prot": 7.2,
+        "fib": 2.8
+      },
+      "input_macros_raw": "92.8 | 8.1 | 5.0 | 4.5 | 0.0",
+      "final_macros_raw": "114.6 | 9.3 | 5.4 | 7.2 | 2.8",
+      "diff": 0.235
+    },
+    {
+      "id": 101,
+      "original_food_name": "infant formula, nestle, good start 2 essentials, with iron, liquid concentrate, not reconstituted",
+      "standard_name": "Nestle Good Start 2 Essentials Infant Formula With Iron Liquid Concentrate",
+      "other_names": "Good Start 2 Liquid Concentrate, Nestle Good Start Stage 2 Formula, Infant Formula Liquid Concentrate With Iron",
+      "food_varieties": [
+        "Good Start 2 Essentials Powder Formula",
+        "Good Start 2 Essentials Ready-to-Feed",
+        "Good Start Supreme Liquid Concentrate",
+        "Good Start Gentle Liquid Concentrate"
+      ],
+      "serving_types": [
+        "[BASE] small cup — 100.0ml",
+        "cup — 150.0ml"
+      ],
+      "base_volume": "100ml",
+      "gen_macros_raw": "125.5 | 16.6 | 5.1 | 3.3 | 0.0",
+      "correction_macros_raw": null,
+      "db_macros_raw": null,
+      "input_macros": {
+        "cal": 125.0,
+        "carbs": 16.5,
+        "fat": 5.1,
+        "prot": 3.2,
+        "fib": 0.0
+      },
+      "final_macros": {
+        "cal": 125.5,
+        "carbs": 16.6,
+        "fat": 5.1,
+        "prot": 3.3,
+        "fib": 0.0
+      },
+      "input_macros_raw": "125.0 | 16.5 | 5.1 | 3.2 | 0.0",
+      "final_macros_raw": "125.5 | 16.6 | 5.1 | 3.3 | 0.0",
+      "diff": 0.004
+    }
+  ]
+}

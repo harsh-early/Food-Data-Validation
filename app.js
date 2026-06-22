@@ -2,7 +2,8 @@
   "use strict";
 
   const DB_NAME = "earlyfit_food_reviewer";
-  const DB_VERSION = 1;
+  const DB_VERSION = 2;
+  const UPLOAD_KEY = "current";
   const MACRO_KEYS = ["cal", "carbs", "fat", "prot", "fib"];
   const MACRO_LABELS = {
     cal: "Cal (kcal)",
@@ -38,6 +39,8 @@
   let outputHandle = null;
   let outputFileName = "";
   let excelWriteTimer = null;
+  let loadedJsonName = "";
+  let usingUploadedJson = false;
 
   const $ = (sel) => document.querySelector(sel);
   const $$ = (sel) => document.querySelectorAll(sel);
@@ -57,6 +60,15 @@
       label: parts[0] || "—",
       volume: parts[1] || baseVolume || "",
     };
+  }
+
+  function formatServingVolume(volume) {
+    if (!volume) return "";
+    const v = String(volume).trim();
+    const num = parseFloat(v.replace(/[^\d.]/g, ""));
+    if (isNaN(num)) return v;
+    const rounded = Number.isInteger(num) ? String(Math.round(num)) : String(num);
+    return `${rounded}gm`;
   }
 
   // ── Macros helpers ─────────────────────────────────────────────────────
@@ -104,13 +116,16 @@
   function openDB() {
     return new Promise((resolve, reject) => {
       const req = indexedDB.open(DB_NAME, DB_VERSION);
-      req.onupgradeneeded = () => {
+      req.onupgradeneeded = (event) => {
         const db = req.result;
         if (!db.objectStoreNames.contains("datasets")) {
           db.createObjectStore("datasets");
         }
         if (!db.objectStoreNames.contains("fileHandles")) {
           db.createObjectStore("fileHandles");
+        }
+        if (!db.objectStoreNames.contains("uploadedFoods")) {
+          db.createObjectStore("uploadedFoods");
         }
       };
       req.onsuccess = () => resolve(req.result);
@@ -136,6 +151,50 @@
       tx.oncomplete = () => resolve();
       tx.onerror = () => reject(tx.error);
     });
+  }
+
+  async function idbDelete(store, key) {
+    const db = await openDB();
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction(store, "readwrite");
+      tx.objectStore(store).delete(key);
+      tx.oncomplete = () => resolve();
+      tx.onerror = () => reject(tx.error);
+    });
+  }
+
+  async function saveUploadedFoods(data, filename) {
+    await idbSet("uploadedFoods", UPLOAD_KEY, {
+      data,
+      filename,
+      savedAt: new Date().toISOString(),
+    });
+    sessionStorage.setItem("food_upload_active", "1");
+  }
+
+  async function clearUploadedFoods() {
+    await idbDelete("uploadedFoods", UPLOAD_KEY);
+    sessionStorage.removeItem("food_upload_active");
+    loadedJsonName = "";
+    usingUploadedJson = false;
+  }
+
+  async function getUploadedFoods() {
+    return idbGet("uploadedFoods", UPLOAD_KEY);
+  }
+
+  function updateJsonStatus() {
+    const status = $("#json-status");
+    const removeBtn = $("#btn-remove-json");
+    if (usingUploadedJson && loadedJsonName) {
+      status.textContent = `Loaded: ${loadedJsonName}`;
+      status.classList.remove("hidden");
+      removeBtn.classList.remove("hidden");
+    } else {
+      status.textContent = "";
+      status.classList.add("hidden");
+      removeBtn.classList.add("hidden");
+    }
   }
 
   async function loadDatasetState() {
@@ -418,22 +477,15 @@
 
     const review = reviews[food.id];
     const serving = parseBaseServing(food.serving_types, food.base_volume);
-    const dp = diffPct(food.input_macros, food.final_macros);
-    const dc = diffColor(dp);
+    const volumeText = formatServingVolume(serving.volume);
 
     el.innerHTML = `
       <h2 class="food-title">${escapeHtml(food.original_food_name)}</h2>
-      <p class="serving-display">
-        ${escapeHtml(serving.label)}<span class="serving-volume">${serving.volume ? ` · ${escapeHtml(serving.volume)}` : ""}</span>
-      </p>
+      <div class="serving-card">
+        <span class="serving-card-title">serving :</span>
+        <span class="serving-card-value">${escapeHtml(serving.label)} | ${escapeHtml(volumeText || "—")}</span>
+      </div>
     `;
-
-    if (dp !== null) {
-      const meta = document.createElement("div");
-      meta.className = "food-meta";
-      meta.innerHTML = `<span class="badge badge-diff ${dc.cls}">${dc.label}</span>`;
-      el.appendChild(meta);
-    }
 
     if (review) {
       const choiceLabel =
@@ -498,6 +550,7 @@
     $("#progress-fill").style.width = `${pct}%`;
     $("#footer-text").textContent = `Auto-saved · ${done} verified`;
     updateFileStatus();
+    updateJsonStatus();
 
     $$(".filter-btn").forEach((b) => {
       b.classList.toggle("active", b.dataset.filter === filter);
@@ -591,7 +644,7 @@
     }, 300);
   }
 
-  async function loadFoodData(data, filename) {
+  async function loadFoodData(data, filename, options = {}) {
     if (!data || !Array.isArray(data.foods)) {
       throw new Error("Invalid JSON: expected { foods: [...] }");
     }
@@ -599,6 +652,14 @@
     meta = data.meta || { source: filename || "upload", count: foods.length };
     if (!meta.count) meta.count = foods.length;
     datasetId = computeDatasetId(meta);
+    loadedJsonName = filename || meta.source || "uploaded.json";
+    usingUploadedJson = !!options.persisted || !!options.fromUpload;
+
+    if (options.fromUpload) {
+      await saveUploadedFoods(data, loadedJsonName);
+      usingUploadedJson = true;
+    }
+
     await loadDatasetState();
     bothWrongOpen = false;
     activeMacro = null;
@@ -606,6 +667,29 @@
     $("#loading").classList.add("hidden");
     $("#main").classList.remove("hidden");
     render();
+  }
+
+  async function loadDefaultFoods() {
+    const res = await fetch("./foods.json");
+    if (!res.ok) throw new Error(`Failed to load foods.json (${res.status})`);
+    const data = await res.json();
+    loadedJsonName = "";
+    usingUploadedJson = false;
+    await loadFoodData(data, "foods.json");
+  }
+
+  async function removeUploadedJson() {
+    await clearUploadedFoods();
+    showToast("Uploaded JSON removed");
+    $("#loading").classList.remove("hidden");
+    $("#main").classList.add("hidden");
+    try {
+      await loadDefaultFoods();
+    } catch (err) {
+      $("#loading").classList.add("hidden");
+      $("#error").textContent = err.message;
+      $("#error").classList.remove("hidden");
+    }
   }
 
   function bindEvents() {
@@ -619,12 +703,17 @@
       try {
         const text = await file.text();
         const data = JSON.parse(text);
-        await loadFoodData(data, file.name);
+        await loadFoodData(data, file.name, { fromUpload: true });
         showToast(`Loaded ${foods.length} foods`);
       } catch (err) {
         showToast(err.message || "Failed to load JSON");
       }
       e.target.value = "";
+    });
+
+    $("#btn-remove-json").addEventListener("click", async () => {
+      if (!confirm("Remove uploaded JSON and load default foods.json?")) return;
+      await removeUploadedJson();
     });
 
     $("#btn-both-wrong").addEventListener("click", () => {
@@ -692,10 +781,12 @@
     bindEvents();
 
     try {
-      const res = await fetch("./foods.json");
-      if (!res.ok) throw new Error(`Failed to load foods.json (${res.status})`);
-      const data = await res.json();
-      await loadFoodData(data, "foods.json");
+      const uploaded = await getUploadedFoods();
+      if (uploaded?.data) {
+        await loadFoodData(uploaded.data, uploaded.filename, { persisted: true });
+        return;
+      }
+      await loadDefaultFoods();
     } catch (err) {
       $("#loading").classList.add("hidden");
       const errEl = $("#error");
