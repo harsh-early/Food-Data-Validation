@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Macro Reviewer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app" class="app">
+    <div id="loading" class="loading">Loading foods…</div>
+    <div id="error" class="error hidden"></div>
+    <div id="main" class="main hidden">
+      <div id="link-banner" class="link-banner hidden">
+        Link an output file to auto-save verified rows to Excel on every change.
+        <button type="button" id="btn-link-banner" class="btn btn-link-inline">Link Output File</button>
+      </div>
+
+      <header class="header">
+        <div class="header-top">
+          <div>
+            <h1>Food Macro Reviewer</h1>
+            <p id="progress-text" class="progress-text"></p>
+            <p id="file-status" class="file-status"></p>
+          </div>
+          <div class="header-actions">
+            <label class="btn btn-upload">
+              Upload JSON
+              <input type="file" id="input-json" accept=".json" hidden>
+            </label>
+            <button type="button" id="btn-link" class="btn btn-link-file">Link Output</button>
+            <button type="button" id="btn-export" class="btn btn-export">Excel</button>
+          </div>
+        </div>
+        <div class="progress-bar">
+          <div id="progress-fill" class="progress-fill"></div>
+        </div>
+        <div class="filters">
+          <button type="button" class="filter-btn active" data-filter="all">All</button>
+          <button type="button" class="filter-btn" data-filter="pending">Pending</button>
+          <button type="button" class="filter-btn" data-filter="done">Reviewed</button>
+          <span id="cursor-text" class="cursor-text"></span>
+        </div>
+      </header>
+
+      <div id="empty-state" class="empty-state hidden">
+        <p class="empty-title">All foods reviewed!</p>
+        <button type="button" id="btn-view-all" class="btn btn-primary">View All</button>
+      </div>
+
+      <div id="review-panel" class="review-panel">
+        <section id="food-info" class="food-info"></section>
+
+        <div id="macro-cards" class="macro-cards"></div>
+
+        <div class="both-wrong-wrap">
+          <button type="button" id="btn-both-wrong" class="btn btn-both-wrong">Both Wrong</button>
+          <div id="both-wrong-panel" class="both-wrong-panel hidden">
+            <p class="both-wrong-label">Select which macro is wrong, then enter the correct value</p>
+            <div id="macro-chips" class="macro-chips">
+              <button type="button" class="macro-chip" data-macro="cal">Cal</button>
+              <button type="button" class="macro-chip" data-macro="carbs">Carbs</button>
+              <button type="button" class="macro-chip" data-macro="fat">Fat</button>
+              <button type="button" class="macro-chip" data-macro="prot">Prot</button>
+              <button type="button" class="macro-chip" data-macro="fib">Fib</button>
+            </div>
+            <label class="correction-input-wrap">
+              <span id="active-macro-label" class="active-macro-label">Select a macro above</span>
+              <input type="number" id="correction-input" step="0.1" min="0" placeholder="Enter correct value" disabled>
+            </label>
+            <label class="comment-wrap">
+              <span class="comment-label">Comment (optional)</span>
+              <textarea id="comment-input" rows="2" placeholder="Why is this wrong?"></textarea>
+            </label>
+            <button type="button" id="btn-save-both-wrong" class="btn btn-save-both-wrong">Save</button>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <button type="button" id="btn-prev" class="btn btn-nav">← Prev</button>
+          <button type="button" id="btn-next" class="btn btn-nav">Next →</button>
+        </nav>
+      </div>
+
+      <footer class="footer">
+        <p id="footer-text"></p>
+      </footer>
+      <p class="hint">Click Option 1/2 · ↑ ↓ navigate</p>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
