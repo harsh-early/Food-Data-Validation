@@ -34,13 +34,13 @@
   let cursor = 0;
   let filter = "all";
   let bothWrongOpen = false;
-  let activeMacro = null;
-  let draftCorrections = {};
+  let referOption = null;
   let outputHandle = null;
   let outputFileName = "";
   let excelWriteTimer = null;
   let loadedJsonName = "";
   let usingUploadedJson = false;
+  let pendingExcelSync = false;
 
   const $ = (sel) => document.querySelector(sel);
   const $$ = (sel) => document.querySelectorAll(sel);
@@ -102,6 +102,15 @@
     return MACRO_KEYS.filter((k) => corrections[k] != null && corrections[k] !== "")
       .map((k) => `${CORRECTION_LABELS[k]}=${corrections[k]} ${CORRECTION_UNITS[k]}`)
       .join(", ");
+  }
+
+  function formatReferOptionExport(food, review) {
+    if (review.choice !== "both_wrong" || !review.refer_option) return "";
+    const macros =
+      review.refer_option === "option1"
+        ? food.input_macros_raw || formatMacros(food.input_macros)
+        : food.final_macros_raw || formatMacros(food.final_macros);
+    return `${review.refer_option} | ${macros}`;
   }
 
   function computeDatasetId(m) {
@@ -212,15 +221,8 @@
     }
     outputHandle = await idbGet("fileHandles", datasetId);
     if (outputHandle) {
-      try {
-        const perm = await outputHandle.queryPermission({ mode: "readwrite" });
-        if (perm !== "granted") {
-          const req = await outputHandle.requestPermission({ mode: "readwrite" });
-          if (req !== "granted") outputHandle = null;
-        }
-      } catch (_) {
-        outputHandle = null;
-      }
+      const allowed = await ensureOutputPermission(outputHandle);
+      if (!allowed) outputHandle = null;
     }
   }
 
@@ -251,6 +253,7 @@
       "option2_macros",
       "selected_macros",
       "selected_option",
+      "refer_option",
       "both_wrong_correction",
       "comment",
     ];
@@ -262,6 +265,7 @@
       "cal|carbs|fat|prot|fib",
       "cal|carbs|fat|prot|fib",
       "",
+      "option|cal|carbs|fat|prot|fib",
       "",
       "",
     ];
@@ -287,6 +291,7 @@
         f.final_macros_raw || formatMacros(f.final_macros),
         selectedMacros,
         review.choice,
+        formatReferOptionExport(f, review),
         review.choice === "both_wrong"
           ? formatBothWrongCorrection(review.corrections)
           : "",
@@ -305,46 +310,87 @@
     return wb;
   }
 
-  async function writeExcelToHandle() {
+  async function writeExcelToHandle(options = {}) {
+    const { quiet = false } = options;
     if (!outputHandle || typeof XLSX === "undefined") return false;
-    try {
-      const wb = buildWorkbook();
-      const buf = XLSX.write(wb, { bookType: "xlsx", type: "array" });
-      const writable = await outputHandle.createWritable();
-      await writable.write(buf);
-      await writable.close();
-      return true;
-    } catch (err) {
-      console.error("Excel write failed:", err);
-      showToast("Could not update linked file");
-      return false;
+
+    const rowCount = Object.keys(reviews).length;
+    const maxAttempts = 4;
+
+    for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+      try {
+        const wb = buildWorkbook();
+        const buf = XLSX.write(wb, { bookType: "xlsx", type: "array" });
+        const writable = await outputHandle.createWritable();
+        if (typeof writable.truncate === "function") {
+          await writable.truncate(0);
+        }
+        await writable.write(buf);
+        await writable.close();
+        pendingExcelSync = false;
+        if (!quiet) {
+          showToast(`Sheet updated · ${rowCount} reviewed row(s)`);
+        }
+        updateFileStatus(rowCount);
+        return true;
+      } catch (err) {
+        console.error(`Excel write attempt ${attempt} failed:`, err);
+        if (attempt < maxAttempts) {
+          await new Promise((r) => setTimeout(r, 350 * attempt));
+        }
+      }
     }
+
+    pendingExcelSync = true;
+    if (!quiet) {
+      showToast("Close Excel, then click Link Output to sync");
+    }
+    updateFileStatus(rowCount, true);
+    return false;
   }
 
   function scheduleExcelWrite() {
     clearTimeout(excelWriteTimer);
     excelWriteTimer = setTimeout(async () => {
-      if (outputHandle) {
-        const ok = await writeExcelToHandle();
-        if (ok) showToast("Saved to linked file");
-      }
+      if (!outputHandle) return;
+      await writeExcelToHandle({ quiet: true });
     }, 300);
   }
 
   function downloadExcel() {
     if (typeof XLSX === "undefined") {
-      showToast("Excel library not loaded");
+      showToast("Excel library not loaded — refresh the page");
       return;
     }
-    const verified = Object.keys(reviews).length;
-    if (!verified) {
-      showToast("No verified foods yet");
-      return;
+
+    const verifiedCount = Object.keys(reviews).length;
+
+    try {
+      const wb = buildWorkbook();
+      const date = new Date().toISOString().slice(0, 10);
+      const filename = `food_macro_reviews_${date}.xlsx`;
+      const buf = XLSX.write(wb, { bookType: "xlsx", type: "array" });
+      const blob = new Blob([buf], {
+        type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+
+      showToast(
+        verifiedCount
+          ? `Downloaded ${verifiedCount} reviewed item(s)`
+          : "Downloaded — no reviews yet (headers only)"
+      );
+    } catch (err) {
+      console.error("Excel download failed:", err);
+      showToast("Download failed — try Chrome or Edge");
     }
-    const wb = buildWorkbook();
-    const date = new Date().toISOString().slice(0, 10);
-    XLSX.writeFile(wb, `food_macro_reviews_${date}.xlsx`);
-    showToast("Excel downloaded");
   }
 
   // ── Reviews ────────────────────────────────────────────────────────────
@@ -366,32 +412,160 @@
     render();
   }
 
-  async function linkOutputFile() {
+  async function ensureOutputPermission(handle) {
+    if (!handle) return false;
+    try {
+      const perm = await handle.queryPermission({ mode: "readwrite" });
+      if (perm === "granted") return true;
+      const req = await handle.requestPermission({ mode: "readwrite" });
+      return req === "granted";
+    } catch (_) {
+      return false;
+    }
+  }
+
+  async function connectOutputFile(handle) {
+    await saveFileHandle(handle, handle.name);
+    const ok = await writeExcelToHandle();
+    updateFileStatus();
+    $("#link-banner").classList.add("hidden");
+    const n = Object.keys(reviews).length;
+    showToast(ok ? `Linked · ${n} row(s) synced` : "Linked but could not write");
+    return ok;
+  }
+
+  async function syncLinkedOutput() {
+    if (!outputHandle) return false;
+    const allowed = await ensureOutputPermission(outputHandle);
+    if (!allowed) {
+      outputHandle = null;
+      return false;
+    }
+    return writeExcelToHandle();
+  }
+
+  const EXCEL_PICKER_TYPES = [
+    {
+      description: "Excel",
+      accept: {
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": [".xlsx"],
+      },
+    },
+  ];
+
+  function hasFileSystemAccess() {
+    return (
+      typeof window.showSaveFilePicker === "function" ||
+      typeof window.showOpenFilePicker === "function"
+    );
+  }
+
+  function showLinkOutputModal() {
+    return new Promise((resolve) => {
+      const modal = $("#link-output-modal");
+      const onChoice = (choice) => {
+        modal.classList.add("hidden");
+        $("#link-modal-new").removeEventListener("click", onNew);
+        $("#link-modal-existing").removeEventListener("click", onExisting);
+        $("#link-modal-cancel").removeEventListener("click", onCancel);
+        modal.removeEventListener("click", onBackdrop);
+        document.removeEventListener("keydown", onKey);
+        resolve(choice);
+      };
+      const onNew = () => onChoice("new");
+      const onExisting = () => onChoice("existing");
+      const onCancel = () => onChoice(null);
+      const onBackdrop = (e) => {
+        if (e.target === modal) onChoice(null);
+      };
+      const onKey = (e) => {
+        if (e.key === "Escape") onChoice(null);
+      };
+
+      $("#link-modal-new").addEventListener("click", onNew);
+      $("#link-modal-existing").addEventListener("click", onExisting);
+      $("#link-modal-cancel").addEventListener("click", onCancel);
+      modal.addEventListener("click", onBackdrop);
+      document.addEventListener("keydown", onKey);
+      modal.classList.remove("hidden");
+    });
+  }
+
+  async function pickNewOutputFile() {
     if (!window.showSaveFilePicker) {
       showToast("Use Chrome/Edge for linked file auto-save");
       downloadExcel();
       return;
     }
+
     try {
       const handle = await window.showSaveFilePicker({
         suggestedName: outputFileName || "food_macro_reviews.xlsx",
-        types: [
-          {
-            description: "Excel",
-            accept: {
-              "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": [".xlsx"],
-            },
-          },
-        ],
+        types: EXCEL_PICKER_TYPES,
       });
-      await saveFileHandle(handle, handle.name);
-      await writeExcelToHandle();
-      updateFileStatus();
-      $("#link-banner").classList.add("hidden");
-      showToast("Output file linked");
+      await connectOutputFile(handle);
+    } catch (err) {
+      if (err.name !== "AbortError") showToast("Could not create file");
+    }
+  }
+
+  async function pickExistingOutputFile() {
+    if (!window.showOpenFilePicker) {
+      showToast("Use Chrome/Edge for linked file auto-save");
+      downloadExcel();
+      return;
+    }
+
+    try {
+      const [handle] = await window.showOpenFilePicker({
+        types: EXCEL_PICKER_TYPES,
+        multiple: false,
+      });
+      await connectOutputFile(handle);
     } catch (err) {
       if (err.name !== "AbortError") showToast("Could not link file");
     }
+  }
+
+  async function pickOutputFile(preferExisting = false) {
+    if (!hasFileSystemAccess()) {
+      showToast("Use Chrome/Edge for linked file auto-save");
+      downloadExcel();
+      return;
+    }
+
+    if (preferExisting) {
+      await pickExistingOutputFile();
+      return;
+    }
+
+    const choice = await showLinkOutputModal();
+    if (choice === "new") await pickNewOutputFile();
+    else if (choice === "existing") await pickExistingOutputFile();
+  }
+
+  async function linkOutputFile() {
+    if (!hasFileSystemAccess()) {
+      showToast("Use Chrome/Edge for linked file auto-save");
+      downloadExcel();
+      return;
+    }
+
+    if (outputHandle) {
+      const ok = await syncLinkedOutput();
+      if (ok) {
+        const n = Object.keys(reviews).length;
+        updateFileStatus();
+        $("#link-banner").classList.add("hidden");
+        showToast(`Updated linked file · ${n} row(s)`);
+      } else {
+        showToast("Lost access — select your output file again");
+        await pickOutputFile(true);
+      }
+      return;
+    }
+
+    await pickOutputFile();
   }
 
   // ── UI helpers ─────────────────────────────────────────────────────────
@@ -417,18 +591,30 @@
     });
   }
 
-  function updateFileStatus() {
+  function updateFileStatus(rowCount, syncFailed) {
     const el = $("#file-status");
     const btn = $("#btn-link");
-    if (outputHandle && outputFileName) {
-      el.textContent = `Linked: ${outputFileName}`;
+    const count = rowCount ?? Object.keys(reviews).length;
+    const linked = !!(outputHandle && outputFileName);
+
+    if (linked) {
+      let text = `Linked: ${outputFileName} · ${count} row(s)`;
+      if (pendingExcelSync || syncFailed) {
+        text += " · sync pending (close Excel)";
+      }
+      el.textContent = text;
       el.classList.add("linked");
+      if (pendingExcelSync || syncFailed) {
+        el.classList.add("sync-pending");
+      } else {
+        el.classList.remove("sync-pending");
+      }
       btn.textContent = "Linked ✓";
       btn.classList.add("linked");
       $("#link-banner").classList.add("hidden");
     } else {
       el.textContent = "No output file linked";
-      el.classList.remove("linked");
+      el.classList.remove("linked", "sync-pending");
       btn.textContent = "Link Output";
       btn.classList.remove("linked");
       if (Object.keys(reviews).length > 0) {
@@ -480,10 +666,12 @@
     const volumeText = formatServingVolume(serving.volume);
 
     el.innerHTML = `
-      <h2 class="food-title">${escapeHtml(food.original_food_name)}</h2>
-      <div class="serving-card">
-        <span class="serving-card-title">serving :</span>
-        <span class="serving-card-value">${escapeHtml(serving.label)} | ${escapeHtml(volumeText || "—")}</span>
+      <div class="food-header-card">
+        <h2 class="food-title">${escapeHtml(food.original_food_name)}</h2>
+        <div class="serving-line">
+          <span class="serving-card-title">serving :</span>
+          <span class="serving-card-value">${escapeHtml(serving.label)} | ${escapeHtml(volumeText || "—")}</span>
+        </div>
       </div>
     `;
 
@@ -493,13 +681,39 @@
           ? "Option 1 chosen"
           : review.choice === "option2"
             ? "Option 2 chosen"
-            : "Both Wrong saved";
+            : `Both Wrong saved${review.refer_option ? ` · refer ${review.refer_option === "option1" ? "Option 1" : "Option 2"}` : ""}`;
       const badge = document.createElement("div");
       badge.className = `review-badge ${review.choice}`;
       badge.innerHTML = `✓ ${choiceLabel} <button type="button" aria-label="Undo review">✕</button>`;
       badge.querySelector("button").addEventListener("click", () => removeReview(food.id));
       el.appendChild(badge);
     }
+  }
+
+  function clearCorrectionInputs() {
+    MACRO_KEYS.forEach((k) => {
+      const input = document.querySelector(`[data-correct="${k}"]`);
+      if (input) input.value = "";
+    });
+    $("#comment-input").value = "";
+    referOption = null;
+  }
+
+  function readCorrectionsFromForm() {
+    const corrections = {};
+    MACRO_KEYS.forEach((k) => {
+      const input = document.querySelector(`[data-correct="${k}"]`);
+      const val = input?.value?.trim();
+      if (val) corrections[k] = val;
+    });
+    return corrections;
+  }
+
+  function fillCorrectionInputs(corrections) {
+    MACRO_KEYS.forEach((k) => {
+      const input = document.querySelector(`[data-correct="${k}"]`);
+      if (input) input.value = corrections?.[k] ?? "";
+    });
   }
 
   function syncBothWrongUI(food) {
@@ -509,35 +723,19 @@
 
     if (review?.choice === "both_wrong") {
       bothWrongOpen = true;
-      draftCorrections = { ...(review.corrections || {}) };
+      referOption = review.refer_option || null;
+      fillCorrectionInputs(review.corrections);
       $("#comment-input").value = review.comment || "";
     } else if (!bothWrongOpen) {
-      draftCorrections = {};
-      activeMacro = null;
-      $("#comment-input").value = "";
+      clearCorrectionInputs();
     }
 
     panel.classList.toggle("hidden", !bothWrongOpen);
     panel.classList.toggle("active", review?.choice === "both_wrong");
     btn.classList.toggle("active", bothWrongOpen || review?.choice === "both_wrong");
 
-    $$(".macro-chip").forEach((chip) => {
-      const key = chip.dataset.macro;
-      chip.classList.toggle("active", activeMacro === key);
-      chip.classList.toggle("has-value", draftCorrections[key] != null && draftCorrections[key] !== "");
-    });
-
-    const input = $("#correction-input");
-    const label = $("#active-macro-label");
-    if (activeMacro) {
-      label.textContent = `Correct ${MACRO_LABELS[activeMacro]}`;
-      input.disabled = false;
-      input.value = draftCorrections[activeMacro] ?? "";
-    } else {
-      label.textContent = "Select a macro above";
-      input.disabled = true;
-      input.value = "";
-    }
+    $("#btn-refer-option1")?.classList.toggle("active", referOption === "option1");
+    $("#btn-refer-option2")?.classList.toggle("active", referOption === "option2");
   }
 
   function render() {
@@ -597,8 +795,7 @@
     const filtered = getFiltered();
     cursor = Math.max(0, Math.min(filtered.length - 1, cursor + dir));
     bothWrongOpen = false;
-    activeMacro = null;
-    draftCorrections = {};
+    clearCorrectionInputs();
     await saveDatasetState();
     render();
   }
@@ -615,31 +812,25 @@
     if (!food) return;
 
     const comment = $("#comment-input").value.trim();
-    const hasCorrections = MACRO_KEYS.some(
-      (k) => draftCorrections[k] != null && draftCorrections[k] !== ""
-    );
+    const corrections = readCorrectionsFromForm();
+    const hasCorrections = Object.keys(corrections).length > 0;
 
     if (!hasCorrections && !comment) {
       showToast("Add a correction or comment");
       return;
     }
 
-    const corrections = {};
-    MACRO_KEYS.forEach((k) => {
-      if (draftCorrections[k] != null && draftCorrections[k] !== "") {
-        corrections[k] = String(draftCorrections[k]);
-      }
-    });
-
-    await saveReview({
+    const review = {
       choice: "both_wrong",
       corrections,
       comment,
-    });
+    };
+    if (referOption) review.refer_option = referOption;
+
+    await saveReview(review);
     showToast("✓ Both Wrong saved");
     setTimeout(() => {
       bothWrongOpen = false;
-      activeMacro = null;
       moveCursor(1);
     }, 300);
   }
@@ -662,10 +853,10 @@
 
     await loadDatasetState();
     bothWrongOpen = false;
-    activeMacro = null;
-    draftCorrections = {};
+    clearCorrectionInputs();
     $("#loading").classList.add("hidden");
     $("#main").classList.remove("hidden");
+    if (outputHandle) scheduleExcelWrite();
     render();
   }
 
@@ -718,32 +909,21 @@
 
     $("#btn-both-wrong").addEventListener("click", () => {
       bothWrongOpen = !bothWrongOpen;
-      if (!bothWrongOpen) {
-        activeMacro = null;
-      }
       render();
     });
 
     $("#btn-save-both-wrong").addEventListener("click", handleBothWrongSave);
 
-    $$(".macro-chip").forEach((chip) => {
-      chip.addEventListener("click", () => {
-        if (activeMacro && $("#correction-input").value !== "") {
-          draftCorrections[activeMacro] = $("#correction-input").value;
-        }
-        activeMacro = chip.dataset.macro;
-        bothWrongOpen = true;
-        render();
-        $("#correction-input").focus();
-      });
+    $("#btn-refer-option1").addEventListener("click", () => {
+      referOption = "option1";
+      bothWrongOpen = true;
+      render();
     });
 
-    $("#correction-input").addEventListener("input", (e) => {
-      if (activeMacro) {
-        draftCorrections[activeMacro] = e.target.value;
-        const chip = document.querySelector(`.macro-chip[data-macro="${activeMacro}"]`);
-        if (chip) chip.classList.toggle("has-value", e.target.value !== "");
-      }
+    $("#btn-refer-option2").addEventListener("click", () => {
+      referOption = "option2";
+      bothWrongOpen = true;
+      render();
     });
 
     $("#btn-prev").addEventListener("click", () => moveCursor(-1));
@@ -774,6 +954,12 @@
 
     window.addEventListener("beforeunload", () => {
       saveDatasetState();
+    });
+
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "visible" && pendingExcelSync && outputHandle) {
+        scheduleExcelWrite();
+      }
     });
   }
 

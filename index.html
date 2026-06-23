@@ -12,8 +12,8 @@
     <div id="error" class="error hidden"></div>
     <div id="main" class="main hidden">
       <div id="link-banner" class="link-banner hidden">
-        Link an output file to auto-save verified rows to Excel on every change.
-        <button type="button" id="btn-link-banner" class="btn btn-link-inline">Link Output File</button>
+        Link an output Excel file. Reviewed rows sync automatically.
+        <button type="button" id="btn-link-banner" class="btn btn-link-inline">Link Output</button>
       </div>
 
       <header class="header">
@@ -30,8 +30,8 @@
               <input type="file" id="input-json" accept=".json" hidden>
             </label>
             <button type="button" id="btn-remove-json" class="btn btn-remove-json hidden">Remove JSON</button>
-            <button type="button" id="btn-link" class="btn btn-link-file">Link Output</button>
-            <button type="button" id="btn-export" class="btn btn-export">Excel</button>
+            <button type="button" id="btn-link" class="btn btn-link-file" title="Link a new or existing output Excel file">Link Output</button>
+            <button type="button" id="btn-export" class="btn btn-export" title="Download reviewed responses as Excel">Download Excel</button>
           </div>
         </div>
         <div class="progress-bar">
@@ -58,18 +58,34 @@
         <div class="both-wrong-wrap">
           <button type="button" id="btn-both-wrong" class="btn btn-both-wrong">Both Wrong</button>
           <div id="both-wrong-panel" class="both-wrong-panel hidden">
-            <p class="both-wrong-label">Select which macro is wrong, then enter the correct value</p>
-            <div id="macro-chips" class="macro-chips">
-              <button type="button" class="macro-chip" data-macro="cal">Cal</button>
-              <button type="button" class="macro-chip" data-macro="carbs">Carbs</button>
-              <button type="button" class="macro-chip" data-macro="fat">Fat</button>
-              <button type="button" class="macro-chip" data-macro="prot">Prot</button>
-              <button type="button" class="macro-chip" data-macro="fib">Fib</button>
+            <p class="both-wrong-label">Enter correct values for wrong macros only</p>
+            <div class="refer-options">
+              <button type="button" id="btn-refer-option1" class="btn btn-refer btn-refer-option1">Refer Option 1</button>
+              <button type="button" id="btn-refer-option2" class="btn btn-refer btn-refer-option2">Refer Option 2</button>
             </div>
-            <label class="correction-input-wrap">
-              <span id="active-macro-label" class="active-macro-label">Select a macro above</span>
-              <input type="number" id="correction-input" step="0.1" min="0" placeholder="Enter correct value" disabled>
-            </label>
+            <p class="refer-hint">Which option are you correcting from? (optional)</p>
+            <div class="correction-grid">
+              <label class="correction-field">
+                <span>Cal</span>
+                <input type="number" id="correct-cal" data-correct="cal" step="0.1" min="0" placeholder="—">
+              </label>
+              <label class="correction-field">
+                <span>Carbs</span>
+                <input type="number" id="correct-carbs" data-correct="carbs" step="0.1" min="0" placeholder="—">
+              </label>
+              <label class="correction-field">
+                <span>Fat</span>
+                <input type="number" id="correct-fat" data-correct="fat" step="0.1" min="0" placeholder="—">
+              </label>
+              <label class="correction-field">
+                <span>Prot</span>
+                <input type="number" id="correct-prot" data-correct="prot" step="0.1" min="0" placeholder="—">
+              </label>
+              <label class="correction-field">
+                <span>Fib</span>
+                <input type="number" id="correct-fib" data-correct="fib" step="0.1" min="0" placeholder="—">
+              </label>
+            </div>
             <label class="comment-wrap">
               <span class="comment-label">Comment (optional)</span>
               <textarea id="comment-input" rows="2" placeholder="Why is this wrong?"></textarea>
@@ -88,6 +104,18 @@
         <p id="footer-text"></p>
       </footer>
       <p class="hint">Click Option 1/2 · ↑ ↓ navigate</p>
+    </div>
+  </div>
+
+  <div id="link-output-modal" class="link-output-modal hidden" role="dialog" aria-modal="true" aria-labelledby="link-output-title">
+    <div class="link-output-dialog">
+      <h2 id="link-output-title" class="link-output-title">Link output file</h2>
+      <p class="link-output-desc">Create a new Excel file or open one that already exists on your computer.</p>
+      <div class="link-output-actions">
+        <button type="button" id="link-modal-new" class="btn btn-link-modal-primary">Create new file</button>
+        <button type="button" id="link-modal-existing" class="btn btn-link-modal-secondary">Select existing file</button>
+        <button type="button" id="link-modal-cancel" class="btn btn-link-modal-cancel">Cancel</button>
+      </div>
     </div>
   </div>
 
